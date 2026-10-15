@@ -241,7 +241,13 @@ function renderFilters() {
 // ---------------------------------------------------------------- the front page
 function kicker(v, i) { return `<p class="kick"><span class="num">${i}</span><span class="sec">${esc(v.section.label)}</span></p>`; }
 function lede(v) { return `${v.n} outlet${v.n > 1 ? "s" : ""} · first: ${esc(OUT[v.on[0].o].name)}, ${hm(v.on[0].at)}`; }
-function photoOf(v) { const s = v.on.find(x => x.img); return s ? { src: s.img, by: OUT[s.o].name } : null; }
+// Some outlets' preview images are a card with their own headline on it, not a photo. Use those only when
+// nothing else has an image.
+const TEXT_CARDS = new Set(["meduza"]);
+function photoOf(v) {
+  const s = v.on.find(x => x.img && !TEXT_CARDS.has(x.o)) || v.on.find(x => x.img);
+  return s ? { src: s.img, by: OUT[s.o].name } : null;
+}
 function emptyText() {
   if (!DATA.stories.length) return "<b>No stories saved for this period yet.</b>New stories arrive every 15 minutes.";
   if (!publishing().size) return "<b>None of the selected outlets published in this period.</b>Widen the region or media type, or switch more outlets on.";
@@ -276,7 +282,7 @@ function frontCoverage(item) {
       `<h2><a href="#" data-open="${esc(L.id)}">${esc(L.lead.t)}</a></h2>` +
       `<p class="dek">${lede(L)}</p><p class="note">${regionsText(L)}</p></div>` +
       (ph ? `<figure><img src="${esc(ph.src)}" alt="" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"><figcaption>Photo: ${esc(ph.by)}</figcaption></figure>` : "<div></div>") +
-      `</div><aside><h3>How others put it</h3><ol>${picks(L, 5).map(s => `<li><span class="sc">${esc(OUT[s.o].name)}</span>${esc(s.t)}</li>`).join("")}</ol>` +
+      `</div><aside><h3>How others put it</h3><ol>${picks(L, 6).map(s => `<li><span class="sc">${esc(OUT[s.o].name)}</span>${esc(s.t)}</li>`).join("")}</ol>` +
       `<button type="button" class="all" data-open="${esc(L.id)}">All ${L.on.length} headlines &rarr;</button></aside></section>`;
   }
   const row3 = gs.slice(1, 4);

@@ -98,11 +98,12 @@ button:disabled { cursor: default; opacity: .45; }
 .sel-able h2 a, .sel-able h3 a { cursor: pointer; }
 
 .lead { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 0 40px; padding: 26px 0; border-bottom: 1px solid var(--rule); }
-.lead .story { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 0 28px; }
-.lead h2 { font-size: 46px; line-height: 1.06; letter-spacing: -.015em; margin: 4px 0 14px; font-weight: 600; }
+.lead .story { display: block; }  /* headline and summary on top, the photo full width beneath */
+.lead h2 { font-size: 48px; line-height: 1.06; max-width: 22em; letter-spacing: -.015em; margin: 4px 0 14px; font-weight: 600; }
 .lead .dek { font-size: 21px; line-height: 1.45; margin: 0 0 12px; }
 .lead figure { margin: 0; }
-.lead img { width: 100%; max-height: 420px; object-fit: cover; display: block; background: var(--sel); }
+.lead figure { margin-top: 16px; }
+.lead img { width: 100%; aspect-ratio: 16 / 9; max-height: 460px; object-fit: cover; display: block; background: var(--sel); }
 .lead figcaption { font-size: 14px; color: var(--dim); margin: 6px 0 0; }
 .lead aside { border-left: 1px solid var(--rule); padding-left: 28px; }
 .lead aside h3 { font-size: 16px; margin: 4px 0 8px; font-weight: 600; }
