@@ -185,13 +185,15 @@ function renderMast() {
   // run line: now, last run, next run, feeds answering
   const now = new Date();
   const parts = [dayLabel(now, { weekday: "short", day: "numeric", month: "short", year: "numeric" }).replace(",", ""), hm(now) + " ET"];
+  let tail = "";
   if (STATUS) {
-    const last = new Date(STATUS.updated), next = nextRun(last);
+    const last = new Date(STATUS.updated);
     const live = META.outlets.filter(o => o.available !== false);
     const ok = live.filter(o => STATUS.outlets?.[o.id]?.ok !== false).length;
-    parts.push("last run " + hm(last), "next " + hm(next) + (Date.now() - next > 20 * 60000 ? " (overdue)" : ""), `${ok}/${live.length} feeds ok`);
+    parts.push("last run " + hm(last), `${ok}/${live.length} feeds ok`);
+    tail = NEWER ? `<button type="button" class="fresh" data-refresh>new stories: refresh (u)</button>` : countdown(last);
   }
-  $("#runline").textContent = parts.join(" · ");
+  $("#runline").innerHTML = esc(parts.join(" · ")) + (tail ? " · " + tail : "");
 
   // breadcrumb: Category > Region path > Media type > Outlet
   const scope = META.outlets.filter(o => inScope(o) && o.available !== false);
@@ -207,6 +209,37 @@ function renderMast() {
     `${i < 10 ? "[" + KEYS_CATS[i] + "] " : ""}${esc(c.name)}</button>`).join("");
   document.title = "Coverage Index: " + periodLabel();
 }
+// Next-update countdown: a text bar that fills over the 15 minutes between runs, so it stays in the terminal style.
+// A run takes a minute or two and the site a minute more to publish, so the new stories appear shortly after.
+const RUN_MIN = 15;
+function countdown(last) {
+  const next = nextRun(last), now = Date.now(), left = Math.round((next - now) / 60000);
+  if (now > next.getTime() + 20 * 60000) return `next run ${hm(next)} <span class="late">(late)</span>`;
+  if (now >= next.getTime()) return `updating now (run started ${hm(next)})`;
+  const done = Math.max(0, Math.min(8, Math.round(8 * (1 - (next - now) / (RUN_MIN * 60000)))));
+  return `<span class="bar" aria-hidden="true">[${"■".repeat(done)}${"□".repeat(8 - done)}]</span> next update ${left <= 1 ? "in about a minute" : `in ${left} min`} (${hm(next)})`;
+}
+
+// Check for a newer run every minute. New stories aren't loaded until asked (u), so the list doesn't jump while reading.
+let NEWER = false;
+async function checkForNewer() {
+  if (!STATUS || NEWER) return;
+  try {
+    const s = await (await fetch("data/status.json?t=" + Date.now(), { cache: "no-store" })).json();
+    if (s.updated && s.updated > STATUS.updated) { NEWER = true; renderMast(); }
+  } catch (e) {}
+}
+async function refresh() {
+  for (const k of [...cache.keys()]) if (k === "index.json" || k === "status.json" || k.startsWith("days/") || k.startsWith("roundups/")) cache.delete(k);
+  const keepOpen = S.open;
+  INDEX = await getJSON("index.json");
+  STATUS = await getJSON("status.json");
+  NEWER = false;
+  await loadPeriod();
+  render();
+  if (keepOpen && DATA.groups.some(g => g.id === keepOpen)) { S.open = keepOpen; renderDetail(); }
+}
+
 function nextRun(last) {  // the workflow runs every 15 minutes, at :07, :22, :37 and :52
   const n = new Date(last); n.setUTCMinutes(7, 0, 0);
   while (n <= last || n < Date.now() - 20 * 60000) n.setUTCMinutes(n.getUTCMinutes() + 15);
@@ -430,6 +463,7 @@ document.addEventListener("click", e => {
   if (ds.term !== undefined) { termOn = termOn === ds.term ? null : ds.term; return renderDetail(); }
   if (ds.saveEvent !== undefined) return saveOpen();
   if (ds.saveStory) return saveOpen(ds.saveStory);
+  if (ds.refresh !== undefined) return refresh();
   if (ds.back !== undefined) return back();
   if (t.id === "prev") return step(-1);
   if (t.id === "next") return step(1);
@@ -466,6 +500,7 @@ document.addEventListener("keydown", e => {
   if (k === "]") return step(1);
   if (k === "d") { location.href = "digest.html"; return; }
   if (k === "s") { e.preventDefault(); return saveOpen(); }
+  if (k === "u" && NEWER) { e.preventDefault(); return refresh(); }
   if (k === "r") { const order = S.view === "day" ? ["coverage", "picks", "newest"] : ["coverage", "newest"]; return setFilter({ rank: order[(order.indexOf(S.rank) + 1) % order.length] }); }
   if (k === "g") { $("#side").classList.add("open"); return $("#regions button.here")?.focus(); }
   if (k === "t") { $("#side").classList.add("open"); return $("#types button")?.focus(); }
@@ -474,7 +509,8 @@ document.addEventListener("keydown", e => {
   if (n >= 0 && CATS[n]) return setFilter({ cat: S.cat === CATS[n].id ? null : CATS[n].id });
 });
 window.addEventListener("hashchange", async () => { const before = S.view + S.id; fromHash(); if (S.view + S.id !== before) await loadPeriod(); render(); });
-setInterval(() => STATUS && renderMast(), 60000);  // keep the clock and next-run time current
+setInterval(() => STATUS && renderMast(), 30000);  // keep the clock and the countdown current
+setInterval(checkForNewer, 60000);
 
 // ---------------------------------------------------------------- start
 (async function start() {

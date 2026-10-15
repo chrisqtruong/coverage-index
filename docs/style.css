@@ -228,3 +228,8 @@ table.labels .note { display: block; color: var(--dim); font-size: 13px; margin-
 .save-new button { color: var(--green); font-family: var(--mono); }
 .save-msg { min-height: 1.4em; color: var(--green); margin: 10px 0 0; }
 .save-foot { color: var(--dim); margin: 8px 0 0; }
+
+/* ---------------------------------------------------------------- next-update countdown */
+.runline .bar { color: var(--green); letter-spacing: 0; }
+.runline .late { color: var(--ink); }
+.runline .fresh { color: var(--green); font: inherit; text-decoration: underline; text-underline-offset: 3px; }

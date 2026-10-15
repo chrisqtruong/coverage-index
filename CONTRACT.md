@@ -67,7 +67,7 @@ The reader finds these elements by ID. All must exist, even if empty.
 
 | ID | Purpose |
 |---|---|
-| `runline` | top line: date, time, last run, next run, feeds ok |
+| `runline` | top line: date, time, last run, feeds ok, and a countdown bar to the next update (`.bar`); when a newer run is detected (checked every minute) it becomes a `data-refresh` button, "new stories: refresh (u)" (`.fresh`) |
 | `crumbs` | breadcrumb line |
 | `cats` | category buttons (filled by the script) |
 | `side` | left sidebar container |
