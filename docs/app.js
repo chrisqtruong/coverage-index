@@ -201,14 +201,14 @@ function renderMast() {
   document.title = S.open ? "Coverage Index" : "Coverage Index: " + periodLabel();
 }
 const RUN_MIN = 15;
-function nextRun(last) {  // the workflow runs every 15 minutes, at :07, :22, :37 and :52
+function nextRun(last) {  // the first scheduled run after the last update; runs are every 15 minutes, at :07, :22, :37 and :52
   const n = new Date(last); n.setUTCMinutes(7, 0, 0);
-  while (n <= last || n < Date.now() - 20 * 60000) n.setUTCMinutes(n.getUTCMinutes() + 15);
+  while (n <= last) n.setUTCMinutes(n.getUTCMinutes() + 15);
   return n;
 }
-function countdown(last) {  // a text bar that fills over the 15 minutes between updates
+function countdown(last) {  // a text bar that fills over the 15 minutes between updates; says so plainly when one is overdue
   const next = nextRun(last), now = Date.now(), left = Math.round((next - now) / 60000);
-  if (now > next.getTime() + 20 * 60000) return `Update due at ${hm(next)} is late`;
+  if (now > next.getTime() + 6 * 60000) return `The next update is running late; the last was at ${hm(last)}`;
   if (now >= next.getTime()) return "Updating now";
   const done = Math.max(0, Math.min(8, Math.round(8 * (1 - (next - now) / (RUN_MIN * 60000)))));
   return `<span class="bar" aria-hidden="true">${"■".repeat(done)}${"□".repeat(8 - done)}</span> Next update ${left <= 1 ? "in about a minute" : `in ${left} min`}`;
