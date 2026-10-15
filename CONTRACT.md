@@ -61,57 +61,46 @@ Written on every run, even when feeds fail.
 ### `digest/<YYYY-MM-DD>.json` and `.txt`
 - Written once a day at 7am Eastern for the day before: the 20 events covered by the most outlets, as data (for `digest.html`) and plain text.
 
-## 2. Page: `docs/index.html`
+## 2. Page: `docs/index.html` (newspaper layout, rebuilt 2026-10-15)
 
-The reader finds these elements by ID. All must exist, even if empty.
+The reader finds these elements by ID. All must exist.
 
 | ID | Purpose |
 |---|---|
-| `runline` | top line: date, time, last run, feeds ok, and a countdown bar to the next update (`.bar`); when a newer run is detected (checked every minute) it becomes a `data-refresh` button, "new stories: refresh (u)" (`.fresh`) |
-| `crumbs` | breadcrumb line |
-| `cats` | category buttons (filled by the script) |
-| `side` | left sidebar container |
-| `side-toggle` | button that opens the sidebar on phones |
-| `regions` | region tree (filled by the script) |
-| `types` | media type list (filled by the script) |
-| `outlets-sum` | summary line for outlets, e.g. "Outlets 12 of 14" |
-| `outlets-box` | `<details>` wrapping the outlet list |
-| `outlets` | outlet toggle list (filled by the script) |
-| `reps` | checkbox: count reprints |
-| `home` | link that resets all filters |
-| `prev`, `next` | previous and next period buttons |
-| `count` | line above the event list |
+| `when`, `prev`, `next` | the date or period shown, with earlier and later buttons |
+| `home` | the title; resets all filters |
+| `runline` | next-update countdown (`.bar`), feeds answering, the light/dark switch (`data-theme-toggle`) and the key guide (`data-guide`); becomes a `data-refresh` button when a newer update is detected |
+| `cats` | section buttons (`data-cat`), filled by the script; the first ten have number keys |
+| `f-region`, `f-type`, `f-outlets`, `f-rank` | filter buttons; each opens a panel (`data-panel`) |
 | `q` | search input (`type="search"`) |
-| `list` | event list (`<ul>`) |
-| `more` | "show more" button |
-| `detail` | right-hand event panel |
-| `status` | status paragraph at the bottom |
-| `help` | `<dialog>` for keyboard help, opened with `?` |
+| `crumbs` | a sentence describing the active filters, with "Show everything" (`data-clear-all`) |
+| `panel` | the open filter panel |
+| `front` | the front page: `.lead`, `.row3`, `.row4`, `.also` with `.block`s, or `.listing` for the other rankings |
+| `event` | one story, opened: headlines, notes in the margin (`aside.notes`), save buttons |
+| `main` | wraps `front` and `event` |
+| `status` | the status paragraph at the foot |
+| `help` | `<dialog>`: the animated key guide, opened with `?` |
 
 Also needed:
-- A `<body>` element. The script toggles a `reading` class on it for phone layouts.
 - Buttons for the period views with `data-view="day|week|month|year"`
-- Buttons for ranking with `data-rank="coverage|picks|newest"`
-- `style.css` linked from the page
-- `saved.js` loaded before `app.js` (saving; see section 3)
+- `style.css`, the Newsreader font, and `saved.js` loaded before `app.js`
+- The theme is saved in `localStorage` key `ci-theme` and applied before the page draws.
 
 ## 3. Saving to folders
 
 - Saved stories live in this browser (`localStorage` key `ci-saved`), with export and import as a JSON file on `saved.html`. No accounts and no server.
-- In the event panel, the script adds a `data-save-event` button ("save event (s)") and, on each headline, a `data-save-story="<story id>"` button. The `s` key saves the open event.
+- On the front page, `s` saves the selected story. In an opened story there is a "Save this story" button (`data-save-event`) and one per headline (`data-save-story="<story id>"`).
 - `saved.js` creates its own dialog (`#save-dlg`): choose an existing folder or type a new folder name. No name suggestions.
-- A saved item is a copy: headline text, outlet name, time, link to the source article, and reprint marks, plus a link back to the event in the reader. Whole events and single headlines can both be saved. Saving the same thing twice to one folder is refused ("already here").
-- `saved.html` lists folders and items: rename and delete folders, move or remove items, open sources, export all, import a file (merges by folder name).
-- Other browser storage: `ci-off` (outlets switched off) and `ci-reps` (count reprints).
+- A saved item is a copy: headline text, outlet name, time, link to the source article, and reprint marks, plus a link back to the story in the reader.
+- Other browser storage: `ci-off` (outlets switched off), `ci-reps` (count reprints), `ci-theme`.
 
-## 4. Classes the script adds (the stylesheet should style these)
+## 4. Classes the script adds (the stylesheet styles these)
 
-- Lists and rows: `row`, `head`, `note`, `empty`, `grp`, `sel` (selected row)
-- Text: `t` (headline), `m` (meta line), `lbl` (small section label), `mono`, `sec`
-- Detail panel: `back`, `cov`, `miss`, `heads`, `hit` (headline containing the selected term), `who`, `rep`, `terms`, `save-line`, `save-one`
+- Front page: `lead`, `row3`, `row4`, `also`, `block`, `kick` (`num`, `sec`), `takes`, `note`, `sel-able` and `sel` (the keyboard selection), `listing`, `outlet`, `item`, `empty`, `more`
+- Opened story: `event`, `main`, `back`, `steps`, `dek`, `actions`, `heads` (`who`, `lab`, `rep`, `save-one`, `hit`), `terms`, `notes`
+- Panels: `panel-in`, `opts`, `opt` (`off`), `grp`, `row-actions`, `check`
 - Save dialog (from `saved.js`): `save-dlg`, `save-what`, `save-folders`, `save-new`, `save-msg`, `save-foot`
-- Sidebar: `d0`–`d3` (region depth), `on`, `here`, `n` (count), `sep`
-- Keyboard focus styles are required. Keys move focus, so focus must be visible.
+- Keyboard focus styles are required.
 
 ## 5. Collector responsibilities
 

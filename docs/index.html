@@ -4,92 +4,95 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Coverage Index</title>
-<meta name="description" content="News from about 170 outlets, grouped into events, with the number of outlets covering each and each outlet's headline.">
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0d0f0c">
+<meta name="description" content="News from about 170 outlets, grouped into stories: how many outlets ran each one, who didn't, and how each outlet headlined it.">
+<meta name="color-scheme" content="light dark">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>try { const t = localStorage.getItem("ci-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="app">
-<a class="skip" href="#list">Skip to events</a>
+<body>
+<a class="skip" href="#main">Skip to the stories</a>
 
 <header class="mast">
+  <div class="l when">
+    <button type="button" class="arrow" id="prev" aria-label="Earlier">&lsaquo;</button>
+    <span class="date" id="when">Today</span>
+    <button type="button" class="arrow" id="next" aria-label="Later">&rsaquo;</button>
+    <span class="periods" role="group" aria-label="Period">
+      <button type="button" data-view="day">Day</button><button type="button" data-view="week">Week</button><button type="button" data-view="month">Month</button><button type="button" data-view="year">Year</button>
+    </span>
+  </div>
   <h1><a href="./" id="home">Coverage Index</a></h1>
-  <p class="runline mono" id="runline"></p>
-  <nav class="crumbs mono" id="crumbs" aria-label="Current filter"></nav>
-  <nav class="cats mono" id="cats" aria-label="Category"></nav>
+  <p class="r runline" id="runline"></p>
 </header>
 
-<div class="panes">
-  <aside class="side" id="side" aria-label="Filters">
-    <button type="button" class="side-toggle mono" id="side-toggle" aria-expanded="false" aria-controls="side-body">Filters</button>
-    <div id="side-body" class="side-body">
-      <section><h2 class="lbl">Region</h2><ul class="tree" id="regions"></ul></section>
-      <section><h2 class="lbl">Media type</h2><ul class="types mono" id="types"></ul></section>
-      <section>
-        <details id="outlets-box"><summary class="lbl" id="outlets-sum">Outlets</summary>
-          <div class="out-actions mono"><button type="button" data-all="on">all on</button><button type="button" data-all="off">all off</button></div>
-          <ul class="outlets" id="outlets"></ul>
-        </details>
-      </section>
-      <section><h2 class="lbl">Rank</h2>
-        <ul class="plain mono" role="group" aria-label="Rank events by">
-          <li><button type="button" data-rank="coverage">coverage</button></li>
-          <li><button type="button" data-rank="picks">outlets' picks</button></li>
-          <li><button type="button" data-rank="newest">newest</button></li>
-        </ul>
-        <label class="reps mono"><input type="checkbox" id="reps"> count reprints</label>
-      </section>
-      <section><h2 class="lbl">Period</h2>
-        <ul class="plain mono" role="group" aria-label="Period">
-          <li><button type="button" data-view="day">day</button></li>
-          <li><button type="button" data-view="week">week</button></li>
-          <li><button type="button" data-view="month">month</button></li>
-          <li><button type="button" data-view="year">year</button></li>
-        </ul>
-      </section>
-      <section class="links mono"><a href="digest.html">digest</a> <a href="saved.html">saved</a> <a href="method.html">method</a></section>
-    </div>
-  </aside>
+<nav class="filters" aria-label="Filters">
+  <div class="cats" id="cats" role="group" aria-label="Section"></div>
+  <span class="sep"></span>
+  <div class="fgroup">
+  <button type="button" class="f" data-panel="region" id="f-region" aria-expanded="false">Region: all</button>
+  <button type="button" class="f" data-panel="type" id="f-type" aria-expanded="false">Media: all</button>
+  <button type="button" class="f" data-panel="outlets" id="f-outlets" aria-expanded="false">Outlets</button>
+  <button type="button" class="f" data-panel="rank" id="f-rank" aria-expanded="false">Rank: most covered</button>
+  <label class="search"><span class="sr">Search headlines and outlets</span><input type="search" id="q" placeholder="Search ( / )" autocomplete="off"></label>
+  </div>
+</nav>
+<div class="filters-rule"><hr></div>
+<p class="crumbs" id="crumbs"></p>
+<div class="panel" id="panel" hidden></div>
 
-  <main class="mid" id="main">
-    <div class="mid-head mono">
-      <button type="button" id="prev" aria-label="Earlier">‹</button>
-      <h2 class="lbl" id="count" aria-live="polite"></h2>
-      <button type="button" id="next" aria-label="Later">›</button>
-      <label class="search"><span class="sr">Search headlines and outlets</span><input type="search" id="q" placeholder="/ search" autocomplete="off"></label>
-    </div>
-    <ol class="list" id="list" tabindex="-1" aria-label="Events"><li class="note mono">Loading.</li></ol>
-    <button type="button" class="more mono" id="more" hidden>show more</button>
-  </main>
-
-  <article class="detail" id="detail" tabindex="-1" aria-label="Event coverage"></article>
-</div>
+<main class="page" id="main" tabindex="-1">
+  <div id="front"><p class="empty">Loading today&rsquo;s edition.</p></div>
+  <article class="event" id="event" hidden tabindex="-1"></article>
+</main>
 
 <footer class="foot">
-  <p class="keys mono" id="keys">j/k move · Enter open · Esc up · / search · 1-0 category · s save · d digest · ? keys</p>
-  <p class="status mono" id="status"></p>
-  <p class="about">Headlines, summary excerpts and preview images are the outlets' own, taken from their public feeds, and link to the original articles. Grouping, categories and counts are computed by fixed rules; no AI model runs on this site. Outlet labels were researched with AI assistance and are marked unverified until checked. <a href="method.html">Method</a> &nbsp; <a href="https://github.com/chrisqtruong/coverage-index">Source code and data</a></p>
+  <p id="status"></p>
+  <p>Headlines, short summaries and preview images are the outlets&rsquo; own, taken from their public feeds, and link to the original articles. Grouping, sections and counts follow fixed rules; no AI runs on this site. Outlet labels were researched with AI assistance and are marked unverified until checked.</p>
+  <p><a href="digest.html">Daily digest</a> &nbsp; <a href="saved.html">Saved</a> &nbsp; <a href="method.html">Method</a> &nbsp; <button type="button" data-guide>Keyboard guide</button> &nbsp; <a href="https://github.com/chrisqtruong/coverage-index">Source code and data</a></p>
 </footer>
+<p class="keys" id="keys"><kbd>j</kbd> <kbd>k</kbd> move &nbsp; <kbd>Enter</kbd> open &nbsp; <kbd>Esc</kbd> back &nbsp; <kbd>/</kbd> search &nbsp; <kbd>1</kbd>&ndash;<kbd>0</kbd> sections &nbsp; <kbd>[</kbd> <kbd>]</kbd> earlier, later &nbsp; <kbd>s</kbd> save &nbsp; <button type="button" data-guide><kbd>?</kbd> all keys</button></p>
 
-<dialog id="help" aria-label="Keyboard shortcuts">
-  <h2 class="lbl">Keys</h2>
-  <dl class="mono">
-    <dt>j or ↓</dt><dd>next event</dd>
-    <dt>k or ↑</dt><dd>previous event</dd>
-    <dt>Enter</dt><dd>open the event (on narrow screens; on wide screens it is shown alongside)</dd>
-    <dt>Esc</dt><dd>close the event; then remove the narrowest filter (search, media type, region, category), one per press</dd>
-    <dt>/</dt><dd>search headlines and outlet names</dd>
-    <dt>1 to 9, 0</dt><dd>category; press again for all categories</dd>
-    <dt>[ and ]</dt><dd>earlier or later day, week, month or year</dd>
-    <dt>r</dt><dd>ranking: coverage, outlets' picks, newest</dd>
-    <dt>d</dt><dd>daily digest</dd>
-    <dt>s</dt><dd>save the open event to a folder (each headline also has its own save button)</dd>
-    <dt>u</dt><dd>load new stories, when the top line says a new update has arrived</dd>
-    <dt>?</dt><dd>this list</dd>
-  </dl>
-  <p>j and k are equivalent to the down and up arrow keys.</p>
-  <form method="dialog"><button class="mono">close (Esc)</button></form>
+<dialog id="help" aria-labelledby="help-title">
+  <h2 id="help-title">Reading with the keyboard</h2>
+  <p class="sub">Everything works with a mouse too. These keys make it faster; the arrow keys work wherever j and k do.</p>
+  <div class="guide">
+    <div class="card">
+      <div class="keyrow"><kbd class="k-down">j</kbd><kbd class="k-up">k</kbd></div>
+      <div class="stage"><div class="demo-list"><span class="bar"></span><i></i><i></i><i></i><i></i></div></div>
+      <p><b>Move</b> down and up through the stories, in reading order. Inside an opened story, they go to the next or previous story.</p>
+    </div>
+    <div class="card">
+      <div class="keyrow"><kbd class="k-enter">Enter</kbd><kbd class="k-esc">Esc</kbd></div>
+      <div class="stage demo-open"><div class="demo-list"><i></i><i></i><i></i><i></i></div><div class="sheet"><i></i><i></i><i></i></div></div>
+      <p><b>Open</b> the selected story: every outlet&rsquo;s headline, who ran it and who didn&rsquo;t. <b>Esc</b> goes back, then removes filters one at a time.</p>
+    </div>
+    <div class="card">
+      <div class="keyrow"><kbd class="k-slash">/</kbd></div>
+      <div class="stage"><div class="demo-search"><span>hormuz</span></div></div>
+      <p><b>Search</b> headlines and outlet names. Enter returns to the stories; Esc clears the search.</p>
+    </div>
+    <div class="card">
+      <div class="keyrow"><kbd class="k-num">1</kbd><span class="dim">to</span><kbd>0</kbd></div>
+      <div class="stage"><div class="demo-cats"><span>World</span><span>U.S.</span><span class="pick">Politics</span><span>Economy</span></div></div>
+      <p><b>Pick a section</b>: 1 World, 2 U.S., 3 Politics, and so on, in the order shown above the stories. Press it again for all sections.</p>
+    </div>
+    <div class="card">
+      <div class="keyrow"><kbd class="k-prev">[</kbd><kbd class="k-next">]</kbd></div>
+      <div class="stage"><div class="demo-days"><span class="d1">Tuesday, Oct 13</span><span class="d2">Wednesday, Oct 14</span></div></div>
+      <p><b>Earlier or later</b>: the day before or after, or the week, month or year when one of those is shown.</p>
+    </div>
+    <div class="card">
+      <div class="keyrow"><kbd class="k-save">s</kbd></div>
+      <div class="stage"><div class="demo-save"><div class="line"></div><div class="line" style="width:60%"></div><span class="toast">Saved to &ldquo;Iran war&rdquo;</span></div></div>
+      <p><b>Save</b> the selected story to a folder you name. Saved stories are on the <a href="saved.html">Saved</a> page.</p>
+    </div>
+  </div>
+  <p class="sub" style="margin-top:18px">Also: <kbd>g</kbd> region &nbsp; <kbd>t</kbd> media type &nbsp; <kbd>o</kbd> outlets &nbsp; <kbd>r</kbd> ranking &nbsp; <kbd>u</kbd> load new stories when an update arrives &nbsp; <kbd>d</kbd> daily digest &nbsp; <kbd>?</kbd> this guide</p>
+  <form method="dialog"><button class="close" autofocus>Close (Esc)</button></form>
 </dialog>
 
 <script src="saved.js"></script>
