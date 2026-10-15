@@ -4,7 +4,7 @@ name: Collect
 # THE UPDATE INTERVAL is the cron line below: every 15 minutes, at :07, :22, :37 and :52 (off GitHub's busy
 # top of the hour). Outlets collected through Google News are checked only once an hour, whatever this says
 # (GOOGLE_EVERY in scripts/collect.py), because Google blocks frequent requests. For every 30 minutes use
-# "7,37 * * * *". GitHub runs scheduled jobs on a best-effort basis and can delay them.
+# "7,37 * * * *". GitHub runs scheduled jobs on a best-effort basis and can delay them, especially in new repos.
 on:
   schedule:
     - cron: "7,22,37,52 * * * *"
