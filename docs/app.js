@@ -189,15 +189,9 @@ function renderMast() {
   $("#prev").disabled = i <= 0;
   $("#next").disabled = i < 0 || i >= list.length - 1;
   document.querySelectorAll("[data-view]").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === S.view));
-  let line = "";
-  if (STATUS) {
-    const live = META.outlets.filter(o => o.available !== false);
-    const ok = live.filter(o => STATUS.outlets?.[o.id]?.ok !== false).length;
-    line = (NEWER ? `<button type="button" class="fresh" data-refresh>New stories: load them (u)</button>` : countdown(new Date(STATUS.updated))) +
-      `. ${ok} of ${live.length} feeds answered.`;
-  }
+  $("#runline").innerHTML = !STATUS ? "" : NEWER ? `<button type="button" class="fresh" data-refresh title="Load the new stories (u)">New stories</button>` : countdown(new Date(STATUS.updated));
   const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
-  $("#runline").innerHTML = line + `<button type="button" class="chip" data-theme-toggle>${dark ? "Light" : "Dark"}</button><button type="button" class="chip" data-guide>Keys</button>`;
+  $("#theme-icon").className = "ph " + (dark ? "ph-sun" : "ph-moon");
   document.title = S.open ? "Coverage Index" : "Coverage Index: " + periodLabel();
 }
 const RUN_MIN = 15;
@@ -208,10 +202,11 @@ function nextRun(last) {  // the first scheduled run after the last update; runs
 }
 function countdown(last) {  // a text bar that fills over the 15 minutes between updates; says so plainly when one is overdue
   const next = nextRun(last), now = Date.now(), left = Math.round((next - now) / 60000);
-  if (now > next.getTime() + 6 * 60000) return `The next update is running late; the last was at ${hm(last)}`;
-  if (now >= next.getTime()) return "Updating now";
+  const tip = `title="Last updated ${hm(last)}. New stories are collected every 15 minutes."`;
+  if (now > next.getTime() + 6 * 60000) return `<span ${tip}>Update late</span>`;
+  if (now >= next.getTime()) return `<span ${tip}>Updating</span>`;
   const done = Math.max(0, Math.min(8, Math.round(8 * (1 - (next - now) / (RUN_MIN * 60000)))));
-  return `<span class="bar" aria-hidden="true">${"■".repeat(done)}${"□".repeat(8 - done)}</span> Next update ${left <= 1 ? "in about a minute" : `in ${left} min`}`;
+  return `<span ${tip}><span class="bar" aria-hidden="true">${"■".repeat(done)}${"□".repeat(8 - done)}</span> ${left <= 1 ? "1 min" : left + " min"}<span class="sr"> until the next update</span></span>`;
 }
 let NEWER = false;
 async function checkForNewer() {  // new stories are only loaded when asked (u), so the page doesn't move while reading
@@ -226,26 +221,27 @@ async function refresh() {
 
 function renderFilters() {
   $("#cats").innerHTML = `<button type="button" data-cat="" aria-pressed="${!S.cat}">All</button>` +
-    CATS.map((c, i) => `<button type="button" data-cat="${c.id}" aria-pressed="${S.cat === c.id}">${i < 10 ? `<span class="key">${KEYS_CATS[i]}</span>` : ""}${esc(c.name)}</button>`).join("");
+    CATS.map((c, i) => `<button type="button" data-cat="${c.id}" aria-pressed="${S.cat === c.id}"${i < 10 ? ` title="Key ${KEYS_CATS[i]}"` : ""}>${esc(c.name)}</button>`).join("");
   const scope = META.outlets.filter(o => inScope(o) && o.available !== false), on = scope.filter(o => !S.off.has(o.id));
   const set = (id, text, isSet) => { const b = $(id); b.textContent = text; b.classList.toggle("set", isSet); b.setAttribute("aria-expanded", panel === b.dataset.panel); };
-  set("#f-region", "Region: " + (S.region.length ? S.region[S.region.length - 1] : "all"), S.region.length > 0);
-  set("#f-type", "Media: " + (S.type || "all"), !!S.type);
-  set("#f-outlets", `Outlets: ${on.length === scope.length ? "all " + scope.length : on.length + " of " + scope.length}`, on.length !== scope.length);
-  set("#f-rank", "Rank: " + { coverage: "most covered", picks: "outlets' own picks", newest: "newest" }[S.rank], S.rank !== "coverage");
+  set("#f-region", S.region.length ? S.region[S.region.length - 1] : "Region", S.region.length > 0);
+  set("#f-type", S.type || "Media", !!S.type);
+  set("#f-outlets", on.length === scope.length ? "Outlets" : `${on.length} of ${scope.length} outlets`, on.length !== scope.length);
+  set("#f-rank", { coverage: "Rank", picks: "Outlets' picks", newest: "Newest" }[S.rank], S.rank !== "coverage");
   if (document.activeElement !== $("#q")) $("#q").value = S.q;
   const bits = [];
-  if (S.cat) bits.push(`<b>${esc(CAT_NAME(S.cat))}</b>`);
-  if (S.region.length) bits.push(`from outlets in <b>${esc(S.region.join(", "))}</b>`);
-  if (S.type) bits.push(`<b>${esc(S.type)}</b> outlets only`);
-  if (on.length !== scope.length) bits.push(`<b>${on.length} of ${scope.length}</b> outlets`);
-  if (S.q) bits.push(`matching <b>&ldquo;${esc(S.q)}&rdquo;</b>`);
-  $("#crumbs").innerHTML = bits.length ? `Showing ${bits.join(", ")}. <button type="button" data-clear-all>Show everything</button> or press Esc to remove one at a time.` : "";
+  if (S.cat) bits.push(esc(CAT_NAME(S.cat)));
+  if (S.region.length) bits.push(esc(S.region.join(" › ")));
+  if (S.type) bits.push(esc(S.type));
+  if (on.length !== scope.length) bits.push(`${on.length} of ${scope.length} outlets`);
+  if (S.q) bits.push(`&ldquo;${esc(S.q)}&rdquo;`);
+  $("#crumbs").innerHTML = bits.length ? `${bits.join(" · ")} <button type="button" class="icon" data-clear-all title="Clear filters" aria-label="Clear filters"><i class="ph ph-x"></i></button>` : "";
 }
 
 // ---------------------------------------------------------------- the front page
 function kicker(v, i) { return `<p class="kick"><span class="num">${i}</span><span class="sec">${esc(v.section.label)}</span></p>`; }
-function lede(v) { return `${v.n} outlet${v.n > 1 ? "s" : ""} ran this, starting with ${esc(OUT[v.on[0].o].name)} at ${end(hm(v.on[0].at))}`; }
+function lede(v) { return `${v.n} outlet${v.n > 1 ? "s" : ""} · first: ${esc(OUT[v.on[0].o].name)}, ${hm(v.on[0].at)}`; }
+function photoOf(v) { const s = v.on.find(x => x.img); return s ? { src: s.img, by: OUT[s.o].name } : null; }
 function emptyText() {
   if (!DATA.stories.length) return "<b>No stories saved for this period yet.</b>New stories arrive every 15 minutes.";
   if (!publishing().size) return "<b>None of the selected outlets published in this period.</b>Widen the region or media type, or switch more outlets on.";
@@ -275,27 +271,25 @@ function frontCoverage(item) {
   let h = "", i = 0;
   const L = gs[0] || singles[0];
   if (L) {
-    const k = item(L.id), some = someSaid(L);
+    const k = item(L.id), ph = photoOf(L);
     h += `<section class="lead sel-able" data-k="${k}" data-g="${esc(L.id)}"><div class="story"><div>${kicker(L, ++i)}` +
       `<h2><a href="#" data-open="${esc(L.id)}">${esc(L.lead.t)}</a></h2>` +
-      `<p class="dek">${lede(L)} Coverage came from ${regionsText(L)}.</p>` +
-      (some.length ? `<p class="note">Only some headlines said ${some.map(([w, n]) => `&ldquo;${esc(w)}&rdquo; (${n})`).join(", ")}.</p>` : "") + `</div>` +
-      (L.img ? `<figure><img src="${esc(L.img)}" alt="" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"><figcaption>Preview image from one of the outlets.</figcaption></figure>` : "<div></div>") +
+      `<p class="dek">${lede(L)}</p><p class="note">${regionsText(L)}</p></div>` +
+      (ph ? `<figure><img src="${esc(ph.src)}" alt="" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"><figcaption>Photo: ${esc(ph.by)}</figcaption></figure>` : "<div></div>") +
       `</div><aside><h3>How others put it</h3><ol>${picks(L, 5).map(s => `<li><span class="sc">${esc(OUT[s.o].name)}</span>${esc(s.t)}</li>`).join("")}</ol>` +
-      `<button type="button" class="all" data-open="${esc(L.id)}">All ${L.on.length} headlines, and who didn&rsquo;t run it &rarr;</button></aside></section>`;
+      `<button type="button" class="all" data-open="${esc(L.id)}">All ${L.on.length} headlines &rarr;</button></aside></section>`;
   }
   const row3 = gs.slice(1, 4);
   if (row3.length) h += `<section class="row3">` + row3.map(v => {
-    const k = item(v.id), some = someSaid(v);
+    const k = item(v.id);
     return `<article class="sel-able" data-k="${k}" data-g="${esc(v.id)}">${kicker(v, ++i)}<h2><a href="#" data-open="${esc(v.id)}">${esc(v.lead.t)}</a></h2>` +
-      `<p>${lede(v)} Coverage: ${regionsText(v, 3)}.</p><ul class="takes">${picks(v, 2).map(s => `<li><span class="sc">${esc(OUT[s.o].name)}</span><i>${esc(s.t)}</i></li>`).join("")}</ul>` +
-      (some.length ? `<p class="note">Only some said ${some.map(([w, n]) => `&ldquo;${esc(w)}&rdquo; (${n})`).join(", ")}.</p>` : "") + `</article>`;
+      `<p class="note">${lede(v)}</p><ul class="takes">${picks(v, 2).map(s => `<li><span class="sc">${esc(OUT[s.o].name)}</span><i>${esc(s.t)}</i></li>`).join("")}</ul></article>`;
   }).join("") + `</section>`;
   const row4 = gs.slice(4, 8);
   if (row4.length) h += `<section class="row4">` + row4.map(v => {
     const k = item(v.id), p = picks(v, 1)[0];
     return `<article class="sel-able" data-k="${k}" data-g="${esc(v.id)}">${kicker(v, ++i)}<h3><a href="#" data-open="${esc(v.id)}">${esc(v.lead.t)}</a></h3>` +
-      `<p>${v.n} outlets, first ${esc(OUT[v.on[0].o].name)}.</p>` + (p ? `<p class="note"><span class="sc">${esc(OUT[p.o].name)}</span> <i>${esc(p.t)}</i></p>` : "") + `</article>`;
+      `<p class="note">${lede(v)}</p>` + (p ? `<p class="take"><span class="sc">${esc(OUT[p.o].name)}</span> <i>${esc(p.t)}</i></p>` : "") + `</article>`;
   }).join("") + `</section>`;
   const rest = gs.slice(8, 8 + limit);
   if (rest.length || singles.length) {
@@ -303,9 +297,9 @@ function frontCoverage(item) {
     rest.forEach(v => { const b = v.section.block; if (!blocks.has(b)) blocks.set(b, []); blocks.get(b).push(v); });
     const order = BLOCK_ORDER.map(b => b === "conflict" ? CAT_NAME("conflict") : b);
     const names = [...blocks.keys()].sort((a, b) => (order.indexOf(a) + 99) % 99 - (order.indexOf(b) + 99) % 99);
-    h += `<section class="also"><h2>Also covered ${S.view === "day" ? "today" : "in this period"}</h2><p class="sub">By section. The number is how many outlets ran each story.</p><div class="blocks">` +
+    h += `<section class="also"><h2>Also covered ${S.view === "day" ? "today" : "in this period"}</h2><div class="blocks">` +
       names.map(b => `<div class="block"><h3>${esc(b)}<span>${blocks.get(b).length}</span></h3><ol>` +
-        blocks.get(b).map(v => `<li class="sel-able" data-k="${item(v.id)}" data-g="${esc(v.id)}" data-open="${esc(v.id)}"><span class="cnt">${v.n}</span><span>${esc(v.lead.t)}</span></li>`).join("") + `</ol></div>`).join("") +
+        blocks.get(b).map(v => `<li class="sel-able" data-k="${item(v.id)}" data-g="${esc(v.id)}" data-open="${esc(v.id)}"><span class="cnt" title="${v.n} outlets">${v.n}</span><span>${esc(v.lead.t)}</span></li>`).join("") + `</ol></div>`).join("") +
       (showSingles && singles.length ? `<div class="block"><h3>Covered by one outlet<span>${singles.length}</span></h3><ol>` +
         singles.slice(0, 300).map(v => `<li class="sel-able" data-k="${item(v.id)}" data-g="${esc(v.id)}" data-open="${esc(v.id)}"><span class="cnt">1</span><span>${esc(v.lead.t)} <span class="dim">(${esc(OUT[v.lead.o].name)})</span></span></li>`).join("") + `</ol></div>` : "") +
       `</div>` +
@@ -348,43 +342,41 @@ function renderEvent() {
   $("#front").hidden = true;
   const d = $("#event");
   d.hidden = false;
-  if (!v) { d.innerHTML = `<div class="main"><button type="button" class="back" data-back>&larr; Back to the edition (Esc)</button><p class="empty"><b>This story isn&rsquo;t in the current view.</b>A filter may hide it, or it belongs to another day.</p></div>`; return; }
+  if (!v) { d.innerHTML = `<div class="main"><button type="button" class="back" data-back><i class="ph ph-arrow-left"></i> Edition</button><p class="empty"><b>This story isn&rsquo;t in the current view.</b>A filter may hide it, or it belongs to another day.</p></div>`; return; }
   const live = publishing(), covered = new Set(v.on.map(s => s.o));
   const missing = [...live].filter(o => !covered.has(o)).map(o => OUT[o]).sort((a, b) => a.name.localeCompare(b.name));
   const missRegions = {}; missing.forEach(o => { const r = regionOf(o)[0]; missRegions[r] = (missRegions[r] || 0) + 1; });
   const types = {}; v.on.forEach(s => (OUT[s.o].media || []).forEach(m => types[m] = (types[m] || 0) + 1));
   const df = new Map(); v.on.forEach(s => terms(s.t).forEach(w => df.set(w, (df.get(w) || 0) + 1)));
   const total = v.on.length;
-  const shared = [...df.entries()].filter(([, n]) => n === total && total > 1).map(([w]) => w).slice(0, 6);
-  const some = [...df.entries()].filter(([, n]) => n < total).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 14);
-  const i = ITEMS.indexOf(v.id), first = v.on[0], lastS = v.on[v.on.length - 1];
+  const some = [...df.entries()].filter(([, n]) => n < total).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 12);
+  const i = ITEMS.indexOf(v.id), first = v.on[0], lastS = v.on[v.on.length - 1], ph = photoOf(v);
   const when = s => S.view === "day" ? hm(s.at) : dayStr(s.at, { month: "short", day: "numeric" }) + ", " + hm(s.at);
   const lab = o => [o.labels?.ownership === "government-controlled" ? "government-controlled" : null, (o.media || [])[0]].filter(Boolean).join(", ");
   d.innerHTML = `<div class="main">` +
-    `<button type="button" class="back" data-back>&larr; Back to the edition (Esc)</button>` +
-    (i >= 0 ? `<span class="steps">Story ${i + 1} of ${ITEMS.length}. j and k go to the next and previous.</span>` : "") +
-    `<p class="kick" style="margin-top:18px"><span class="sec">${esc(v.section.label)}</span></p>` +
+    `<nav class="eventnav"><button type="button" class="back" data-back title="Back to the edition (Esc)"><i class="ph ph-arrow-left"></i> Edition</button>` +
+    (i >= 0 ? `<span class="steps"><button type="button" class="icon" data-step="-1" title="Previous story (k)" aria-label="Previous story"${i ? "" : " disabled"}><i class="ph ph-caret-left"></i></button>` +
+      `${i + 1} of ${ITEMS.length}<button type="button" class="icon" data-step="1" title="Next story (j)" aria-label="Next story"${i < ITEMS.length - 1 ? "" : " disabled"}><i class="ph ph-caret-right"></i></button></span>` : "") +
+    `<button type="button" class="icon save-top" data-save-event title="Save this story (s)" aria-label="Save this story"><i class="ph ph-bookmark-simple"></i></button></nav>` +
+    `<p class="kick"><span class="sec">${esc(v.section.label)}</span></p>` +
     `<h1>${esc(v.lead.t)}</h1>` +
-    `<p class="dek">${v.n} of the ${live.size} outlets in this view that published ${S.view === "day" ? "that day" : "in this period"} ran this story` +
-    `${!S.reps && v.on.some(s => s.rep) ? ", counting a word-for-word reprint as the outlet it repeats" : ""}. ${esc(OUT[first.o].name)} was first, at ${end(hm(first.at))}` +
-    (v.on.length > 1 ? ` The latest was ${esc(OUT[lastS.o].name)}, at ${end(hm(lastS.at))}` : "") + `</p>` +
-    `<p class="actions"><button type="button" data-save-event>Save this story (s)</button></p>` +
-    (v.img ? `<figure><img src="${esc(v.img)}" alt="" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"><figcaption>Preview image from one of the outlets below.</figcaption></figure>` : "") +
+    `<p class="dek">${v.n} of ${live.size} outlets ran this story.</p>` +
+    `<p class="note">First: ${esc(OUT[first.o].name)}, ${end(hm(first.at))}` + (v.on.length > 1 ? ` Latest: ${esc(OUT[lastS.o].name)}, ${end(hm(lastS.at))}` : "") + `</p>` +
+    (ph ? `<figure><img src="${esc(ph.src)}" alt="" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"><figcaption>Photo: ${esc(ph.by)}</figcaption></figure>` : "") +
     `<h2>How each outlet put it</h2><ul class="heads">` +
     v.on.map(s => {
       const o = OUT[s.o], hit = termOn && terms(s.t).includes(termOn);
       return `<li class="${hit ? "hit" : ""}"><time>${when(s)}</time><div><span class="who">${esc(o.name)}<span class="lab">${esc(lab(o))}</span></span>` +
-        `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>${s.rep ? `<span class="rep">Reprint of ${esc(OUT[s.rep]?.name || s.rep)}&rsquo;s story</span>` : ""}</div>` +
-        `<button type="button" class="save-one" data-save-story="${esc(s.id)}" aria-label="Save ${esc(o.name)}'s headline">save</button></li>`;
+        `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>${s.rep ? `<span class="rep">Reprint of ${esc(OUT[s.rep]?.name || s.rep)}</span>` : ""}</div>` +
+        `<button type="button" class="icon save-one" data-save-story="${esc(s.id)}" title="Save this headline" aria-label="Save ${esc(o.name)}'s headline"><i class="ph ph-bookmark-simple"></i></button></li>`;
     }).join("") + `</ul>` +
-    (total > 1 ? `<h2>Where the wording differed</h2><p class="terms">${some.length ? "Words only some headlines used (select one to mark those headlines): " +
-      some.map(([w, n]) => `<button type="button" data-term="${esc(w)}" aria-pressed="${termOn === w}">${esc(w)}</button> (${n} of ${total})`).join(", ") + "." : "The headlines use the same words."}` +
-      (shared.length ? ` Every headline says ${shared.map(w => `&ldquo;${esc(w)}&rdquo;`).join(", ")}.` : "") + `</p>` : "") +
+    (total > 1 && some.length ? `<h2>Only some said</h2><p class="terms">` +
+      some.map(([w, n]) => `<button type="button" data-term="${esc(w)}" aria-pressed="${termOn === w}" title="Mark the headlines that use it">${esc(w)}</button> <span class="dim">${n}</span>`).join(" &nbsp; ") + `</p>` : "") +
     `</div><aside class="notes">` +
-    `<section><h3>Who ran it</h3>${regionsText(v, 6)}. Of them, ${types.Wire || 0} wire service${types.Wire === 1 ? "" : "s"}, ${types["Independent/reader-funded"] || 0} independent or reader-funded, ${types.Local || 0} local.</section>` +
-    `<section><h3>Sections</h3>${v.cats.length ? v.cats.map(c => { const s = v.on.find(x => (x.cat || []).includes(c)); const w = s && s.why ? s.why[(s.cat || []).indexOf(c)] : ""; return `${esc(CAT_NAME(c))}${w ? `, because ${esc(whyText(w))}` : ""}`; }).join(". ") + "." : "No section rule matched."}</section>` +
-    `<section><h3>Didn&rsquo;t run it</h3>${missing.length ? `${missing.length} outlets in this view published ${S.view === "day" ? "that day" : "in this period"} without this story, most of them in ${Object.entries(missRegions).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([r]) => r).join(" and ")}.` +
-      `<details><summary>See which</summary><ul>${missing.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul></details>` : "Every outlet in this view that published ran it."}</section>` +
+    `<section><h3>Who ran it</h3>${regionsText(v, 6)}. ${types.Wire || 0} wire, ${types["Independent/reader-funded"] || 0} independent, ${types.Local || 0} local.</section>` +
+    `<section><h3>Sections</h3>${v.cats.length ? v.cats.map(c => { const s = v.on.find(x => (x.cat || []).includes(c)); const w = s && s.why ? s.why[(s.cat || []).indexOf(c)] : ""; return `<span title="${esc(whyText(w))}">${esc(CAT_NAME(c))}</span>`; }).join(", ") : "None"}</section>` +
+    `<section><h3>Didn&rsquo;t run it</h3>${missing.length ? `${missing.length} outlets, mostly in ${Object.entries(missRegions).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([r]) => r).join(" and ")}.` +
+      `<details><summary>Show</summary><ul>${missing.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul></details>` : "None."}</section>` +
     `</aside>`;
 }
 
@@ -516,6 +508,7 @@ document.addEventListener("click", e => {
   if (ds.themeToggle !== undefined) return toggleTheme();
   if (ds.guide !== undefined) return $("#help").showModal();
   if (ds.back !== undefined) return closeStory();
+  if (ds.step) { const i = ITEMS.indexOf(S.open) + +ds.step; if (ITEMS[i]) openStory(ITEMS[i]); return; }
   if (ds.more !== undefined) { limit += 200; return renderFront(); }
   if (ds.singles !== undefined) { showSingles = true; return renderFront(); }
   if (t.id === "prev") return step(-1);

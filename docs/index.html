@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,18 +27,21 @@
     </span>
   </div>
   <h1><a href="./" id="home">Coverage Index</a></h1>
-  <p class="r runline" id="runline"></p>
+  <div class="r tools"><span class="runline" id="runline"></span>
+    <a class="icon" href="saved.html" title="Saved stories" aria-label="Saved stories"><i class="ph ph-bookmark-simple"></i></a>
+    <button type="button" class="icon" data-theme-toggle title="Light or dark" aria-label="Switch light or dark"><i class="ph ph-moon" id="theme-icon"></i></button>
+    <button type="button" class="icon" data-guide title="Keyboard guide (?)" aria-label="Keyboard guide"><i class="ph ph-question"></i></button></div>
 </header>
 
 <nav class="filters" aria-label="Filters">
   <div class="cats" id="cats" role="group" aria-label="Section"></div>
   <span class="sep"></span>
   <div class="fgroup">
-  <button type="button" class="f" data-panel="region" id="f-region" aria-expanded="false">Region: all</button>
-  <button type="button" class="f" data-panel="type" id="f-type" aria-expanded="false">Media: all</button>
+  <button type="button" class="f" data-panel="region" id="f-region" aria-expanded="false">Region</button>
+  <button type="button" class="f" data-panel="type" id="f-type" aria-expanded="false">Media</button>
   <button type="button" class="f" data-panel="outlets" id="f-outlets" aria-expanded="false">Outlets</button>
-  <button type="button" class="f" data-panel="rank" id="f-rank" aria-expanded="false">Rank: most covered</button>
-  <label class="search"><span class="sr">Search headlines and outlets</span><input type="search" id="q" placeholder="Search ( / )" autocomplete="off"></label>
+  <button type="button" class="f" data-panel="rank" id="f-rank" aria-expanded="false">Rank</button>
+  <label class="search" title="Search ( / )"><i class="ph ph-magnifying-glass" aria-hidden="true"></i><span class="sr">Search headlines and outlets</span><input type="search" id="q" placeholder="Search" autocomplete="off"></label>
   </div>
 </nav>
 <div class="filters-rule"><hr></div>
@@ -51,10 +55,8 @@
 
 <footer class="foot">
   <p id="status"></p>
-  <p>Headlines, short summaries and preview images are the outlets&rsquo; own, taken from their public feeds, and link to the original articles. Grouping, sections and counts follow fixed rules; no AI runs on this site. Outlet labels were researched with AI assistance and are marked unverified until checked.</p>
-  <p><a href="digest.html">Daily digest</a> &nbsp; <a href="saved.html">Saved</a> &nbsp; <a href="method.html">Method</a> &nbsp; <button type="button" data-guide>Keyboard guide</button> &nbsp; <a href="https://github.com/chrisqtruong/coverage-index">Source code and data</a></p>
+  <p><a href="digest.html">Daily digest</a> &nbsp; <a href="method.html">How it works</a> &nbsp; <a href="https://github.com/chrisqtruong/coverage-index#readme">Guide and source</a></p>
 </footer>
-<p class="keys" id="keys"><kbd>j</kbd> <kbd>k</kbd> move &nbsp; <kbd>Enter</kbd> open &nbsp; <kbd>Esc</kbd> back &nbsp; <kbd>/</kbd> search &nbsp; <kbd>1</kbd>&ndash;<kbd>0</kbd> sections &nbsp; <kbd>[</kbd> <kbd>]</kbd> earlier, later &nbsp; <kbd>s</kbd> save &nbsp; <button type="button" data-guide><kbd>?</kbd> all keys</button></p>
 
 <dialog id="help" aria-labelledby="help-title">
   <h2 id="help-title">Reading with the keyboard</h2>
