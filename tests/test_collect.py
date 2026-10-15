@@ -180,6 +180,29 @@ def test_published_fields():
     c.DATA, c.EXTRA = old
 
 
+def test_fallback_when_a_feed_refuses():
+    real_poll, real_gap = c.poll, c.GOOGLE_GAP
+    calls = []
+    def fake(o, cache):
+        calls.append(o["feed"])
+        if "news.google.com" in o["feed"]:
+            return o, [{"t": "From Google", "u": "https://news.google.com/x", "at": c.NOW}], None, 0.1
+        return o, None, "OSError: HTTP 403", 0.1
+    c.poll, c.GOOGLE_GAP = fake, 0
+    try:
+        o = {"id": "axios", "name": "Axios", "via": "rss", "feed": "https://api.axios.com/feed/", "homepage": "https://www.axios.com"}
+        res = c.poll_all([o], {}, {"outlets": {}})
+        assert res[0][1] and res[0][2] is None and "axios" in c.FELL_BACK, res
+        assert calls[-1].endswith("site:axios.com"), calls
+        recent = {"outlets": {"axios": {"fallback_at": c.iso(c.NOW)}}}
+        c.FELL_BACK.clear()
+        res = c.poll_all([o], {}, recent)
+        assert res[0][2] and "axios" not in c.FELL_BACK, "no second Google request within the hour"
+    finally:
+        c.poll, c.GOOGLE_GAP = real_poll, real_gap
+        c.FELL_BACK.clear()
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

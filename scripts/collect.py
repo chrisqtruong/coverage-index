@@ -315,7 +315,30 @@ def poll_all(outlets, cache, status):
     with cf.ThreadPoolExecutor(13) as ex:
         g = ex.submit(slow)
         res = list(ex.map(lambda o: poll(o, cache), direct))
-        return res + g.result()
+        res += g.result()
+    # Fallback: some sites refuse GitHub's servers but not a home connection. When an outlet's own feed fails,
+    # fetch its Google News site search instead, at most about once an hour per outlet.
+    out = []
+    for o, items, err, secs in res:
+        if err and o["via"] != "google" and fallback_due(o, status):
+            site = urllib.parse.urlsplit(o["homepage"]).netloc.removeprefix("www.")
+            time.sleep(GOOGLE_GAP)
+            o2, items2, err2, secs2 = poll(dict(o, feed=GOOGLE_SEARCH + site), {})
+            if items2:
+                FELL_BACK[o["id"]] = err
+                out.append((o, items2, None, secs + secs2))
+                continue
+        out.append((o, items, err, secs))
+    return out
+
+
+GOOGLE_SEARCH = "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=when:1d+site:"
+FELL_BACK = {}  # outlet id -> the error its own feed gave, for outlets collected through the fallback this run
+
+
+def fallback_due(o, status):
+    last = (status.get("outlets", {}).get(o["id"]) or {}).get("fallback_at")
+    return not last or NOW - when(last) >= dt.timedelta(minutes=GOOGLE_EVERY)
 
 
 # ---------------------------------------------------------------- photos
@@ -778,6 +801,8 @@ def main():
                 st.update(ok=False, err=err)
                 report.append((o["id"], "FAIL", 0, 0, secs, err))
                 continue
+            if o["id"] in FELL_BACK:
+                st.update(fallback_at=iso(NOW), fallback_reason=FELL_BACK[o["id"]][:120])
             added = 0
             for pos, f in enumerate(items):
                 at = f.get("at") or NOW
@@ -787,7 +812,7 @@ def main():
                     continue
                 nu = norm_url(f["u"])
                 sid = hashlib.sha1(nu.encode()).hexdigest()[:12]
-                rank = None if o["via"] == "google" else pos + 1  # 1 = top of the outlet's own feed; Google's order isn't the outlet's
+                rank = None if o["via"] == "google" or o["id"] in FELL_BACK else pos + 1  # 1 = top of the outlet's own feed; Google's order isn't the outlet's
                 if sid in by_id:  # seen before: keep its best position in the outlet's feed
                     s = by_id[sid][1]
                     if rank:
@@ -818,7 +843,7 @@ def main():
                 by_id[sid] = (d, s)
                 new.append(s)
                 added += 1
-            st.update(ok=True, err=None, last_ok=iso(NOW), n=len(items), new=added)
+            st.update(ok=True, err=None, last_ok=iso(NOW), n=len(items), new=added, via_fallback=o["id"] in FELL_BACK)
             report.append((o["id"], "ok", len(items), added, secs, ""))
         if not test:
             save(CACHE, cache)
