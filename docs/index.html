@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coverage Index</title>
+<meta name="description" content="News from about 170 outlets, grouped into events, with the number of outlets covering each and each outlet's headline.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d0f0c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="app">
+<a class="skip" href="#list">Skip to events</a>
+
+<header class="mast">
+  <h1><a href="./" id="home">Coverage Index</a></h1>
+  <p class="runline mono" id="runline"></p>
+  <nav class="crumbs mono" id="crumbs" aria-label="Current filter"></nav>
+  <nav class="cats mono" id="cats" aria-label="Category"></nav>
+</header>
+
+<div class="panes">
+  <aside class="side" id="side" aria-label="Filters">
+    <button type="button" class="side-toggle mono" id="side-toggle" aria-expanded="false" aria-controls="side-body">Filters</button>
+    <div id="side-body" class="side-body">
+      <section><h2 class="lbl">Region</h2><ul class="tree" id="regions"></ul></section>
+      <section><h2 class="lbl">Media type</h2><ul class="types mono" id="types"></ul></section>
+      <section>
+        <details id="outlets-box"><summary class="lbl" id="outlets-sum">Outlets</summary>
+          <div class="out-actions mono"><button type="button" data-all="on">all on</button><button type="button" data-all="off">all off</button></div>
+          <ul class="outlets" id="outlets"></ul>
+        </details>
+      </section>
+      <section><h2 class="lbl">Rank</h2>
+        <ul class="plain mono" role="group" aria-label="Rank events by">
+          <li><button type="button" data-rank="coverage">coverage</button></li>
+          <li><button type="button" data-rank="picks">outlets' picks</button></li>
+          <li><button type="button" data-rank="newest">newest</button></li>
+        </ul>
+        <label class="reps mono"><input type="checkbox" id="reps"> count reprints</label>
+      </section>
+      <section><h2 class="lbl">Period</h2>
+        <ul class="plain mono" role="group" aria-label="Period">
+          <li><button type="button" data-view="day">day</button></li>
+          <li><button type="button" data-view="week">week</button></li>
+          <li><button type="button" data-view="month">month</button></li>
+          <li><button type="button" data-view="year">year</button></li>
+        </ul>
+      </section>
+      <section class="links mono"><a href="digest.html">digest</a> <a href="saved.html">saved</a> <a href="method.html">method</a></section>
+    </div>
+  </aside>
+
+  <main class="mid" id="main">
+    <div class="mid-head mono">
+      <button type="button" id="prev" aria-label="Earlier">‹</button>
+      <h2 class="lbl" id="count" aria-live="polite"></h2>
+      <button type="button" id="next" aria-label="Later">›</button>
+      <label class="search"><span class="sr">Search headlines and outlets</span><input type="search" id="q" placeholder="/ search" autocomplete="off"></label>
+    </div>
+    <ol class="list" id="list" tabindex="-1" aria-label="Events"><li class="note mono">Loading.</li></ol>
+    <button type="button" class="more mono" id="more" hidden>show more</button>
+  </main>
+
+  <article class="detail" id="detail" tabindex="-1" aria-label="Event coverage"></article>
+</div>
+
+<footer class="foot">
+  <p class="keys mono" id="keys">j/k move · Enter open · Esc up · / search · 1-0 category · s save · d digest · ? keys</p>
+  <p class="status mono" id="status"></p>
+  <p class="about">Headlines, summary excerpts and preview images are the outlets' own, taken from their public feeds, and link to the original articles. Grouping, categories and counts are computed by fixed rules; no AI model runs on this site. Outlet labels were researched with AI assistance and are marked unverified until checked. <a href="method.html">Method</a> &nbsp; <a href="https://github.com/chrisqtruong/coverage-index">Source code and data</a></p>
+</footer>
+
+<dialog id="help" aria-label="Keyboard shortcuts">
+  <h2 class="lbl">Keys</h2>
+  <dl class="mono">
+    <dt>j or ↓</dt><dd>next event</dd>
+    <dt>k or ↑</dt><dd>previous event</dd>
+    <dt>Enter</dt><dd>open the event (on narrow screens; on wide screens it is shown alongside)</dd>
+    <dt>Esc</dt><dd>close the event; then remove the narrowest filter (search, media type, region, category), one per press</dd>
+    <dt>/</dt><dd>search headlines and outlet names</dd>
+    <dt>1 to 9, 0</dt><dd>category; press again for all categories</dd>
+    <dt>[ and ]</dt><dd>earlier or later day, week, month or year</dd>
+    <dt>r</dt><dd>ranking: coverage, outlets' picks, newest</dd>
+    <dt>d</dt><dd>daily digest</dd>
+    <dt>s</dt><dd>save the open event to a folder (each headline also has its own save button)</dd>
+    <dt>?</dt><dd>this list</dd>
+  </dl>
+  <p>j and k are equivalent to the down and up arrow keys.</p>
+  <form method="dialog"><button class="mono">close (Esc)</button></form>
+</dialog>
+
+<script src="saved.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

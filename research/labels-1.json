@@ -1,0 +1,648 @@
+{
+  "ap": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "The Associated Press (member-owned nonprofit cooperative of US news organizations)",
+    "format": "wire service",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Associated_Press",
+      "format": "https://en.wikipedia.org/wiki/Associated_Press",
+      "scope": "https://en.wikipedia.org/wiki/Associated_Press"
+    },
+    "confidence": "high",
+    "note": "Not-for-profit cooperative owned by member newspapers and broadcasters."
+  },
+  "reuters": {
+    "scope": "international",
+    "ownership": "publicly traded company",
+    "owner": "Thomson Reuters (controlled by the Thomson family's Woodbridge Company)",
+    "format": "wire service",
+    "specialist": null,
+    "country": "United Kingdom",
+    "state_or_metro": "London",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Reuters",
+      "format": "https://en.wikipedia.org/wiki/Reuters",
+      "scope": "https://en.wikipedia.org/wiki/Reuters"
+    },
+    "confidence": "high",
+    "note": "Parent Thomson Reuters is headquartered in Toronto; Reuters news agency is based in London."
+  },
+  "upi": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "News World Communications (founded by the Unification Church)",
+    "format": "wire service",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/United_Press_International",
+      "format": "https://en.wikipedia.org/wiki/United_Press_International",
+      "scope": "https://en.wikipedia.org/wiki/United_Press_International"
+    },
+    "confidence": "medium",
+    "note": "Owned by News World Communications since 2000; no 2025-26 ownership change found, but not confirmed from a current primary source."
+  },
+  "bloomberg": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Bloomberg L.P. (majority-owned by Michael Bloomberg)",
+    "format": "wire service",
+    "specialist": "business and markets",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+      "format": "https://en.wikipedia.org/wiki/Bloomberg_News",
+      "scope": "https://en.wikipedia.org/wiki/Bloomberg_News"
+    },
+    "confidence": "high",
+    "note": "Bloomberg News began in 1990 as a news service for Bloomberg Terminal users; it also runs TV, radio, and a magazine."
+  },
+  "cbc": {
+    "scope": "national",
+    "ownership": "public broadcaster",
+    "owner": "Canadian Broadcasting Corporation (Crown corporation)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Canada",
+    "state_or_metro": "Toronto",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation",
+      "format": "https://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation",
+      "scope": "https://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation"
+    },
+    "confidence": "high",
+    "note": "Federally funded Crown corporation with statutory independence under the Broadcasting Act. Audience is mainly Canadian, so scope is national (Canada)."
+  },
+  "rest-of-world": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "Rest of World Media, Inc. (founded by Sophie Schmidt)",
+    "format": "digital-native",
+    "specialist": "technology outside the West",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://restofworld.org/about/",
+      "format": "https://en.wikipedia.org/wiki/Rest_of_World_(publication)",
+      "scope": "https://restofworld.org/about/"
+    },
+    "confidence": "high"
+  },
+  "npr": {
+    "scope": "national",
+    "ownership": "public broadcaster",
+    "owner": "National Public Radio, Inc. (nonprofit membership organization of member stations)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/NPR",
+      "format": "https://en.wikipedia.org/wiki/NPR",
+      "scope": "https://en.wikipedia.org/wiki/NPR"
+    },
+    "confidence": "high",
+    "note": "Legally a private nonprofit; federal CPB funding ended after Congress rescinded it in 2025. Categorized as public broadcaster per project convention."
+  },
+  "pbs-newshour": {
+    "scope": "national",
+    "ownership": "public broadcaster",
+    "owner": "NewsHour Productions LLC (owned by WETA), distributed by PBS",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington (Arlington, Virginia studios)",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/PBS_News_Hour",
+      "format": "https://en.wikipedia.org/wiki/PBS_News_Hour",
+      "scope": "https://en.wikipedia.org/wiki/PBS_News_Hour"
+    },
+    "confidence": "high",
+    "note": "Produced by WETA's NewsHour Productions; PBS is a nonprofit member network. Federal CPB funding ended in 2025."
+  },
+  "new-york-times": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "The New York Times Company (Ochs-Sulzberger family controls via Class B shares)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_New_York_Times",
+      "format": "https://en.wikipedia.org/wiki/The_New_York_Times",
+      "scope": "https://en.wikipedia.org/wiki/The_New_York_Times"
+    },
+    "confidence": "high"
+  },
+  "cnn": {
+    "scope": "international",
+    "ownership": "publicly traded company",
+    "owner": "Skydance Corporation (formerly Paramount Skydance; acquired Warner Bros. Discovery)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Georgia / Atlanta",
+    "sources": {
+      "ownership": "https://cbsnews.com/news/paramount-warner-bros-discovery-deal-skydance",
+      "format": "https://en.wikipedia.org/wiki/CNN",
+      "scope": "https://en.wikipedia.org/wiki/CNN"
+    },
+    "confidence": "high",
+    "note": "Paramount Skydance's acquisition of Warner Bros. Discovery closed Oct 6, 2026; the merged company was rebranded Skydance. Ownership changed very recently."
+  },
+  "fox-news": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Fox Corporation (Murdoch family controlling stake)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Fox_News",
+      "format": "https://en.wikipedia.org/wiki/Fox_News",
+      "scope": "https://en.wikipedia.org/wiki/Fox_News"
+    },
+    "confidence": "high"
+  },
+  "wall-street-journal": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Dow Jones & Company (News Corp)",
+    "format": "print",
+    "specialist": "business and finance",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Wall_Street_Journal",
+      "format": "https://en.wikipedia.org/wiki/The_Wall_Street_Journal",
+      "scope": "https://en.wikipedia.org/wiki/The_Wall_Street_Journal"
+    },
+    "confidence": "high",
+    "note": "Also covers general news; labeled business and finance because that is its stated focus."
+  },
+  "washington-post": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Nash Holdings (Jeff Bezos)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Washington_Post",
+      "format": "https://en.wikipedia.org/wiki/The_Washington_Post",
+      "scope": "https://en.wikipedia.org/wiki/The_Washington_Post"
+    },
+    "confidence": "high",
+    "note": "Owned by Bezos via Nash Holdings since 2013; no sale found as of Oct 2026."
+  },
+  "nbc-news": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "NBCUniversal (Comcast)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/NBC_News",
+      "format": "https://en.wikipedia.org/wiki/NBC_News",
+      "scope": "https://en.wikipedia.org/wiki/NBC_News"
+    },
+    "confidence": "high",
+    "note": "NBC News stayed with Comcast; MSNBC (now MS NOW) and CNBC moved to Versant in Jan 2026."
+  },
+  "cbs-news": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Skydance Corporation (formerly Paramount Skydance)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://cbsnews.com/news/paramount-warner-bros-discovery-deal-skydance",
+      "format": "https://en.wikipedia.org/wiki/CBS_News",
+      "scope": "https://en.wikipedia.org/wiki/CBS_News"
+    },
+    "confidence": "high",
+    "note": "Paramount merged with Skydance in Aug 2025; the company took the Skydance name after acquiring Warner Bros. Discovery in Oct 2026."
+  },
+  "abc-news": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "The Walt Disney Company",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/ABC_News_(United_States)",
+      "format": "https://en.wikipedia.org/wiki/ABC_News_(United_States)",
+      "scope": "https://en.wikipedia.org/wiki/ABC_News_(United_States)"
+    },
+    "confidence": "high"
+  },
+  "cnbc": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Versant Media Group (spun off from Comcast, Jan 2026)",
+    "format": "broadcast",
+    "specialist": "business and markets",
+    "country": "United States",
+    "state_or_metro": "New Jersey / Englewood Cliffs",
+    "sources": {
+      "ownership": "https://www.thewrap.com/industry-news/deals-ma/versant-comcast-spinoff-closes/",
+      "format": "https://en.wikipedia.org/wiki/CNBC",
+      "scope": "https://en.wikipedia.org/wiki/CNBC"
+    },
+    "confidence": "high",
+    "note": "Comcast completed the Versant spin-off on Jan 2-5, 2026; Versant trades on Nasdaq as VSNT. CNBC also has international channels."
+  },
+  "new-york-post": {
+    "scope": "local",
+    "ownership": "publicly traded company",
+    "owner": "News Corp",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/New_York_Post",
+      "format": "https://en.wikipedia.org/wiki/New_York_Post",
+      "scope": "https://en.wikipedia.org/wiki/New_York_Post"
+    },
+    "confidence": "medium",
+    "note": "A New York City tabloid, but its website draws a large national audience; scope could also be national."
+  },
+  "politico": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Axel Springer SE",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Virginia / Arlington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Politico",
+      "format": "https://en.wikipedia.org/wiki/Politico",
+      "scope": "https://en.wikipedia.org/wiki/Politico"
+    },
+    "confidence": "medium",
+    "note": "Launched in 2007 with both a website and a free print edition in Washington; recorded as digital-native. Axel Springer is privately held (KKR, CPP and the Springer/Döpfner families; 2025 restructuring split off classifieds)."
+  },
+  "the-atlantic": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Emerson Collective (Laurene Powell Jobs), majority owner",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Atlantic",
+      "format": "https://en.wikipedia.org/wiki/The_Atlantic",
+      "scope": "https://en.wikipedia.org/wiki/The_Atlantic"
+    },
+    "confidence": "high"
+  },
+  "axios": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Cox Enterprises",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Virginia / Arlington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Axios_(website)",
+      "format": "https://en.wikipedia.org/wiki/Axios_(website)",
+      "scope": "https://en.wikipedia.org/wiki/Axios_(website)"
+    },
+    "confidence": "high",
+    "note": "Cox Enterprises bought Axios in 2022."
+  },
+  "the-hill": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Nexstar Media Group",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Hill_(newspaper)",
+      "format": "https://en.wikipedia.org/wiki/The_Hill_(newspaper)",
+      "scope": "https://en.wikipedia.org/wiki/The_Hill_(newspaper)"
+    },
+    "confidence": "high"
+  },
+  "vox": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Vox Media",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Vox_(website)",
+      "format": "https://en.wikipedia.org/wiki/Vox_(website)",
+      "scope": "https://en.wikipedia.org/wiki/Vox_(website)"
+    },
+    "confidence": "high",
+    "note": "Vox Media is headquartered in New York; Vox was founded in Washington, DC."
+  },
+  "national-review": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "National Review Institute",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/National_Review",
+      "format": "https://en.wikipedia.org/wiki/National_Review",
+      "scope": "https://en.wikipedia.org/wiki/National_Review"
+    },
+    "confidence": "high",
+    "note": "National Review, Inc. became wholly owned by the nonprofit National Review Institute in 2015."
+  },
+  "washington-examiner": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Clarity Media Group / MediaDC (Philip Anschutz)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Washington_Examiner",
+      "format": "https://en.wikipedia.org/wiki/Washington_Examiner",
+      "scope": "https://en.wikipedia.org/wiki/Washington_Examiner"
+    },
+    "confidence": "high",
+    "note": "Began as a daily newspaper in 2005; now a weekly print magazine plus website."
+  },
+  "reason": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "Reason Foundation",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington (foundation based in Los Angeles)",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Reason_(magazine)",
+      "format": "https://en.wikipedia.org/wiki/Reason_(magazine)",
+      "scope": "https://en.wikipedia.org/wiki/Reason_(magazine)"
+    },
+    "confidence": "high"
+  },
+  "the-verge": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Vox Media",
+    "format": "digital-native",
+    "specialist": "technology",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Verge",
+      "format": "https://en.wikipedia.org/wiki/The_Verge",
+      "scope": "https://en.wikipedia.org/wiki/The_Verge"
+    },
+    "confidence": "high"
+  },
+  "ars-technica": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Condé Nast (Advance Publications)",
+    "format": "digital-native",
+    "specialist": "technology and science",
+    "country": "United States",
+    "state_or_metro": null,
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Ars_Technica",
+      "format": "https://en.wikipedia.org/wiki/Ars_Technica",
+      "scope": "https://en.wikipedia.org/wiki/Ars_Technica"
+    },
+    "confidence": "high",
+    "note": "Staff are largely remote; Condé Nast is based in New York."
+  },
+  "the-intercept": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "The Intercept (independent nonprofit; spun off from First Look Institute in 2023)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://theintercept.com/2023/01/09/intercept-restructuring-nonprofit/",
+      "format": "https://en.wikipedia.org/wiki/The_Intercept",
+      "scope": "https://en.wikipedia.org/wiki/The_Intercept"
+    },
+    "confidence": "high",
+    "note": "Funded by Pierre Omidyar's First Look until the 2023 spin-off; now relies on donors and members."
+  },
+  "propublica": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "Pro Publica, Inc.",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://www.propublica.org/about/",
+      "format": "https://en.wikipedia.org/wiki/ProPublica",
+      "scope": "https://en.wikipedia.org/wiki/ProPublica"
+    },
+    "confidence": "high"
+  },
+  "democracy-now": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "Democracy Now! Productions",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Democracy_Now!",
+      "format": "https://en.wikipedia.org/wiki/Democracy_Now!",
+      "scope": "https://en.wikipedia.org/wiki/Democracy_Now!"
+    },
+    "confidence": "high",
+    "note": "Daily TV/radio program distributed via public-access, Pacifica and community stations, plus online."
+  },
+  "drop-site-news": {
+    "scope": "international",
+    "ownership": "reader-funded",
+    "owner": "Co-founders Jeremy Scahill and Ryan Grim (fiscally sponsored by Social Security Works Education Fund)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://newsjunkie.net/entity/drop-site-news",
+      "format": "https://democracynow.org/2024/7/9/jeremy_scahill_drop_site_news",
+      "scope": "https://www.dropsitenews.com/about"
+    },
+    "confidence": "medium",
+    "note": "Launched July 2024 on Substack. Sources differ on whether it is owned by its founders or operates as a fiscally sponsored nonprofit project; strong focus on the Middle East."
+  },
+  "the-lever": {
+    "scope": "national",
+    "ownership": "reader-funded",
+    "owner": "David Sirota (founder and owner)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": null,
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Lever",
+      "format": "https://en.wikipedia.org/wiki/The_Lever",
+      "scope": "https://en.wikipedia.org/wiki/The_Lever"
+    },
+    "confidence": "medium",
+    "note": "Reader-supported via subscriptions and donations; legal status (for-profit vs nonprofit) not confirmed from a primary source. HQ location not confirmed."
+  },
+  "404-media": {
+    "scope": "national",
+    "ownership": "reader-funded",
+    "owner": "Its four co-founders (Jason Koebler, Emanuel Maiberg, Samantha Cole, Joseph Cox)",
+    "format": "digital-native",
+    "specialist": "technology",
+    "country": "United States",
+    "state_or_metro": null,
+    "sources": {
+      "ownership": "https://www.niemanlab.org/2024/02/six-months-in-journalist-owned-tech-publication-404-media-is-profitable/",
+      "format": "https://www.niemanlab.org/2024/02/six-months-in-journalist-owned-tech-publication-404-media-is-profitable/",
+      "scope": "https://en.wikipedia.org/wiki/404_Media"
+    },
+    "confidence": "high",
+    "note": "Journalist-owned, mostly subscription-funded; staff are remote, no single HQ city."
+  },
+  "jacobin": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "Jacobin Foundation Ltd. (501(c)(3))",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City (Brooklyn)",
+    "sources": {
+      "ownership": "https://jacobin.com/donate",
+      "format": "https://en.wikipedia.org/wiki/Jacobin_(magazine)",
+      "scope": "https://en.wikipedia.org/wiki/Jacobin_(magazine)"
+    },
+    "confidence": "medium",
+    "note": "Jacobin Foundation is a 501(c)(3) per its donate page; did not confirm whether the magazine itself is a separate for-profit entity. Publishes quarterly print and international editions."
+  },
+  "mother-jones": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "Center for Investigative Reporting (formerly Foundation for National Progress)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "California / San Francisco",
+    "sources": {
+      "ownership": "https://current.org/2023/12/center-for-investigative-reporting-will-dissolve-in-merger-with-mother-jones/",
+      "format": "https://en.wikipedia.org/wiki/Mother_Jones_(magazine)",
+      "scope": "https://en.wikipedia.org/wiki/Mother_Jones_(magazine)"
+    },
+    "confidence": "high",
+    "note": "Merged with CIR/Reveal Feb 2024; the publisher took the CIR name."
+  },
+  "the-marshall-project": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "The Marshall Project",
+    "format": "digital-native",
+    "specialist": "criminal justice",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://www.themarshallproject.org/about",
+      "format": "https://en.wikipedia.org/wiki/The_Marshall_Project",
+      "scope": "https://en.wikipedia.org/wiki/The_Marshall_Project"
+    },
+    "confidence": "high"
+  },
+  "the-free-press": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Skydance Corporation (formerly Paramount Skydance)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "California / Los Angeles",
+    "sources": {
+      "ownership": "https://www.nbcnews.com/business/business-news/paramount-cbs-news-acquires-free-press-bari-weiss-rcna220672",
+      "format": "https://en.wikipedia.org/wiki/The_Free_Press",
+      "scope": "https://en.wikipedia.org/wiki/The_Free_Press"
+    },
+    "confidence": "high",
+    "note": "Acquired by Paramount Skydance in Oct 2025 (~$150M); parent renamed Skydance after the WBD merger closed Oct 2026."
+  },
+  "the-dispatch": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Dispatch Media (co-founders Steve Hayes, Jonah Goldberg, Toby Stock hold a majority; individual investors)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Dispatch",
+      "format": "https://en.wikipedia.org/wiki/The_Dispatch",
+      "scope": "https://en.wikipedia.org/wiki/The_Dispatch"
+    },
+    "confidence": "high",
+    "note": "Mostly subscription-funded; launched on Substack in 2019. Acquired SCOTUSblog in 2025."
+  },
+  "bbc": {
+    "scope": "international",
+    "ownership": "public broadcaster",
+    "owner": "British Broadcasting Corporation (Royal Charter; licence-fee funded)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United Kingdom",
+    "state_or_metro": "London",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/BBC",
+      "format": "https://en.wikipedia.org/wiki/BBC",
+      "scope": "https://en.wikipedia.org/wiki/BBC"
+    },
+    "confidence": "high",
+    "note": "Domestic UK broadcaster with large global services (World Service, bbc.com)."
+  },
+  "dw": {
+    "scope": "international",
+    "ownership": "public broadcaster",
+    "owner": "Deutsche Welle (German federal public-law broadcaster)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Germany",
+    "state_or_metro": "Bonn",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Deutsche_Welle",
+      "format": "https://en.wikipedia.org/wiki/Deutsche_Welle",
+      "scope": "https://en.wikipedia.org/wiki/Deutsche_Welle"
+    },
+    "confidence": "high",
+    "note": "Funded from the German federal budget; editorial independence set by the Deutsche Welle Act."
+  }
+}

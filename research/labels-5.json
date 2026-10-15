@@ -1,0 +1,403 @@
+{
+ "arab-news": {
+  "scope": "national",
+  "ownership": "government-controlled",
+  "owner": "Saudi Research and Media Group (SRMG)",
+  "format": "print",
+  "specialist": null,
+  "country": "Saudi Arabia",
+  "state_or_metro": "Riyadh",
+  "sources": {
+   "ownership": [
+    "https://statemediamonitor.com/2026/06/saudi-research-and-media-group-srmg/",
+    "https://en.wikipedia.org/wiki/Arab_News"
+   ],
+   "format": "https://en.wikipedia.org/wiki/Arab_News",
+   "scope": "https://en.wikipedia.org/wiki/Arab_News"
+  },
+  "confidence": "medium",
+  "note": "SRMG is listed on the Saudi Exchange (4210), but State Media Monitor (2026) reports its controlling stake is held via SNB Capital funds whose ultimate controlling party is the Public Investment Fund. Runs Pakistan, Japan, UK and French editions."
+ },
+ "gulf-news": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "Al Nisr Publishing LLC (Al Tayer Group)",
+  "format": "print",
+  "specialist": null,
+  "country": "United Arab Emirates",
+  "state_or_metro": "Dubai",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/Gulf_News",
+    "https://gulfnews.com/about-gulf-news/term-conditions"
+   ],
+   "format": "https://gulfnews.com/about-gulf-news/history-gulfnews",
+   "scope": "https://en.wikipedia.org/wiki/Gulf_News"
+  },
+  "confidence": "high",
+  "note": "No government ownership found; Al Tayer Group is chaired by former UAE Finance Minister Obaid Al Tayer. New editor-in-chief (Mark Thompson) appointed September 2025."
+ },
+ "daily-sabah": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "Turkuvaz Media Group (owned by Zirve Holding, Kalyon Group)",
+  "format": "print",
+  "specialist": null,
+  "country": "Turkey",
+  "state_or_metro": "Istanbul",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/Daily_Sabah",
+    "https://statemediamonitor.com/2025/09/turkuvaz-medya/"
+   ],
+   "format": "https://en.wikipedia.org/wiki/Daily_Sabah",
+   "scope": "https://en.wikipedia.org/wiki/Daily_Sabah"
+  },
+  "confidence": "medium",
+  "note": "Not state-owned on paper. Wikipedia notes the owner is a friend of President Erdogan; Turkuvaz is controlled by Omer Faruk Kalyoncu of Kalyon Group and its CEO is Serhat Albayrak."
+ },
+ "tehran-times": {
+  "scope": "national",
+  "ownership": "government-controlled",
+  "owner": "Mehr News Agency (owned by the Islamic Development Organization, under the Supreme Leader's supervision)",
+  "format": "print",
+  "specialist": null,
+  "country": "Iran",
+  "state_or_metro": "Tehran",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/Tehran_Times",
+    "https://en.wikipedia.org/wiki/Mehr_News_Agency",
+    "https://en.wikipedia.org/wiki/Islamic_Development_Organization"
+   ],
+   "format": "https://en.wikipedia.org/wiki/Tehran_Times",
+   "scope": "https://en.wikipedia.org/wiki/Tehran_Times"
+  },
+  "confidence": "high"
+ },
+ "iran-international": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "Volant Media UK Ltd",
+  "format": "broadcast",
+  "specialist": null,
+  "country": "United Kingdom",
+  "state_or_metro": "London",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/Iran_International",
+    "https://www.theguardian.com/world/2018/oct/31/concern-over-uk-based-iranian-tv-channels-links-to-saudi-arabia"
+   ],
+   "format": "https://en.wikipedia.org/wiki/Iran_International",
+   "scope": "https://en.wikipedia.org/wiki/Iran_International"
+  },
+  "confidence": "medium",
+  "note": "Persian-language TV channel aimed at Iran, run from London. Volant Media is owned by a Saudi-British businessman; Wikipedia and The Guardian report funding links to Saudi royal-court circles, which the channel denies. Scope recorded as national (Iran)."
+ },
+ "the-new-arab": {
+  "scope": "regional",
+  "ownership": "privately held",
+  "owner": "Fadaat Media Ltd (Qatar-based)",
+  "format": "print",
+  "specialist": null,
+  "country": "United Kingdom",
+  "state_or_metro": "London",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/The_New_Arab",
+    "https://en.wikipedia.org/wiki/Fadaat_Media"
+   ],
+   "format": "https://en.wikipedia.org/wiki/The_New_Arab",
+   "scope": "https://en.wikipedia.org/wiki/The_New_Arab"
+  },
+  "confidence": "medium",
+  "note": "Wikipedia calls Fadaat a Qatari private holding company and reports the outlet was launched with backing from Qatar's emir; no formal state ownership documented. Format: Arabic parent (Al-Araby Al-Jadeed) started online in March 2014 and added a print daily that September; the English site is web-only."
+ },
+ "the-jerusalem-post": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "The Jerusalem Post Group (Eli Azur's Mirkaei Tikshoret)",
+  "format": "print",
+  "specialist": null,
+  "country": "Israel",
+  "state_or_metro": "Jerusalem",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/The_Jerusalem_Post",
+   "format": "https://en.wikipedia.org/wiki/The_Jerusalem_Post",
+   "scope": "https://en.wikipedia.org/wiki/The_Jerusalem_Post"
+  },
+  "confidence": "medium",
+  "note": "Owned by Eli Azur's group since 2004; no 2025-26 ownership change found, but not confirmed from a current primary source. Website staff are in Tel Aviv; newspaper offices in Jerusalem."
+ },
+ "lorient-today": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "L'Orient-Le Jour SAL (main shareholders: Edde family, Choueiri group, Pharaon family)",
+  "format": "print",
+  "specialist": null,
+  "country": "Lebanon",
+  "state_or_metro": "Beirut",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/L%27Orient%E2%80%93Le_Jour",
+    "https://lebanon.mom-rsf.org/en/media/detail/outlet/lorient-le-jour/"
+   ],
+   "format": "https://en.wikipedia.org/wiki/L%27Orient%E2%80%93Le_Jour",
+   "scope": "https://en.wikipedia.org/wiki/L%27Orient%E2%80%93Le_Jour"
+  },
+  "confidence": "medium",
+  "note": "English-language edition (launched 2020) of the French-language print daily L'Orient-Le Jour; L'Orient Today itself is online. Shareholder data dates from 2019-2024; about 24% of shares undisclosed."
+ },
+ "rnz": {
+  "scope": "national",
+  "ownership": "public broadcaster",
+  "owner": "Radio New Zealand (Crown entity under the Radio New Zealand Act 1995)",
+  "format": "broadcast",
+  "specialist": null,
+  "country": "New Zealand",
+  "state_or_metro": "Wellington",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/RNZ",
+   "format": "https://en.wikipedia.org/wiki/RNZ",
+   "scope": "https://en.wikipedia.org/wiki/RNZ"
+  },
+  "confidence": "high",
+  "note": "Government cut RNZ funding by NZ$18 million over four years in the 2025 budget, leading to redundancies and programme cuts."
+ },
+ "stuff-nz": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "Stuff Digital Ltd (50% Stuff Group, owned by Sinead Boucher; 50% Trade Me)",
+  "format": "digital-native",
+  "specialist": null,
+  "country": "New Zealand",
+  "state_or_metro": "Wellington",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/Stuff_(website)",
+    "https://thespinoff.co.nz/media/04-06-2025/why-is-trade-me-buying-into-stuff-explaining-the-stakes-of-an-era-defining-media-deal"
+   ],
+   "format": "https://en.wikipedia.org/wiki/Stuff_(website)",
+   "scope": "https://en.wikipedia.org/wiki/Stuff_(website)"
+  },
+  "confidence": "medium",
+  "note": "Trade Me took a 50% stake in Stuff Digital in June 2025. Site launched online in 2000; the wider Stuff group also publishes print papers. Wellington HQ not confirmed by the sources read."
+ },
+ "islands-business": {
+  "scope": "regional",
+  "ownership": "privately held",
+  "owner": "Front Page Pte Limited",
+  "format": "print",
+  "specialist": "Pacific business and regional affairs",
+  "country": "Fiji",
+  "state_or_metro": "Suva",
+  "sources": {
+   "ownership": "https://islandsbusiness.com/about-islands-business/",
+   "format": "https://islandsbusiness.com/about-islands-business/",
+   "scope": "https://islandsbusiness.com/about-islands-business/"
+  },
+  "confidence": "high",
+  "note": "Monthly regional magazine covering the Pacific Islands; Front Page bought the title from Islands Business International in 2014."
+ },
+ "the-irish-times": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "The Irish Times DAC (controlled by The Irish Times Trust CLG)",
+  "format": "print",
+  "specialist": null,
+  "country": "Ireland",
+  "state_or_metro": "Dublin",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/The_Irish_Times",
+   "format": "https://en.wikipedia.org/wiki/The_Irish_Times",
+   "scope": "https://en.wikipedia.org/wiki/The_Irish_Times"
+  },
+  "confidence": "high",
+  "note": "The Trust has no beneficial shareholders and cannot pay dividends; profits go back into the paper. It is not a registered charity."
+ },
+ "kyiv-post": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "BusinessGroup LLC (owned by Ruslan Kivan)",
+  "format": "print",
+  "specialist": null,
+  "country": "Ukraine",
+  "state_or_metro": "Kyiv",
+  "sources": {
+   "ownership": "https://www.kyivpost.com/pages/about-us",
+   "format": "https://www.kyivpost.com/pages/about-us",
+   "scope": "https://en.wikipedia.org/wiki/Kyiv_Post"
+  },
+  "confidence": "high",
+  "note": "Owner Adnan Kivan (Kadorr Group) died October 2024; ownership passed to his son Ruslan Kivan. Founded as a print paper in 1995; now mainly online."
+ },
+ "the-moscow-times": {
+  "scope": "national",
+  "ownership": "nonprofit",
+  "owner": "Stichting 2 Oktober (Dutch foundation)",
+  "format": "print",
+  "specialist": null,
+  "country": "Netherlands",
+  "state_or_metro": "Amsterdam",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/The_Moscow_Times",
+   "format": "https://en.wikipedia.org/wiki/The_Moscow_Times",
+   "scope": "https://en.wikipedia.org/wiki/The_Moscow_Times"
+  },
+  "confidence": "medium",
+  "note": "A Dutch foundation has run operations since 2017; Wikipedia also describes a legacy LLC split between Vladimir Jao, Svetlana Korshunova and Derk Sauer. Founder Derk Sauer died July 2025. Print 1992-2017, online only since. Covers Russia; based in Amsterdam since 2022."
+ },
+ "notes-from-poland": {
+  "scope": "national",
+  "ownership": "reader-funded",
+  "owner": "Notes from Poland Foundation",
+  "format": "digital-native",
+  "specialist": null,
+  "country": "Poland",
+  "state_or_metro": "Kraków",
+  "sources": {
+   "ownership": "https://notesfrompoland.com/about/",
+   "format": "https://notesfrompoland.com/about/",
+   "scope": "https://notesfrompoland.com/about/"
+  },
+  "confidence": "high",
+  "note": "Registered NGO (foundation) in Poland, funded by reader donations."
+ },
+ "balkan-insight": {
+  "scope": "regional",
+  "ownership": "nonprofit",
+  "owner": "Balkan Investigative Reporting Network (BIRN)",
+  "format": "digital-native",
+  "specialist": null,
+  "country": "Bosnia and Herzegovina",
+  "state_or_metro": "Sarajevo",
+  "sources": {
+   "ownership": [
+    "https://en.wikipedia.org/wiki/Balkan_Insight",
+    "https://en.wikipedia.org/wiki/Balkan_Investigative_Reporting_Network"
+   ],
+   "format": "https://en.wikipedia.org/wiki/Balkan_Insight",
+   "scope": "https://en.wikipedia.org/wiki/Balkan_Insight"
+  },
+  "confidence": "medium",
+  "note": "BIRN is a network of NGOs funded largely by grants (EU, foundations, government aid agencies). Wikipedia gives Sarajevo as HQ; BIRN also has a Belgrade office, which some listings name instead."
+ },
+ "novaya-gazeta-europe": {
+  "scope": "national",
+  "ownership": "independent",
+  "owner": "BDR Novaja Gazeta-Europe (Latvia-registered entity set up by former Novaya Gazeta staff)",
+  "format": "print",
+  "specialist": null,
+  "country": "Latvia",
+  "state_or_metro": "Riga",
+  "sources": {
+   "ownership": [
+    "https://ovd.info/en/ino/bdr-novaja-gazeta-europe",
+    "https://novayagazeta.eu/en/about"
+   ],
+   "format": "https://en.wikipedia.org/wiki/Novaya_Gazeta_Europe",
+   "scope": "https://novayagazeta.eu/en/about"
+  },
+  "confidence": "medium",
+  "note": "Labelled independent because its legal form and funding are not publicly documented in the sources found; it is legally separate from the Moscow Novaya Gazeta. Launched April 2022, mainly online, with print issues produced in Riga. Covers Russia."
+ },
+ "spiegel-international": {
+  "scope": "international",
+  "ownership": "privately held",
+  "owner": "Spiegel-Verlag Rudolf Augstein GmbH & Co. KG (50.5% employee KG, 25.5% Bertelsmann via RM Hamburg Holding, 24% Augstein heirs)",
+  "format": "print",
+  "specialist": null,
+  "country": "Germany",
+  "state_or_metro": "Hamburg",
+  "sources": {
+   "ownership": "https://de.wikipedia.org/wiki/Spiegel-Verlag",
+   "format": "https://en.wikipedia.org/wiki/Der_Spiegel",
+   "scope": "https://en.wikipedia.org/wiki/Der_Spiegel"
+  },
+  "confidence": "medium",
+  "note": "English section of the German print weekly Der Spiegel. Scope set to international because it translates Spiegel's world and Germany coverage for foreign readers; could also be read as national (Germany). Shareholder split as of 2024."
+ },
+ "buenos-aires-herald": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "Editorial Amfin S.A. (Grupo Indalo)",
+  "format": "print",
+  "specialist": null,
+  "country": "Argentina",
+  "state_or_metro": "Buenos Aires",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/Buenos_Aires_Herald",
+   "format": "https://en.wikipedia.org/wiki/Buenos_Aires_Herald",
+   "scope": "https://buenosairesherald.com/op-ed/welcome-we-were-expecting-you"
+  },
+  "confidence": "medium",
+  "note": "Print paper 1876-2017; relaunched online-only on 24 March 2023. Wikipedia lists Editorial Amfin and Grupo Indalo but does not clearly say which owns the relaunched site."
+ },
+ "rio-times": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "Matthias Camenzind",
+  "format": "digital-native",
+  "specialist": null,
+  "country": "Brazil",
+  "state_or_metro": "Rio de Janeiro",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/The_Rio_Times",
+   "format": "https://en.wikipedia.org/wiki/The_Rio_Times",
+   "scope": "https://en.wikipedia.org/wiki/The_Rio_Times"
+  },
+  "confidence": "medium",
+  "note": "Online since founding in 2009; bought by Camenzind in 2019. Also covers wider Latin America. Ownership based on Wikipedia only."
+ },
+ "latin-america-reports": {
+  "scope": "regional",
+  "ownership": "privately held",
+  "owner": "Espacio Media Incubator",
+  "format": "digital-native",
+  "specialist": null,
+  "country": "Colombia",
+  "state_or_metro": "Medellín",
+  "sources": {
+   "ownership": [
+    "https://latinamericareports.com/",
+    "https://argentinareports.com/?p=1026"
+   ],
+   "format": "https://latinamericareports.com/about/",
+   "scope": "https://latinamericareports.com/about/"
+  },
+  "confidence": "medium",
+  "note": "Site footer credits Espacio Media Incubator, a Medellin-based digital media company (also behind Colombia/Argentina/Peru Reports). No source found placing it in Bogota."
+ },
+ "tico-times": {
+  "scope": "national",
+  "ownership": "privately held",
+  "owner": "Producciones Magnolia",
+  "format": "print",
+  "specialist": null,
+  "country": "Costa Rica",
+  "state_or_metro": "San José",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/The_Tico_Times",
+   "format": "https://en.wikipedia.org/wiki/The_Tico_Times",
+   "scope": "https://en.wikipedia.org/wiki/The_Tico_Times"
+  },
+  "confidence": "medium",
+  "note": "Founded 1956 as a print weekly; print ended 2012, now online daily with occasional print specials. New owner since late 2017; Wikipedia names Producciones Magnolia but gives no date."
+ },
+ "agencia-brasil": {
+  "scope": "national",
+  "ownership": "government-controlled",
+  "owner": "Empresa Brasil de Comunicação (EBC)",
+  "format": "wire service",
+  "specialist": null,
+  "country": "Brazil",
+  "state_or_metro": "Brasília",
+  "sources": {
+   "ownership": "https://en.wikipedia.org/wiki/Empresa_Brasil_de_Comunica%C3%A7%C3%A3o",
+   "format": "https://en.wikipedia.org/wiki/Empresa_Brasil_de_Comunica%C3%A7%C3%A3o",
+   "scope": "https://en.wikipedia.org/wiki/Empresa_Brasil_de_Comunica%C3%A7%C3%A3o"
+  },
+  "confidence": "medium",
+  "note": "EBC is legally a public broadcasting company, but the federal government is its sole shareholder, it sits under the Presidency's Secretariat of Social Communication (SECOM), and presidents appoint and have dismissed its director-president (2016, 2020, 2025)."
+ }
+}

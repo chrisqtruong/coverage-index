@@ -1,0 +1,628 @@
+{
+  "france-24": {
+    "scope": "international",
+    "ownership": "public broadcaster",
+    "owner": "France Médias Monde (French state)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "France",
+    "state_or_metro": "Paris",
+    "sources": {
+      "ownership": "https://www.francemediasmonde.com/en/",
+      "format": "https://en.wikipedia.org/wiki/France_24",
+      "scope": "https://en.wikipedia.org/wiki/France_24"
+    },
+    "confidence": "high"
+  },
+  "the-guardian": {
+    "scope": "national",
+    "ownership": "independent",
+    "owner": "Scott Trust Limited (via Guardian Media Group)",
+    "format": "print",
+    "specialist": null,
+    "country": "United Kingdom",
+    "state_or_metro": "London",
+    "sources": {
+      "ownership": "https://www.theguardian.com/the-scott-trust",
+      "format": "https://en.wikipedia.org/wiki/The_Guardian",
+      "scope": "https://en.wikipedia.org/wiki/The_Guardian"
+    },
+    "confidence": "high",
+    "note": "Owned by the Scott Trust, which has no shareholders or proprietor; most revenue comes from readers. Large international audience, but a UK national paper."
+  },
+  "financial-times": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Nikkei Inc.",
+    "format": "print",
+    "specialist": "business and finance",
+    "country": "United Kingdom",
+    "state_or_metro": "London",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Financial_Times",
+      "format": "https://en.wikipedia.org/wiki/Financial_Times",
+      "scope": "https://en.wikipedia.org/wiki/Financial_Times"
+    },
+    "confidence": "high",
+    "note": "Nikkei Inc. bought the FT from Pearson in 2015."
+  },
+  "the-independent": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Independent Digital News & Media (Evgeny Lebedev and Sultan Muhammad Abuljadayel)",
+    "format": "print",
+    "specialist": null,
+    "country": "United Kingdom",
+    "state_or_metro": "London",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Independent",
+      "format": "https://en.wikipedia.org/wiki/The_Independent",
+      "scope": "https://en.wikipedia.org/wiki/The_Independent"
+    },
+    "confidence": "high",
+    "note": "Print edition ended in 2016; now online only. Began as print."
+  },
+  "le-monde-english": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Groupe Le Monde (controlling shareholders include Xavier Niel and Matthieu Pigasse)",
+    "format": "print",
+    "specialist": null,
+    "country": "France",
+    "state_or_metro": "Paris",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Le_Monde",
+      "format": "https://en.wikipedia.org/wiki/Le_Monde",
+      "scope": "https://en.wikipedia.org/wiki/Le_Monde"
+    },
+    "confidence": "medium",
+    "note": "Shareholding has shifted in recent years (Niel moved his stake to an endowment fund; Křetínský held an indirect stake). Check current split before quoting."
+  },
+  "euronews": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Alpac Capital (about 88%)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "France",
+    "state_or_metro": "Lyon",
+    "sources": {
+      "ownership": "https://www.tvbeurope.com/business/alpac-capital-takes-majority-share-in-euronews",
+      "format": "https://en.wikipedia.org/wiki/Euronews",
+      "scope": "https://en.wikipedia.org/wiki/Euronews"
+    },
+    "confidence": "high",
+    "note": "Alpac Capital, a Portuguese fund, took majority control in 2022; 2024 reporting linked part of its funding to Hungarian sources. HQ in Lyon; newsroom also in Brussels."
+  },
+  "politico-europe": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Axel Springer SE",
+    "format": "print",
+    "specialist": "EU politics and policy",
+    "country": "Belgium",
+    "state_or_metro": "Brussels",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Politico_Europe",
+      "format": "https://en.wikipedia.org/wiki/Politico_Europe",
+      "scope": "https://en.wikipedia.org/wiki/Politico_Europe"
+    },
+    "confidence": "high",
+    "note": "Launched 2015 with website and a print weekly. Axel Springer took full control in 2021; after Axel Springer's 2025 split, Politico stayed with the media company controlled by Mathias Döpfner and Friede Springer."
+  },
+  "meduza": {
+    "scope": "national",
+    "ownership": "reader-funded",
+    "owner": "Medusa Project SIA (Latvia)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Latvia",
+    "state_or_metro": "Riga",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Meduza",
+      "format": "https://en.wikipedia.org/wiki/Meduza",
+      "scope": "https://en.wikipedia.org/wiki/Meduza"
+    },
+    "confidence": "medium",
+    "note": "Covers Russia from exile in Riga. Mostly funded by reader donations since 2022, plus some grants."
+  },
+  "kyiv-independent": {
+    "scope": "national",
+    "ownership": "reader-funded",
+    "owner": "Owned by its journalists (no single owner)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Ukraine",
+    "state_or_metro": "Kyiv",
+    "sources": {
+      "ownership": "https://kyivindependent.com/who-funds-the-kyiv-independent/",
+      "format": "https://en.wikipedia.org/wiki/The_Kyiv_Independent",
+      "scope": "https://en.wikipedia.org/wiki/The_Kyiv_Independent"
+    },
+    "confidence": "high",
+    "note": "About 70% of 2025 revenue came from readers (per its funding page). English-language, mainly read abroad, but covers Ukraine."
+  },
+  "rt": {
+    "scope": "international",
+    "ownership": "government-controlled",
+    "owner": "ANO TV-Novosti (Russian government)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Russia",
+    "state_or_metro": "Moscow",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/RT_(TV_network)",
+      "format": "https://en.wikipedia.org/wiki/RT_(TV_network)",
+      "scope": "https://en.wikipedia.org/wiki/RT_(TV_network)"
+    },
+    "confidence": "high"
+  },
+  "tass": {
+    "scope": "international",
+    "ownership": "government-controlled",
+    "owner": "Government of Russia (federal state unitary enterprise)",
+    "format": "wire service",
+    "specialist": null,
+    "country": "Russia",
+    "state_or_metro": "Moscow",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/TASS",
+      "format": "https://en.wikipedia.org/wiki/TASS",
+      "scope": "https://en.wikipedia.org/wiki/TASS"
+    },
+    "confidence": "high"
+  },
+  "al-jazeera": {
+    "scope": "international",
+    "ownership": "government-controlled",
+    "owner": "Al Jazeera Media Network (funded by the government of Qatar)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Qatar",
+    "state_or_metro": "Doha",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Al_Jazeera_Media_Network",
+      "format": "https://en.wikipedia.org/wiki/Al_Jazeera_Media_Network",
+      "scope": "https://en.wikipedia.org/wiki/Al_Jazeera_Media_Network"
+    },
+    "confidence": "high",
+    "note": "Legally a private foundation for public benefit, but funded by the Qatari state."
+  },
+  "the-national-uae": {
+    "scope": "national",
+    "ownership": "government-controlled",
+    "owner": "International Media Investments (owned by Sheikh Mansour bin Zayed Al Nahyan)",
+    "format": "print",
+    "specialist": null,
+    "country": "United Arab Emirates",
+    "state_or_metro": "Abu Dhabi",
+    "sources": {
+      "ownership": "https://gulfnews.com/technology/media/international-media-investments-acquires-the-national-1.1930822",
+      "format": "https://en.wikipedia.org/wiki/The_National_(Abu_Dhabi)",
+      "scope": "https://en.wikipedia.org/wiki/The_National_(Abu_Dhabi)"
+    },
+    "confidence": "medium",
+    "note": "IMI calls itself privately owned; its owner is Abu Dhabi's deputy ruler and UAE vice president. Bought from state-owned Abu Dhabi Media in 2016."
+  },
+  "haaretz": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Haaretz Group (Schocken family majority; Leonid Nevzlin minority)",
+    "format": "print",
+    "specialist": null,
+    "country": "Israel",
+    "state_or_metro": "Tel Aviv",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Haaretz",
+      "format": "https://en.wikipedia.org/wiki/Haaretz",
+      "scope": "https://en.wikipedia.org/wiki/Haaretz"
+    },
+    "confidence": "medium",
+    "note": "Wikipedia lists Schocken 75% / Nevzlin 25%; could not confirm the current split with a dated source."
+  },
+  "times-of-israel": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Times of Israel Ltd (founder David Horovitz; main investor Seth Klarman)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Israel",
+    "state_or_metro": "Jerusalem",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Times_of_Israel",
+      "format": "https://en.wikipedia.org/wiki/The_Times_of_Israel",
+      "scope": "https://en.wikipedia.org/wiki/The_Times_of_Israel"
+    },
+    "confidence": "high"
+  },
+  "al-monitor": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Crest Media LLC (Jamal Daniel)",
+    "format": "digital-native",
+    "specialist": "Middle East affairs",
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://www.prnewswire.com/il/news-releases/al-monitor-names-andrew-parasiliti-as-president-842648392.html",
+      "format": "https://en.wikipedia.org/wiki/Al-Monitor",
+      "scope": "https://en.wikipedia.org/wiki/Al-Monitor"
+    },
+    "confidence": "medium",
+    "note": "Latest ownership statement found is from 2019; no later change found, but not confirmed for 2025-2026."
+  },
+  "middle-east-eye": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Middle East Eye Ltd (UK company; director Jamal Bessasso)",
+    "format": "digital-native",
+    "specialist": "Middle East affairs",
+    "country": "United Kingdom",
+    "state_or_metro": "London",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Middle_East_Eye",
+      "format": "https://en.wikipedia.org/wiki/Middle_East_Eye",
+      "scope": "https://en.wikipedia.org/wiki/Middle_East_Eye"
+    },
+    "confidence": "medium",
+    "note": "Funders are not disclosed; outlet says private donors and denies Qatari funding."
+  },
+  "plus972-magazine": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "972 – Advancement of Citizen Journalism (Israeli nonprofit)",
+    "format": "digital-native",
+    "specialist": "Israel-Palestine",
+    "country": "Israel",
+    "state_or_metro": "Tel Aviv",
+    "sources": {
+      "ownership": "https://www.972mag.com/about/",
+      "format": "https://en.wikipedia.org/wiki/+972_Magazine",
+      "scope": "https://en.wikipedia.org/wiki/+972_Magazine"
+    },
+    "confidence": "medium",
+    "note": "Run by a group of Palestinian and Israeli journalists; publisher's exact legal name not re-verified."
+  },
+  "mondoweiss": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "Center for Economic Research and Social Change",
+    "format": "digital-native",
+    "specialist": "Israel-Palestine",
+    "country": "United States",
+    "state_or_metro": "New York",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Mondoweiss",
+      "format": "https://en.wikipedia.org/wiki/Mondoweiss",
+      "scope": "https://en.wikipedia.org/wiki/Mondoweiss"
+    },
+    "confidence": "high"
+  },
+  "xinhua": {
+    "scope": "international",
+    "ownership": "government-controlled",
+    "owner": "State Council of the People's Republic of China",
+    "format": "wire service",
+    "specialist": null,
+    "country": "China",
+    "state_or_metro": "Beijing",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Xinhua_News_Agency",
+      "format": "https://en.wikipedia.org/wiki/Xinhua_News_Agency",
+      "scope": "https://en.wikipedia.org/wiki/Xinhua_News_Agency"
+    },
+    "confidence": "high"
+  },
+  "cgtn": {
+    "scope": "international",
+    "ownership": "government-controlled",
+    "owner": "China Media Group (under the Chinese Communist Party's Central Propaganda Department)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "China",
+    "state_or_metro": "Beijing",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/CGTN",
+      "format": "https://en.wikipedia.org/wiki/CGTN",
+      "scope": "https://en.wikipedia.org/wiki/CGTN"
+    },
+    "confidence": "high"
+  },
+  "global-times": {
+    "scope": "national",
+    "ownership": "government-controlled",
+    "owner": "People's Daily (Chinese Communist Party)",
+    "format": "print",
+    "specialist": null,
+    "country": "China",
+    "state_or_metro": "Beijing",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Global_Times",
+      "format": "https://en.wikipedia.org/wiki/Global_Times",
+      "scope": "https://en.wikipedia.org/wiki/Global_Times"
+    },
+    "confidence": "high",
+    "note": "English edition aimed at foreign readers; parent is a national Chinese paper."
+  },
+  "abc-australia": {
+    "scope": "national",
+    "ownership": "public broadcaster",
+    "owner": "Australian Broadcasting Corporation (Australian Government)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Australia",
+    "state_or_metro": "Sydney",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/ABC_News_(Australia)",
+      "format": "https://en.wikipedia.org/wiki/ABC_News_(Australia)",
+      "scope": "https://en.wikipedia.org/wiki/ABC_News_(Australia)"
+    },
+    "confidence": "high"
+  },
+  "south-china-morning-post": {
+    "scope": "regional",
+    "ownership": "publicly traded company",
+    "owner": "Alibaba Group",
+    "format": "print",
+    "specialist": null,
+    "country": "Hong Kong (China)",
+    "state_or_metro": "Hong Kong",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/South_China_Morning_Post",
+      "format": "https://en.wikipedia.org/wiki/South_China_Morning_Post",
+      "scope": "https://en.wikipedia.org/wiki/South_China_Morning_Post"
+    },
+    "confidence": "medium",
+    "note": "Owned by Alibaba since 2016; 2021 reports of a possible sale, none found completed. Scope set to regional (Hong Kong SAR) though it covers China and Asia widely."
+  },
+  "japan-times": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "News2u Holdings",
+    "format": "print",
+    "specialist": null,
+    "country": "Japan",
+    "state_or_metro": "Tokyo",
+    "sources": {
+      "ownership": "https://www.fccj.or.jp/number-1-shimbun-article/new-owner-japan-times",
+      "format": "https://en.wikipedia.org/wiki/The_Japan_Times",
+      "scope": "https://en.wikipedia.org/wiki/The_Japan_Times"
+    },
+    "confidence": "high"
+  },
+  "nikkei-asia": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Nikkei Inc.",
+    "format": "print",
+    "specialist": "Asian business and economy",
+    "country": "Japan",
+    "state_or_metro": "Tokyo",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Nikkei_Asia",
+      "format": "https://en.wikipedia.org/wiki/Nikkei_Asia",
+      "scope": "https://en.wikipedia.org/wiki/Nikkei_Asia"
+    },
+    "confidence": "high",
+    "note": "Launched 2013 as Nikkei Asian Review, online plus a weekly print magazine."
+  },
+  "the-hindu": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "THG Publishing (Kasturi & Sons)",
+    "format": "print",
+    "specialist": null,
+    "country": "India",
+    "state_or_metro": "Chennai",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Hindu",
+      "format": "https://en.wikipedia.org/wiki/The_Hindu",
+      "scope": "https://en.wikipedia.org/wiki/The_Hindu"
+    },
+    "confidence": "high"
+  },
+  "the-diplomat": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "MHT Corporation (publisher: Diplomat Media Inc.)",
+    "format": "print",
+    "specialist": "Asia-Pacific affairs",
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Diplomat_(magazine)",
+      "format": "https://en.wikipedia.org/wiki/The_Diplomat_(magazine)",
+      "scope": "https://en.wikipedia.org/wiki/The_Diplomat_(magazine)"
+    },
+    "confidence": "medium",
+    "note": "Founded as a print magazine in Australia in 2001; online since 2009. Now based in Washington, D.C. (outlets.json lists Tokyo, a former HQ). Relationship between MHT and Diplomat Media not confirmed."
+  },
+  "hong-kong-free-press": {
+    "scope": "regional",
+    "ownership": "nonprofit",
+    "owner": "Hong Kong Free Press Ltd (non-profit company)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Hong Kong (China)",
+    "state_or_metro": "Hong Kong",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Hong_Kong_Free_Press",
+      "format": "https://en.wikipedia.org/wiki/Hong_Kong_Free_Press",
+      "scope": "https://en.wikipedia.org/wiki/Hong_Kong_Free_Press"
+    },
+    "confidence": "high",
+    "note": "Non-profit funded mainly by reader donations. Scope regional = Hong Kong SAR."
+  },
+  "rappler": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Rappler Holdings Corporation (Filipino-owned)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Philippines",
+    "state_or_metro": "Manila",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Rappler",
+      "format": "https://en.wikipedia.org/wiki/Rappler",
+      "scope": "https://en.wikipedia.org/wiki/Rappler"
+    },
+    "confidence": "high"
+  },
+  "the-wire-india": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "Foundation for Independent Journalism",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "India",
+    "state_or_metro": "New Delhi",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Wire_(India)",
+      "format": "https://en.wikipedia.org/wiki/The_Wire_(India)",
+      "scope": "https://en.wikipedia.org/wiki/The_Wire_(India)"
+    },
+    "confidence": "high"
+  },
+  "el-pa-s-english": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "PRISA (Promotora de Informaciones)",
+    "format": "print",
+    "specialist": null,
+    "country": "Spain",
+    "state_or_metro": "Madrid",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/El_País",
+      "format": "https://en.wikipedia.org/wiki/El_País",
+      "scope": "https://en.wikipedia.org/wiki/El_País"
+    },
+    "confidence": "high"
+  },
+  "mercopress": {
+    "scope": "regional",
+    "ownership": "privately held",
+    "owner": "MercoPress (director Gustavo Meikle); shareholders not publicly documented",
+    "format": "wire service",
+    "specialist": "South America and South Atlantic",
+    "country": "Uruguay",
+    "state_or_metro": "Montevideo",
+    "sources": {
+      "ownership": "https://en.mercopress.com/advertise",
+      "format": "https://en.mercopress.com/advertise",
+      "scope": "https://globaledge.msu.edu/global-resources/resource/6327"
+    },
+    "confidence": "medium",
+    "note": "Calls itself an independent news agency founded by Mercosur journalists; could not verify owners from a primary source."
+  },
+  "buenos-aires-times": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Editorial Perfil (Jorge Fontevecchia)",
+    "format": "print",
+    "specialist": null,
+    "country": "Argentina",
+    "state_or_metro": "Buenos Aires",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Buenos_Aires_Times",
+      "format": "https://en.wikipedia.org/wiki/Buenos_Aires_Times",
+      "scope": "https://en.wikipedia.org/wiki/Buenos_Aires_Times"
+    },
+    "confidence": "high"
+  },
+  "mexico-news-daily": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Travis and Tamanna Bembenek",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Mexico",
+    "state_or_metro": "Mexico City",
+    "sources": {
+      "ownership": "https://mexiconewsdaily.com/news/introducing-our-new-ceo-travis-bembenek/",
+      "format": "https://captimes.com/opinion/paul-fanlund/opinion-how-a-verona-high-graduate-became-a-mexican-newspaper-mogul/article_464cd7e4-687b-11ee-b000-6bc3530096dc.html",
+      "scope": "https://mexiconewsdaily.com/news/introducing-our-new-ceo-travis-bembenek/"
+    },
+    "confidence": "high",
+    "note": "Founded by Tony Richards in 2014; sold to the Bembeneks around 2022."
+  },
+  "insight-crime": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "InSight Crime Foundation",
+    "format": "digital-native",
+    "specialist": "organized crime in the Americas",
+    "country": "Colombia",
+    "state_or_metro": "Medellín",
+    "sources": {
+      "ownership": "https://insightcrime.org/about-us/",
+      "format": "https://en.wikipedia.org/wiki/InSight_Crime",
+      "scope": "https://en.wikipedia.org/wiki/InSight_Crime"
+    },
+    "confidence": "high",
+    "note": "Also has a Washington, D.C. office (with American University)."
+  },
+  "brasil-de-fato": {
+    "scope": "national",
+    "ownership": "independent",
+    "owner": "Sociedade Editorial Brasil de Fato",
+    "format": "print",
+    "specialist": null,
+    "country": "Brazil",
+    "state_or_metro": "São Paulo",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Brasil_de_Fato",
+      "format": "https://en.wikipedia.org/wiki/Brasil_de_Fato",
+      "scope": "https://en.wikipedia.org/wiki/Brasil_de_Fato"
+    },
+    "confidence": "medium",
+    "note": "Founded in 2003 as a weekly print paper by social movements including the MST. Could not confirm nonprofit status. Wikipedia reports alleged funding from groups tied to Neville Roy Singham."
+  },
+  "nacla": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "North American Congress on Latin America",
+    "format": "print",
+    "specialist": "Latin America",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/North_American_Congress_on_Latin_America",
+      "format": "https://en.wikipedia.org/wiki/North_American_Congress_on_Latin_America",
+      "scope": "https://en.wikipedia.org/wiki/North_American_Congress_on_Latin_America"
+    },
+    "confidence": "high",
+    "note": "Publishes the print quarterly NACLA Report on the Americas."
+  },
+  "telesur": {
+    "scope": "international",
+    "ownership": "government-controlled",
+    "owner": "Government of Venezuela (majority owner)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Venezuela",
+    "state_or_metro": "Caracas",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/TeleSUR",
+      "format": "https://en.wikipedia.org/wiki/TeleSUR",
+      "scope": "https://en.wikipedia.org/wiki/TeleSUR"
+    },
+    "confidence": "high",
+    "note": "Launched 2005 as a multi-state project; other governments (Argentina, Ecuador, Uruguay and others) later withdrew."
+  },
+  "africanews": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "Euronews (majority owned by Alpac Capital)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Republic of the Congo",
+    "state_or_metro": "Pointe-Noire",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Africanews",
+      "format": "https://en.wikipedia.org/wiki/Africanews",
+      "scope": "https://en.wikipedia.org/wiki/Africanews"
+    },
+    "confidence": "medium",
+    "note": "Wikipedia gives HQ as Pointe-Noire; it is run with Euronews in Lyon (outlets.json lists Lyon)."
+  }
+}

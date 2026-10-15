@@ -1,0 +1,43 @@
+name: Collect
+
+# Collects headlines from every outlet in outlets.json and commits the new data.
+# THE UPDATE INTERVAL is the cron line below: every 15 minutes, at :07, :22, :37 and :52 (off GitHub's busy
+# top of the hour). Outlets collected through Google News are checked only once an hour, whatever this says
+# (GOOGLE_EVERY in scripts/collect.py), because Google blocks frequent requests. For every 30 minutes use
+# "7,37 * * * *". GitHub runs scheduled jobs on a best-effort basis and can delay them.
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Collect feeds
+        id: collect
+        run: python3 scripts/collect.py
+      - name: Commit if something changed
+        if: steps.collect.outputs.changed == 'true'
+        run: |
+          git config user.name "coverage-index-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data data
+          git commit -m "News $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4; do
+            git push && exit 0
+            sleep $((i * 3))
+            git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort; git reset --hard "origin/${GITHUB_REF_NAME}"; python3 scripts/collect.py; git add docs/data data; git commit -m "News $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0; }
+          done
+          exit 1

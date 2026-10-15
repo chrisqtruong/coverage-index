@@ -1,0 +1,642 @@
+{
+  "allafrica": {
+    "scope": "international",
+    "ownership": "privately held",
+    "owner": "AllAfrica Global Media",
+    "format": "digital-native",
+    "specialist": "African news (aggregator)",
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/AllAfrica",
+      "format": "https://en.wikipedia.org/wiki/AllAfrica",
+      "scope": "https://en.wikipedia.org/wiki/AllAfrica"
+    },
+    "confidence": "medium",
+    "note": "Offices in Cape Town, Dakar, Abuja, Monrovia, Nairobi and Washington DC; Wikipedia lists it as Washington-based, outlets.json hq says Cape Town. Company has been described as Delaware-incorporated and as Mauritius-registered."
+  },
+  "daily-maverick": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Daily Maverick holding company (largest shareholder: Inkululeko South Africa Media, a nonprofit; no shareholder above 50%)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "South Africa",
+    "state_or_metro": "Cape Town",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Daily_Maverick",
+      "format": "https://en.wikipedia.org/wiki/Daily_Maverick",
+      "scope": "https://en.wikipedia.org/wiki/Daily_Maverick"
+    },
+    "confidence": "high",
+    "note": "Launched online in 2009; added a weekly print edition (DM168) later."
+  },
+  "mail-guardian": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Mail & Guardian Media Ltd (majority bought by Hoosain Karjieker and Thembisa Fakude, Oct 2024)",
+    "format": "print",
+    "specialist": null,
+    "country": "South Africa",
+    "state_or_metro": "Johannesburg",
+    "sources": {
+      "ownership": "https://www.mdif.org/news/mdif-exits-south-africas-mail-guardian/",
+      "format": "https://mg.co.za/about-us/",
+      "scope": "https://en.wikipedia.org/wiki/Mail_%26_Guardian"
+    },
+    "confidence": "high",
+    "note": "Ownership changed Oct 2024 when the nonprofit fund MDIF sold its majority stake; the M&G About page still describes MDIF as owner."
+  },
+  "premium-times": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Premium Times Services Limited",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Nigeria",
+    "state_or_metro": "Abuja",
+    "sources": {
+      "ownership": "https://www.premiumtimesng.com/about",
+      "format": "https://en.wikipedia.org/wiki/Dapo_Olorunyomi",
+      "scope": "https://www.premiumtimesng.com/about"
+    },
+    "confidence": "high",
+    "note": null
+  },
+  "african-arguments": {
+    "scope": "international",
+    "ownership": "nonprofit",
+    "owner": "Royal African Society",
+    "format": "digital-native",
+    "specialist": "African affairs",
+    "country": "United Kingdom",
+    "state_or_metro": "London",
+    "sources": {
+      "ownership": "https://africanarguments.org/about-african-arguments/",
+      "format": "https://royalafricansociety.org/whatwedo/publications/arguments/",
+      "scope": "https://royalafricansociety.org/whatwedo/publications/arguments/"
+    },
+    "confidence": "high",
+    "note": "Describes itself as an editorially independent platform hosted by the Royal African Society, a UK charity."
+  },
+  "baltimore-banner": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "Venetoulis Institute for Local Journalism",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Maryland / Baltimore",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Baltimore_Banner",
+      "format": "https://en.wikipedia.org/wiki/The_Baltimore_Banner",
+      "scope": "https://en.wikipedia.org/wiki/The_Baltimore_Banner"
+    },
+    "confidence": "high",
+    "note": "Founded 2022 with funding from Stewart Bainum Jr."
+  },
+  "baltimore-sun": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "David D. Smith (Sinclair executive chairman, bought personally, not through Sinclair)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Maryland / Baltimore",
+    "sources": {
+      "ownership": "https://thedailyrecord.com/2025/07/31/david-smith-2/",
+      "format": "https://en.wikipedia.org/wiki/The_Baltimore_Sun",
+      "scope": "https://en.wikipedia.org/wiki/The_Baltimore_Sun"
+    },
+    "confidence": "high",
+    "note": "Bought from Alden Global Capital in Jan 2024. Wikipedia also lists Armstrong Williams as a co-owner with an undisclosed stake."
+  },
+  "baltimore-fishbowl": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "Susan Gerardo Dunn (founder) with Bowled Over Investments LLC (Ken Ulman, David and Karen Nitkin)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Maryland / Baltimore",
+    "sources": {
+      "ownership": "https://baltimorefishbowl.com/stories/ken-ulman-david-and-karen-nitkin-buy-stake-in-baltimore-fishbowl/",
+      "format": "https://baltimorefishbowl.com/stories/ken-ulman-david-and-karen-nitkin-buy-stake-in-baltimore-fishbowl/",
+      "scope": "https://baltimorefishbowl.com/stories/ken-ulman-david-and-karen-nitkin-buy-stake-in-baltimore-fishbowl/"
+    },
+    "confidence": "medium",
+    "note": "Ownership source is a 2019 article; could not find a current About page (404) to confirm present owners."
+  },
+  "baltimore-brew": {
+    "scope": "local",
+    "ownership": "independent",
+    "owner": "Fern Shen (founder, editor, publisher)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Maryland / Baltimore",
+    "sources": {
+      "ownership": "https://baltimorebrew.com/about",
+      "format": "https://en.wikipedia.org/wiki/Baltimore_Brew",
+      "scope": "https://baltimorebrew.com/about"
+    },
+    "confidence": "medium",
+    "note": "'Independent' because it is a small LLC, not a registered nonprofit, but funded by reader contributions and foundation grants through a fiscal sponsor (Fusion Partnerships); no paywall. Some directories wrongly call it a nonprofit."
+  },
+  "the-real-news-network": {
+    "scope": "national",
+    "ownership": "nonprofit",
+    "owner": "Independent World Television, Inc.",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Maryland / Baltimore",
+    "sources": {
+      "ownership": "https://www.guidestar.org/profile/01-0808098",
+      "format": "https://en.wikipedia.org/wiki/The_Real_News",
+      "scope": "https://en.wikipedia.org/wiki/The_Real_News"
+    },
+    "confidence": "high",
+    "note": "501(c)(3); takes no advertising, government or corporate funding. Video-first online outlet, founded in Toronto, moved to Baltimore in 2014."
+  },
+  "houston-chronicle": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "Hearst Communications",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Texas / Houston",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Houston_Chronicle",
+      "format": "https://en.wikipedia.org/wiki/Houston_Chronicle",
+      "scope": "https://en.wikipedia.org/wiki/Houston_Chronicle"
+    },
+    "confidence": "high",
+    "note": null
+  },
+  "houston-public-media": {
+    "scope": "local",
+    "ownership": "public broadcaster",
+    "owner": "University of Houston (licensee of KUHF and KUHT)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Texas / Houston",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Houston_Public_Media",
+      "format": "https://en.wikipedia.org/wiki/Houston_Public_Media",
+      "scope": "https://en.wikipedia.org/wiki/Houston_Public_Media"
+    },
+    "confidence": "high",
+    "note": "NPR and PBS member stations."
+  },
+  "houston-press": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "Undisclosed (sold by Voice Media Group to an anonymous buyer in 2021)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Texas / Houston",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Houston_Press",
+      "format": "https://en.wikipedia.org/wiki/Voice_Media_Group",
+      "scope": "https://en.wikipedia.org/wiki/Houston_Press"
+    },
+    "confidence": "medium",
+    "note": "Alt-weekly that ended print in 2020 and is online-only. Owner has not been publicly named since the 2021 sale."
+  },
+  "texas-tribune": {
+    "scope": "regional",
+    "ownership": "nonprofit",
+    "owner": "The Texas Tribune (nonprofit)",
+    "format": "digital-native",
+    "specialist": "Texas politics and public policy",
+    "country": "United States",
+    "state_or_metro": "Texas / Austin",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Texas_Tribune",
+      "format": "https://en.wikipedia.org/wiki/The_Texas_Tribune",
+      "scope": "https://en.wikipedia.org/wiki/The_Texas_Tribune"
+    },
+    "confidence": "high",
+    "note": "Statewide; based in Austin (outlets.json groups it under Houston)."
+  },
+  "philadelphia-inquirer": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "The Lenfest Institute for Journalism",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Pennsylvania / Philadelphia",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Philadelphia_Inquirer",
+      "format": "https://en.wikipedia.org/wiki/The_Philadelphia_Inquirer",
+      "scope": "https://en.wikipedia.org/wiki/The_Philadelphia_Inquirer"
+    },
+    "confidence": "high",
+    "note": "The Inquirer itself is a for-profit public benefit corporation wholly owned by the nonprofit Lenfest Institute."
+  },
+  "whyy": {
+    "scope": "local",
+    "ownership": "public broadcaster",
+    "owner": "WHYY, Inc.",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Pennsylvania / Philadelphia",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/WHYY-FM",
+      "format": "https://en.wikipedia.org/wiki/WHYY-FM",
+      "scope": "https://en.wikipedia.org/wiki/WHYY-FM"
+    },
+    "confidence": "high",
+    "note": "NPR and PBS member; serves the Philadelphia region including South Jersey and Delaware."
+  },
+  "philadelphia-tribune": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "The Philadelphia Tribune Company, Inc.",
+    "format": "print",
+    "specialist": "African American community",
+    "country": "United States",
+    "state_or_metro": "Pennsylvania / Philadelphia",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Philadelphia_Tribune",
+      "format": "https://en.wikipedia.org/wiki/The_Philadelphia_Tribune",
+      "scope": "https://en.wikipedia.org/wiki/The_Philadelphia_Tribune"
+    },
+    "confidence": "high",
+    "note": "Founded 1884; oldest continuously published African American newspaper in the US."
+  },
+  "billy-penn": {
+    "scope": "local",
+    "ownership": "public broadcaster",
+    "owner": "WHYY, Inc.",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Pennsylvania / Philadelphia",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Billy_Penn_(website)",
+      "format": "https://en.wikipedia.org/wiki/Billy_Penn_(website)",
+      "scope": "https://en.wikipedia.org/wiki/Billy_Penn_(website)"
+    },
+    "confidence": "high",
+    "note": "Founded 2014; acquired by public broadcaster WHYY in 2019."
+  },
+  "philadelphia-citizen": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "The Philadelphia Citizen (501(c)(3))",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Pennsylvania / Philadelphia",
+    "sources": {
+      "ownership": "https://thephiladelphiacitizen.org/about/",
+      "format": "https://thephiladelphiacitizen.org/about/",
+      "scope": "https://thephiladelphiacitizen.org/about/"
+    },
+    "confidence": "high",
+    "note": "Member-supported; focuses on civic solutions journalism."
+  },
+  "wamu": {
+    "scope": "local",
+    "ownership": "public broadcaster",
+    "owner": "American University",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/WAMU",
+      "format": "https://en.wikipedia.org/wiki/WAMU",
+      "scope": "https://en.wikipedia.org/wiki/WAMU"
+    },
+    "confidence": "high",
+    "note": "NPR member station."
+  },
+  "washington-city-paper": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "MDE City Paper Holdings, LLC (Mark Ein)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://washingtoncitypaper.com/about-us/",
+      "format": "https://washingtoncitypaper.com/about-us/",
+      "scope": "https://washingtoncitypaper.com/about-us/"
+    },
+    "confidence": "high",
+    "note": "Founded 1981 as a print weekly; last regular print edition May 2022, now online-only with a membership program."
+  },
+  "the-51st": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "The 51st (501(c)(3), worker-led)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://51st.news/about/",
+      "format": "https://51st.news/about/",
+      "scope": "https://51st.news/about/"
+    },
+    "confidence": "high",
+    "note": "Founded 2024 by former DCist and WAMU staff after WAMU closed DCist."
+  },
+  "washingtonian": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "Washingtonian Media Inc. (Merrill family)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "District of Columbia / Washington",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Washingtonian_(magazine)",
+      "format": "https://en.wikipedia.org/wiki/Washingtonian_(magazine)",
+      "scope": "https://en.wikipedia.org/wiki/Washingtonian_(magazine)"
+    },
+    "confidence": "high",
+    "note": "Monthly city magazine founded 1965."
+  },
+  "gothamist": {
+    "scope": "local",
+    "ownership": "public broadcaster",
+    "owner": "New York Public Radio (WNYC)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Gothamist",
+      "format": "https://en.wikipedia.org/wiki/Gothamist",
+      "scope": "https://en.wikipedia.org/wiki/Gothamist"
+    },
+    "confidence": "high",
+    "note": "Founded 2003 as a blog; acquired by WNYC in 2018."
+  },
+  "the-city": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "The City (nonprofit)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_City_(website)",
+      "format": "https://en.wikipedia.org/wiki/The_City_(website)",
+      "scope": "https://en.wikipedia.org/wiki/The_City_(website)"
+    },
+    "confidence": "high",
+    "note": "Launched 2019."
+  },
+  "city-limits": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "City Limits (501(c)(3))",
+    "format": "print",
+    "specialist": "housing, poverty and low-income neighborhoods",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://citylimits.org/about-us/",
+      "format": "https://citylimits.org/about-us/",
+      "scope": "https://citylimits.org/about-us/"
+    },
+    "confidence": "high",
+    "note": "Founded 1976 as a print magazine; all-digital since 2013, relaunched as an independent nonprofit in 2014."
+  },
+  "documented": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "Documented (nonprofit)",
+    "format": "digital-native",
+    "specialist": "immigrant communities",
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://documentedny.com/about",
+      "format": "https://editorandpublisher.com/stories/documented-empowers-new-york-citys-immigrants,251939",
+      "scope": "https://documentedny.com/about"
+    },
+    "confidence": "high",
+    "note": "Founded 2018; publishes in English, Spanish, Chinese and Haitian Kreyol. Co-founder Mazin Sidahmed was appointed to a NYC mayoral office in Sept 2026, so leadership may change."
+  },
+  "new-york-daily-news": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "Alden Global Capital (via Tribune Publishing)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/New_York_Daily_News",
+      "format": "https://en.wikipedia.org/wiki/New_York_Daily_News",
+      "scope": "https://en.wikipedia.org/wiki/New_York_Daily_News"
+    },
+    "confidence": "high",
+    "note": "Alden took Tribune Publishing private in 2021."
+  },
+  "hell-gate": {
+    "scope": "local",
+    "ownership": "reader-funded",
+    "owner": "Its journalists (worker-owned)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "New York / New York City",
+    "sources": {
+      "ownership": "https://hellgatenyc.com/about/",
+      "format": "https://hellgatenyc.com/about/",
+      "scope": "https://hellgatenyc.com/about/"
+    },
+    "confidence": "high",
+    "note": "Worker-owned and subscriber-funded; launched 2022."
+  },
+  "los-angeles-times": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "Patrick Soon-Shiong (Los Angeles Times Communications LLC / Nant Capital)",
+    "format": "print",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "California / Los Angeles",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Los_Angeles_Times",
+      "format": "https://en.wikipedia.org/wiki/Los_Angeles_Times",
+      "scope": "https://en.wikipedia.org/wiki/Los_Angeles_Times"
+    },
+    "confidence": "medium",
+    "note": "Soon-Shiong is taking the parent (LA Times Media Group) public via a Reg A offering, with an NYSE listing as 'LAT' planned for late 2026 or 2027. I found no confirmation it has listed yet, so it is labeled privately held; recheck."
+  },
+  "laist": {
+    "scope": "local",
+    "ownership": "public broadcaster",
+    "owner": "Southern California Public Radio (LAist / LA Public Media)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "California / Los Angeles",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/LAist",
+      "format": "https://en.wikipedia.org/wiki/LAist",
+      "scope": "https://en.wikipedia.org/wiki/LAist"
+    },
+    "confidence": "medium",
+    "note": "LAist began as a website (acquired 2018) but the brand now covers SCPR's radio station KPCC, renamed LAist 89.3 in 2023; format set to broadcast for the organization. Could be 'digital-native' if labeling the website alone."
+  },
+  "la-taco": {
+    "scope": "local",
+    "ownership": "reader-funded",
+    "owner": "Independently owned (owners not named on its site)",
+    "format": "digital-native",
+    "specialist": "food, culture and community in Los Angeles",
+    "country": "United States",
+    "state_or_metro": "California / Los Angeles",
+    "sources": {
+      "ownership": "https://lataco.com/about",
+      "format": "https://lataco.com/about",
+      "scope": "https://lataco.com/about"
+    },
+    "confidence": "medium",
+    "note": "Funded mainly by paying members plus ads and sponsorships. Started 2006 as a street art and street food project, relaunched as a news site in 2018. Owner not publicly named."
+  },
+  "knock-la": {
+    "scope": "local",
+    "ownership": "reader-funded",
+    "owner": "Knock LA (independent since 2024; originally a project of Ground Game LA)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "California / Los Angeles",
+    "sources": {
+      "ownership": "https://www.calonews.com/communities/los-angeles/knock-la-writers-locked-out-of-newsroom-after-a-disagreement-with-ground-game-la/article_2c349e24-032a-11ef-84e7-6b8944098e8f.html",
+      "format": "https://knock-la.com/about-us/",
+      "scope": "https://knock-la.com/about-us/"
+    },
+    "confidence": "medium",
+    "note": "Funded by reader donations, no advertising. In April 2024 its staff split from Ground Game LA (a 501(c)(4)) and incorporated separately, seeking 501(c)(3) status; its About page still says 'a project by Ground Game LA'. Could not confirm current legal status."
+  },
+  "calmatters": {
+    "scope": "regional",
+    "ownership": "nonprofit",
+    "owner": "CalMatters (nonprofit)",
+    "format": "digital-native",
+    "specialist": "California state policy and politics",
+    "country": "United States",
+    "state_or_metro": "California / Sacramento",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/CalMatters",
+      "format": "https://en.wikipedia.org/wiki/CalMatters",
+      "scope": "https://en.wikipedia.org/wiki/CalMatters"
+    },
+    "confidence": "high",
+    "note": "Statewide; based in Sacramento (outlets.json groups it under Los Angeles)."
+  },
+  "la-public-press": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "LA Public Press (nonprofit; founder Matthew Tinoco)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "California / Los Angeles",
+    "sources": {
+      "ownership": "https://newsjunkie.net/entity/la-public-press",
+      "format": "https://lapublicpress.org/2025/08/california-community-foundation-makes-pivotal-investment-in-la-public-press/",
+      "scope": "https://lapublicpress.org/2025/08/california-community-foundation-makes-pivotal-investment-in-la-public-press/"
+    },
+    "confidence": "high",
+    "note": "Founded 2022; funded by memberships and foundation grants, no paywall. Its About page blocked automated fetch."
+  },
+  "afro": {
+    "scope": "local",
+    "ownership": "privately held",
+    "owner": "AFRO-American Newspapers (Murphy family)",
+    "format": "print",
+    "specialist": "African American community",
+    "country": "United States",
+    "state_or_metro": "Maryland / Baltimore",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Baltimore_Afro-American",
+      "format": "https://en.wikipedia.org/wiki/Baltimore_Afro-American",
+      "scope": "https://en.wikipedia.org/wiki/Baltimore_Afro-American"
+    },
+    "confidence": "high",
+    "note": "Founded 1892; family-owned, led by publisher and CEO Frances 'Toni' Draper. Also covers Washington DC."
+  },
+  "wypr": {
+    "scope": "local",
+    "ownership": "public broadcaster",
+    "owner": "Your Public Radio Corporation (Baltimore Public Media)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Maryland / Baltimore",
+    "sources": {
+      "ownership": "https://www.wypr.org/administrative/2024-02-26/wypr-and-wtmd-combine-forces-redefine-community-centric-broadcasting-as-baltimore-public-media",
+      "format": "https://www.wypr.org/administrative/2024-02-26/wypr-and-wtmd-combine-forces-redefine-community-centric-broadcasting-as-baltimore-public-media",
+      "scope": "https://www.wypr.org/administrative/2024-02-26/wypr-and-wtmd-combine-forces-redefine-community-centric-broadcasting-as-baltimore-public-media"
+    },
+    "confidence": "high",
+    "note": "NPR member station; combined with WTMD under the Baltimore Public Media name in Feb 2024."
+  },
+  "houston-landing": {
+    "scope": "local",
+    "ownership": "nonprofit",
+    "owner": "Houston Landing (nonprofit; closed)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "United States",
+    "state_or_metro": "Texas / Houston",
+    "sources": {
+      "ownership": "https://www.houstonlanding.org/houston-landing-to-cease-operations-in-face-of-financial-challenges/",
+      "format": "https://www.niemanlab.org/2025/07/what-went-wrong-at-the-houston-landing/",
+      "scope": "https://www.niemanlab.org/2025/07/what-went-wrong-at-the-houston-landing/"
+    },
+    "confidence": "high",
+    "note": "Closed: the board voted in April 2025 to shut down, and it stopped publishing in May 2025. That explains the stale feed."
+  },
+  "nhk-world": {
+    "scope": "international",
+    "ownership": "public broadcaster",
+    "owner": "NHK (Japan Broadcasting Corporation)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Japan",
+    "state_or_metro": "Tokyo",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/NHK",
+      "format": "https://en.wikipedia.org/wiki/NHK_World-Japan",
+      "scope": "https://en.wikipedia.org/wiki/NHK_World-Japan"
+    },
+    "confidence": "high",
+    "note": "NHK is funded by receiving fees under the Broadcasting Act; its budget needs approval by the Diet, and NHK World's international service also receives some government funding."
+  },
+  "afp": {
+    "scope": "international",
+    "ownership": "independent",
+    "owner": "Agence France-Presse (autonomous body under French law of 10 January 1957; no shareholders)",
+    "format": "wire service",
+    "specialist": null,
+    "country": "France",
+    "state_or_metro": "Paris",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Agence_France-Presse",
+      "format": "https://en.wikipedia.org/wiki/Agence_France-Presse",
+      "scope": "https://en.wikipedia.org/wiki/Agence_France-Presse"
+    },
+    "confidence": "medium",
+    "note": "None of the categories fits exactly. A 1957 law makes AFP independent of the French government, and its statutes forbid control by any political or economic group. About one-third of revenue comes from the French state as payment for its public-interest mission, and 3 of 15 board seats are government appointees. Labeled 'independent'; 'public broadcaster' (public funding plus legal independence) is the closest alternative, but AFP is not a broadcaster."
+  }
+}

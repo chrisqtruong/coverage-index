@@ -1,0 +1,14 @@
+name: Check
+
+on:
+  push:
+    paths: ["scripts/**", "tests/**", "outlets.json", "categories.json", "places.json"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tests/test_collect.py
+      - run: python3 -c "import json; [json.load(open(f)) for f in ('outlets.json', 'categories.json', 'places.json')]"

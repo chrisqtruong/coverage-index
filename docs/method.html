@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coverage Index: Method</title>
+<meta name="description" content="How Coverage Index collects, groups, categorizes and counts news stories, where AI is and is not used, and how to check it.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d0f0c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="doc">
+<header class="top">
+  <h1><a href="./">Coverage Index</a></h1>
+  <nav class="when" aria-label="Pages"><a href="./">Stories</a><a href="method.html" aria-current="page">Method</a></nav>
+</header>
+
+<main class="method">
+<h2>Method</h2>
+<p>This page states how the site produces what it shows. Every figure below is read from the published data files, which are written by the code itself. Version: <span id="m-version">loading</span>.</p>
+
+<nav aria-label="Sections" class="toc">
+  <a href="#ai">1. Use of AI</a> <a href="#collect">2. Collection</a> <a href="#group">3. Grouping</a> <a href="#cat">4. Categories</a>
+  <a href="#count">5. Coverage counts</a> <a href="#rank">6. Ranking</a> <a href="#labels">7. Outlet labels</a>
+  <a href="#check">8. How to check this</a> <a href="#limits">9. Known limitations</a>
+</nav>
+
+<section id="ai">
+<h3>1. Use of AI</h3>
+<table class="facts">
+  <thead><tr><th>Step</th><th>Performed by</th><th>AI used</th></tr></thead>
+  <tbody>
+    <tr><td>Collecting headlines</td><td>A Python script reading each outlet's public RSS or Atom feed, run every 15 minutes by GitHub Actions</td><td>No</td></tr>
+    <tr><td>Grouping stories into events</td><td>Word-overlap arithmetic with fixed thresholds (section 3)</td><td>No</td></tr>
+    <tr><td>Assigning categories</td><td>Fixed keyword, section-tag and web-address rules (section 4)</td><td>No</td></tr>
+    <tr><td>Coverage counts, reprints, ranking</td><td>Counting and sorting (sections 5 and 6)</td><td>No</td></tr>
+    <tr><td>Daily digest</td><td>The same counts, written to a fixed template</td><td>No</td></tr>
+    <tr><td>Summaries of articles</td><td>None are written. The site shows each outlet's own headline and the first characters of its own feed summary.</td><td>No</td></tr>
+    <tr><td>Writing the software</td><td>Claude (Anthropic), directed and reviewed by the site's owner. Commits it contributed carry a "Co-Authored-By: Claude" line in the public history.</td><td>Yes</td></tr>
+    <tr><td>Researching outlet labels</td><td>Claude, citing a source URL for each label (section 7). Each label is marked unverified until a person checks it.</td><td>Yes</td></tr>
+  </tbody>
+</table>
+<p>No AI model runs when the site updates or when a page is viewed. The code that runs contains no calls to any AI service; this can be confirmed by reading <a href="https://github.com/chrisqtruong/coverage-index/blob/main/scripts/collect.py">scripts/collect.py</a> and <a href="https://github.com/chrisqtruong/coverage-index/blob/main/docs/app.js">docs/app.js</a>.</p>
+</section>
+
+<section id="collect">
+<h3>2. Collection</h3>
+<ul>
+  <li>Sources: the outlets listed in <a href="https://github.com/chrisqtruong/coverage-index/blob/main/outlets.json">outlets.json</a>, <span id="m-outlets"></span>.</li>
+  <li>Each outlet's own feed is used where one works. Where it does not, a Google News search restricted to the outlet's web address is used, and the outlet is marked as such. Outlets with no usable feed are listed as unavailable.</li>
+  <li>Schedule: every 15 minutes (at :07, :22, :37 and :52), by GitHub Actions. Outlets collected through Google News are checked once an hour, because Google blocks frequent requests. GitHub runs scheduled jobs on a best-effort basis, so a run can start late.</li>
+  <li>Requests identify the site: <code id="m-ua"></code>. Requests repeat the previous ETag and Last-Modified values, so unchanged feeds are not downloaded again.</li>
+  <li>Stored per story: headline, link, publication time, position in the outlet's feed, the outlet's section tags, a photo link, and the first <span id="m-summary"></span> characters of the outlet's feed summary. Article text is not stored.</li>
+  <li>Photos are the article's own preview image (the image a link preview shows), loaded from the outlet's site, never copied. Up to <span id="m-photos"></span> article pages are read per run to find one. Stories collected through Google News have no photo.</li>
+  <li>A feed that fails is recorded with its error and time; it does not stop the run. Current status is shown at the foot of the main page.</li>
+</ul>
+</section>
+
+<section id="group">
+<h3>3. Grouping stories into events</h3>
+<ol>
+  <li>Each headline, plus the start of its summary, is reduced to a list of words: lower case, common words removed, simple endings removed ("protests" and "protest" become one word). Headline words count twice.</li>
+  <li>Each word is weighted by how rare it is that day (TF-IDF). Words appearing in more than 5% of the day's stories are ignored.</li>
+  <li>Two stories are compared by cosine similarity, a score from 0 (no shared words) to 1 (identical word lists).</li>
+  <li>Two stories may join only if all of the following hold:
+    <ul>
+      <li>they come from different outlets;</li>
+      <li>their score is at least <b id="m-pair"></b>;</li>
+      <li>the two groups they belong to also score at least <b id="m-group"></b> as wholes, which prevents one loose match chaining unrelated stories together;</li>
+      <li>if both groups name places (from a list of <span id="m-places"></span> country, state and city names), they share at least one.</li>
+    </ul></li>
+  <li>Strongest matches are joined first. The result is the same every time for the same input.</li>
+  <li>Week, month and year views join a day's groups to groups up to <span id="m-link"></span> days apart, with the stricter thresholds 0.35 and 0.30.</li>
+</ol>
+<p>Every group on the site lists all of its headlines, so a wrong match is visible to the reader.</p>
+</section>
+
+<section id="cat">
+<h3>4. Categories</h3>
+<p>A story receives every one of the <span id="m-cats"></span> categories whose rules it matches, from <a href="https://github.com/chrisqtruong/coverage-index/blob/main/categories.json">categories.json</a>. For each category the first matching reason is recorded and shown with the story, checked in this order:</p>
+<ol>
+  <li>the outlet's own section tag in its feed (for example "Politics");</li>
+  <li>a part of the article's web address (for example /business/);</li>
+  <li>a listed keyword in the headline.</li>
+</ol>
+<p>World: the headline names a country other than the United States. U.S.: the outlet is based in the United States and the headline names no other country, or a U.S. rule above matched. A story that matches no rule has no category and appears only under all categories.</p>
+</section>
+
+<section id="count">
+<h3>5. Coverage counts</h3>
+<ul>
+  <li>The count for an event is the number of different outlets, among those currently selected, that published a story in its group. Each outlet counts once.</li>
+  <li>The comparison figure is the number of selected outlets that published anything in the same day or period.</li>
+  <li>Reprints: when a story's headline exactly matches another story in its group, it is marked as a reprint of the earlier outlet, or of a wire service if one ran it. By default a reprint counts as the outlet it repeats. The "count reprints" option counts it as its own outlet.</li>
+  <li>The "Not covered" list on each event shows the selected outlets that published that day but not this story.</li>
+  <li>Key terms: the words that appear in some headlines of a group and not in others, with the number of headlines containing each. No interpretation is added.</li>
+</ul>
+</section>
+
+<section id="rank">
+<h3>6. Ranking</h3>
+<ul>
+  <li>Coverage (default): events ordered by their coverage count, then by most recent story.</li>
+  <li>Outlets' picks: each outlet's top three stories in the order of its own feed. Outlets collected through Google News have no own order; their newest stories are shown and marked.</li>
+  <li>Newest: events ordered by their most recent story.</li>
+</ul>
+<p>The count depends on which outlets are selected. The source list contains more outlets based in North America than elsewhere (section 7), so with all outlets selected, events covered by U.S. outlets are more likely to rank high. Selecting a region removes this effect.</p>
+</section>
+
+<section id="labels">
+<h3>7. Outlet labels</h3>
+<p id="m-labelnote"></p>
+<p>Media types are derived from the labels by fixed rules:</p>
+<ul id="m-media"></ul>
+<p>Outlets by region: <span id="m-regions"></span>.</p>
+<p>Verification status: <b id="m-verified"></b>.</p>
+<div class="table-wrap">
+<table class="facts labels" id="m-table">
+  <thead><tr><th>Outlet</th><th>Based in</th><th>Scope</th><th>Ownership</th><th>Owner</th><th>Format</th><th>Feed</th><th>Sources</th><th>Status</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+</section>
+
+<section id="check">
+<h3>8. How to check this</h3>
+<ul>
+  <li><b>Code and data are public.</b> The repository contains the collector, the page, the rule files and every saved day of data: <a href="https://github.com/chrisqtruong/coverage-index">github.com/chrisqtruong/coverage-index</a>.</li>
+  <li><b>Every update is logged.</b> Each run has a public log in <a href="https://github.com/chrisqtruong/coverage-index/actions">GitHub Actions</a> and, if anything changed, a commit with a timestamp in the <a href="https://github.com/chrisqtruong/coverage-index/commits/main">commit history</a>. Latest run: <span id="m-run"></span>.</li>
+  <li><b>Results can be reproduced.</b> With the repository downloaded, <code>python3 scripts/collect.py --offline</code> recomputes groups, categories, counts and roundups from the saved stories without contacting any outlet. The output should match the published files exactly.</li>
+  <li><b>The rules are tested.</b> <code>python3 tests/test_collect.py</code> runs fixed cases, including stories that must join and stories that must not (different countries, same outlet).</li>
+  <li><b>Reasons are shown.</b> Each event lists every headline, and each category shows the rule that assigned it.</li>
+</ul>
+</section>
+
+<section id="limits">
+<h3>9. Known limitations</h3>
+<ul>
+  <li>Grouping uses shared words. Two reports of one event with different wording may stay separate; two different events with similar wording may join.</li>
+  <li>Category keywords are in English and match whole words only. About a quarter of stories match no category.</li>
+  <li>The source list is not a representative sample of world media. It is weighted toward English-language and U.S. outlets.</li>
+  <li>Google News results depend on Google's index and can be incomplete.</li>
+  <li>Labels describe ownership and format at the time of research and can change.</li>
+  <li>Headlines and summaries are the outlets' own and are not checked for accuracy.</li>
+</ul>
+</section>
+</main>
+
+<footer class="foot"><p>Questions or corrections: open an issue at <a href="https://github.com/chrisqtruong/coverage-index/issues">github.com/chrisqtruong/coverage-index/issues</a>.</p></footer>
+<script src="method.js"></script>
+</body>
+</html>

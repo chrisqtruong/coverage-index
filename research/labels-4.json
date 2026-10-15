@@ -1,0 +1,378 @@
+{
+  "nation-kenya": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Nation Media Group (listed on the Nairobi Securities Exchange; largest shareholder is the Aga Khan Fund for Economic Development)",
+    "format": "print",
+    "specialist": null,
+    "country": "Kenya",
+    "state_or_metro": "Nairobi",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Daily_Nation",
+      "format": "https://en.wikipedia.org/wiki/Daily_Nation",
+      "scope": "https://en.wikipedia.org/wiki/Daily_Nation"
+    },
+    "confidence": "high",
+    "note": "Daily Nation newspaper; founded 1958 as Taifa."
+  },
+  "punch": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Punch Nigeria Limited (controlled by the Aboderin family)",
+    "format": "print",
+    "specialist": null,
+    "country": "Nigeria",
+    "state_or_metro": "Lagos",
+    "sources": {
+      "ownership": "https://archive.businessday.ng/editorial/article/kudos-new-team-punch/",
+      "format": "https://en.wikipedia.org/wiki/The_Punch",
+      "scope": "https://en.wikipedia.org/wiki/The_Punch"
+    },
+    "confidence": "medium",
+    "note": "Head office appears to have moved from Mangoro (Lagos) to Magboro, just over the border in Ogun State, Lagos metro area; not confirmed from a primary source."
+  },
+  "mada-masr": {
+    "scope": "national",
+    "ownership": "independent",
+    "owner": "Mada Masr Media Company (founded 2013 by its journalists)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Egypt",
+    "state_or_metro": "Cairo",
+    "sources": {
+      "ownership": "https://www.thecairoreview.com/midan/egyptian-reporters-reloaded/",
+      "format": "https://en.wikipedia.org/wiki/Mada_Masr",
+      "scope": "https://en.wikipedia.org/wiki/Mada_Masr"
+    },
+    "confidence": "medium",
+    "note": "'Independent' because it is a journalist-founded company, not a registered nonprofit; funding has come mainly from foundation grants plus a reader membership program (since 2017). Current ownership breakdown not public."
+  },
+  "egypt-independent": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Al-Masry Al-Youm for Journalism and Publication",
+    "format": "print",
+    "specialist": null,
+    "country": "Egypt",
+    "state_or_metro": "Cairo",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Al-Masry_Al-Youm",
+      "format": "https://en.wikipedia.org/wiki/Al-Masry_Al-Youm",
+      "scope": "https://en.wikipedia.org/wiki/Al-Masry_Al-Youm"
+    },
+    "confidence": "high",
+    "note": "English-language edition of the private daily Al-Masry Al-Youm; it had a weekly print edition before closing in 2013 and relaunching online in 2014."
+  },
+  "news24": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Media24 (subsidiary of Naspers, listed on the JSE)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "South Africa",
+    "state_or_metro": "Cape Town",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/News24_(website)",
+      "format": "https://en.wikipedia.org/wiki/News24_(website)",
+      "scope": "https://en.wikipedia.org/wiki/News24_(website)"
+    },
+    "confidence": "high"
+  },
+  "the-eastafrican": {
+    "scope": "regional",
+    "ownership": "publicly traded company",
+    "owner": "Nation Media Group (listed on the Nairobi Securities Exchange)",
+    "format": "print",
+    "specialist": null,
+    "country": "Kenya",
+    "state_or_metro": "Nairobi",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_EastAfrican",
+      "format": "https://en.wikipedia.org/wiki/The_EastAfrican",
+      "scope": "https://en.wikipedia.org/wiki/The_EastAfrican"
+    },
+    "confidence": "high",
+    "note": "Weekly paper covering the East African Community countries; 'regional' here means East Africa, not a sub-national region."
+  },
+  "ahram-online": {
+    "scope": "national",
+    "ownership": "government-controlled",
+    "owner": "Al-Ahram Establishment (state-owned; overseen by Egypt's National Press Authority)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Egypt",
+    "state_or_metro": "Cairo",
+    "sources": {
+      "ownership": "https://statemediamonitor.com/2026/06/national-press-authority-npa/",
+      "format": "https://en.wikipedia.org/wiki/Al-Ahram",
+      "scope": "https://en.wikipedia.org/wiki/Al-Ahram"
+    },
+    "confidence": "high",
+    "note": "Ahram Online is the English news website of the state-owned Al-Ahram daily; the site itself has no print edition."
+  },
+  "addis-standard": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "JAKENN Publishing PLC (founded by Tsedale Lemma)",
+    "format": "print",
+    "specialist": null,
+    "country": "Ethiopia",
+    "state_or_metro": "Addis Ababa",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Addis_Standard",
+      "format": "https://en.wikipedia.org/wiki/Addis_Standard",
+      "scope": "https://en.wikipedia.org/wiki/Addis_Standard"
+    },
+    "confidence": "high",
+    "note": "Began as a monthly print magazine in 2011; now mainly online."
+  },
+  "daily-monitor-uganda": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Monitor Publications Limited (majority-owned by Nation Media Group, listed on the Nairobi Securities Exchange)",
+    "format": "print",
+    "specialist": null,
+    "country": "Uganda",
+    "state_or_metro": "Kampala",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Daily_Monitor",
+      "format": "https://en.wikipedia.org/wiki/Daily_Monitor",
+      "scope": "https://en.wikipedia.org/wiki/Daily_Monitor"
+    },
+    "confidence": "high"
+  },
+  "the-guardian-nigeria": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Guardian Newspapers Limited (Ibru family)",
+    "format": "print",
+    "specialist": null,
+    "country": "Nigeria",
+    "state_or_metro": "Lagos",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Guardian_(Nigeria)",
+      "format": "https://en.wikipedia.org/wiki/The_Guardian_(Nigeria)",
+      "scope": "https://en.wikipedia.org/wiki/The_Guardian_(Nigeria)"
+    },
+    "confidence": "high"
+  },
+  "dawn": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Dawn Media Group (Pakistan Herald Publications; Haroon family)",
+    "format": "print",
+    "specialist": null,
+    "country": "Pakistan",
+    "state_or_metro": "Karachi",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Dawn_(newspaper)",
+      "format": "https://en.wikipedia.org/wiki/Dawn_(newspaper)",
+      "scope": "https://en.wikipedia.org/wiki/Dawn_(newspaper)"
+    },
+    "confidence": "high"
+  },
+  "kathmandu-post": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Kantipur Publications (Kantipur Media Group)",
+    "format": "print",
+    "specialist": null,
+    "country": "Nepal",
+    "state_or_metro": "Kathmandu",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Kathmandu_Post",
+      "format": "https://en.wikipedia.org/wiki/The_Kathmandu_Post",
+      "scope": "https://en.wikipedia.org/wiki/The_Kathmandu_Post"
+    },
+    "confidence": "high"
+  },
+  "scroll-in": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Scroll Media Inc. (US-incorporated; Indian operating company SCSN Pvt Ltd)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "India",
+    "state_or_metro": "Mumbai",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Scroll.in",
+      "format": "https://en.wikipedia.org/wiki/Scroll.in",
+      "scope": "https://en.wikipedia.org/wiki/Scroll.in"
+    },
+    "confidence": "medium",
+    "note": "Newsroom is in Mumbai with an office in New Delhi; parent company is registered in the US (Delaware/Massachusetts)."
+  },
+  "hindustan-times": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "HT Media Ltd (listed in India; controlled by the K. K. Birla family)",
+    "format": "print",
+    "specialist": null,
+    "country": "India",
+    "state_or_metro": "New Delhi",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Hindustan_Times",
+      "format": "https://en.wikipedia.org/wiki/Hindustan_Times",
+      "scope": "https://en.wikipedia.org/wiki/Hindustan_Times"
+    },
+    "confidence": "high"
+  },
+  "ndtv": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "New Delhi Television Ltd (listed on BSE/NSE; Adani Group holds about 65%)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "India",
+    "state_or_metro": "New Delhi",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/NDTV",
+      "format": "https://en.wikipedia.org/wiki/NDTV",
+      "scope": "https://en.wikipedia.org/wiki/NDTV"
+    },
+    "confidence": "high",
+    "note": "Adani Group took control in late 2022."
+  },
+  "the-straits-times": {
+    "scope": "national",
+    "ownership": "government-controlled",
+    "owner": "SPH Media Trust (company limited by guarantee)",
+    "format": "print",
+    "specialist": null,
+    "country": "Singapore",
+    "state_or_metro": "Singapore",
+    "sources": {
+      "ownership": "https://statemediamonitor.com/2026/08/sph-media-trust-smt/",
+      "format": "https://en.wikipedia.org/wiki/The_Straits_Times",
+      "scope": "https://en.wikipedia.org/wiki/The_Straits_Times"
+    },
+    "confidence": "medium",
+    "note": "Legally a nonprofit company limited by guarantee, not state-owned, but funded by up to S$900m in government money over five years to 2027 with no statutory guarantee of editorial independence; 'nonprofit' is the alternative label."
+  },
+  "cna": {
+    "scope": "international",
+    "ownership": "government-controlled",
+    "owner": "Mediacorp (wholly owned by Temasek Holdings, owned by Singapore's Minister for Finance)",
+    "format": "broadcast",
+    "specialist": null,
+    "country": "Singapore",
+    "state_or_metro": "Singapore",
+    "sources": {
+      "ownership": "https://statemediamonitor.com/2026/08/mediacorp/",
+      "format": "https://en.wikipedia.org/wiki/CNA_(TV_network)",
+      "scope": "https://en.wikipedia.org/wiki/CNA_(TV_network)"
+    },
+    "confidence": "high",
+    "note": "Receives a public allocation of about S$380m a year; no statutory guarantee of editorial independence. Broadcasts across Asia-Pacific."
+  },
+  "bangkok-post": {
+    "scope": "national",
+    "ownership": "publicly traded company",
+    "owner": "Post Publishing PCL (listed on the Stock Exchange of Thailand)",
+    "format": "print",
+    "specialist": null,
+    "country": "Thailand",
+    "state_or_metro": "Bangkok",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Bangkok_Post",
+      "format": "https://en.wikipedia.org/wiki/Bangkok_Post",
+      "scope": "https://en.wikipedia.org/wiki/Bangkok_Post"
+    },
+    "confidence": "high"
+  },
+  "the-korea-herald": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Herald Corporation (Herald Media)",
+    "format": "print",
+    "specialist": null,
+    "country": "South Korea",
+    "state_or_metro": "Seoul",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Korea_Herald",
+      "format": "https://en.wikipedia.org/wiki/The_Korea_Herald",
+      "scope": "https://en.wikipedia.org/wiki/The_Korea_Herald"
+    },
+    "confidence": "medium",
+    "note": "Herald Corporation has been controlled by the Jungheung construction group since 2019 (not re-verified)."
+  },
+  "yonhap": {
+    "scope": "national",
+    "ownership": "independent",
+    "owner": "Yonhap News Agency (KONAC 30.77%, KBS 27.77%, MBC 22.30%)",
+    "format": "wire service",
+    "specialist": null,
+    "country": "South Korea",
+    "state_or_metro": "Seoul",
+    "sources": {
+      "ownership": "https://statemediamonitor.com/2026/08/yonhap-news/",
+      "format": "https://en.wikipedia.org/wiki/Yonhap_News_Agency",
+      "scope": "https://en.wikipedia.org/wiki/Yonhap_News_Agency"
+    },
+    "confidence": "medium",
+    "note": "Like AFP, no category fits exactly: statutory 'national key news agency' under a 2003 law, about 13.5% of revenue from a government subscription (2025), largest shareholder is the Korea News Agency Commission, whose directors are appointed by the President. State Media Monitor classifies it as independent public media. 'Public broadcaster' is the closest alternative."
+  },
+  "the-irrawaddy": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Irrawaddy Publishing Group (founded by Burmese exiles; editor Aung Zaw)",
+    "format": "print",
+    "specialist": null,
+    "country": "Thailand",
+    "state_or_metro": "Chiang Mai",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/The_Irrawaddy",
+      "format": "https://en.wikipedia.org/wiki/The_Irrawaddy",
+      "scope": "https://en.wikipedia.org/wiki/The_Irrawaddy"
+    },
+    "confidence": "medium",
+    "note": "Covers Myanmar from exile in Chiang Mai; moved some operations to Yangon after 2012 but works from Thailand since the 2021 coup. Started as a print magazine. Relies heavily on donor grants; legal form not confirmed."
+  },
+  "vnexpress-international": {
+    "scope": "national",
+    "ownership": "government-controlled",
+    "owner": "VnExpress (legally a press unit under Vietnam's Ministry of Science and Technology; operated by FPT Corporation)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "Vietnam",
+    "state_or_metro": "Hanoi",
+    "sources": {
+      "ownership": "https://luatvietnam.vn/co-cau-to-chuc/quyet-dinh-176-qd-bkhcn-2025-quy-dinh-quyen-han-va-co-cau-to-chuc-cua-bao-vnexpress-392958-d1.html",
+      "format": "https://en.wikipedia.org/wiki/VnExpress",
+      "scope": "https://e.vnexpress.net"
+    },
+    "confidence": "medium",
+    "note": "Wikipedia lists the owner as FPT Group (publicly traded), but a 2025 ministry decision defines VnExpress as a press unit under the Ministry of Science and Technology, which governs it. English edition aimed at foreign readers."
+  },
+  "sixth-tone": {
+    "scope": "national",
+    "ownership": "government-controlled",
+    "owner": "Shanghai United Media Group (state-owned)",
+    "format": "digital-native",
+    "specialist": null,
+    "country": "China",
+    "state_or_metro": "Shanghai",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Sixth_Tone",
+      "format": "https://en.wikipedia.org/wiki/Sixth_Tone",
+      "scope": "https://en.wikipedia.org/wiki/Sixth_Tone"
+    },
+    "confidence": "high",
+    "note": "English-language site aimed at foreign readers; sister to The Paper."
+  },
+  "taipei-times": {
+    "scope": "national",
+    "ownership": "privately held",
+    "owner": "Liberty Times Group",
+    "format": "print",
+    "specialist": null,
+    "country": "Taiwan",
+    "state_or_metro": "Taipei",
+    "sources": {
+      "ownership": "https://en.wikipedia.org/wiki/Taipei_Times",
+      "format": "https://en.wikipedia.org/wiki/Taipei_Times",
+      "scope": "https://en.wikipedia.org/wiki/Taipei_Times"
+    },
+    "confidence": "high"
+  }
+}

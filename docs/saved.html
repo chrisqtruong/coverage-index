@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coverage Index: Saved</title>
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d0f0c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<style>
+  .sv { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 0 32px; padding: 18px 32px 64px; }
+  .sv-folders { list-style: none; margin: 8px 0 0; padding: 0; }
+  .sv-folders button { width: 100%; display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; color: var(--dim); }
+  .sv-folders button:hover { color: var(--ink); }
+  .sv-folders button[aria-pressed="true"] { color: var(--green); }
+  .sv-folders .n { font: 13px var(--mono); }
+  .sv-tools { margin-top: 22px; display: grid; gap: 6px; }
+  .sv-tools button, .sv-tools label { color: var(--green); font: 14px var(--mono); cursor: pointer; }
+  .sv-tools input[type=file] { display: none; }
+  .sv-note { color: var(--dim); font: 13px/1.5 var(--mono); margin-top: 18px; max-width: 30ch; }
+  .sv-head { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+  .sv-head h2 { margin: 0; font-size: 24px; }
+  .sv-head button { color: var(--green); font: 14px var(--mono); }
+  .sv-items { list-style: none; margin: 0; padding: 0; }
+  .sv-items > li { padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .sv-items h3 { margin: 0 0 4px; font-size: 19px; line-height: 1.3; }
+  .sv-items .m { color: var(--dim); font: 13px var(--mono); margin: 0 0 6px; }
+  .sv-items .m button, .sv-items .m a { color: var(--green); margin-left: 12px; }
+  .sv-items select { background: var(--bg); color: var(--ink); border: 1px solid var(--rule); font: 13px var(--mono); margin-left: 12px; }
+  .sv-items ul { list-style: none; margin: 0; padding: 0; }
+  .sv-items ul li { padding: 3px 0; font-size: 16px; }
+  .sv-items ul .who { color: var(--green); font: 13px var(--mono); margin-right: 8px; }
+  .sv-items ul a { color: var(--ink); }
+  .sv-items ul a:hover { text-decoration: underline; }
+  .sv-items .rep { color: var(--dim); font-style: italic; font-size: 14px; }
+  .sv-empty { color: var(--dim); padding: 24px 0; max-width: 60ch; }
+  @media (max-width: 760px) { .sv { grid-template-columns: minmax(0, 1fr); padding: 14px 16px 48px; } .sv-note { max-width: none; } }
+</style>
+</head>
+<body>
+<header class="mast">
+  <h1><a href="./">Coverage Index</a></h1>
+  <p class="runline mono"><a href="./">news</a> · <a href="digest.html">digest</a> · <a href="method.html">method</a></p>
+</header>
+<div class="sv">
+  <aside>
+    <p class="lbl">Folders</p>
+    <ul class="sv-folders" id="folders"></ul>
+    <div class="sv-tools">
+      <button type="button" id="new-folder">+ new folder</button>
+      <button type="button" id="export">export all (JSON file)</button>
+      <label>import a file<input type="file" id="import" accept="application/json,.json"></label>
+      <span class="mono" id="msg" aria-live="polite"></span>
+    </div>
+    <p class="sv-note">Saved in this browser only. Clearing browser data erases it, so export a copy to back up or to move your folders to another device.</p>
+  </aside>
+  <main id="main"></main>
+</div>
+<script src="saved.js"></script>
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const when = iso => new Date(iso).toLocaleString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+let current = location.hash.slice(1) || null;
+
+function render() {
+  const d = SAVED.read();
+  if (current && !d.folders.some(f => f.id === current)) current = null;
+  if (!current && d.folders.length) current = d.folders[0].id;
+  $("#folders").innerHTML = d.folders.length ? d.folders.map(f =>
+    `<li><button type="button" data-folder="${f.id}" aria-pressed="${f.id === current}">${esc(f.name)} <span class="n">${d.items.filter(i => i.folder === f.id).length}</span></button></li>`).join("")
+    : `<li class="mono" style="color:var(--dim)">No folders yet.</li>`;
+  if (!current) {
+    $("#main").innerHTML = `<p class="sv-empty">Nothing saved yet. In the reader, open an event and choose "save event" (or press s), or "save" next to any outlet's headline. You name the folder when you save.</p>`;
+    return;
+  }
+  const f = d.folders.find(x => x.id === current);
+  const items = d.items.filter(i => i.folder === current).sort((a, b) => b.saved.localeCompare(a.saved));
+  const others = d.folders.filter(x => x.id !== current);
+  $("#main").innerHTML =
+    `<div class="sv-head"><h2>${esc(f.name)}</h2><span class="mono" style="color:var(--dim)">${items.length} saved</span>` +
+    `<button type="button" id="rename">rename</button><button type="button" id="delete">delete folder</button></div>` +
+    (items.length ? `<ul class="sv-items">${items.map(i =>
+      `<li><h3>${esc(i.headline)}</h3>` +
+      `<p class="m">${i.kind === "event" ? `event, ${i.stories.length} headline${i.stories.length > 1 ? "s" : ""}${i.covered ? `, ${i.covered} outlets` : ""}` : "headline"} · saved ${when(i.saved)}` +
+      (i.link ? `<a href="${esc(i.link)}">open in the reader</a>` : "") +
+      (others.length ? `<select data-move="${i.id}" aria-label="Move to folder"><option value="">move to...</option>${others.map(o => `<option value="${o.id}">${esc(o.name)}</option>`).join("")}</select>` : "") +
+      `<button type="button" data-remove="${i.id}">remove</button></p>` +
+      `<ul>${i.stories.map(s => `<li><span class="who">${esc(s.outletName)} · ${when(s.at)}</span><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>` +
+        (s.rep ? ` <span class="rep">reprint of ${esc(s.rep)}</span>` : "") + `</li>`).join("")}</ul></li>`).join("")}</ul>`
+      : `<p class="sv-empty">This folder is empty.</p>`);
+  history.replaceState(null, "", "#" + current);
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("button");
+  if (!t) return;
+  if (t.dataset.folder) { current = t.dataset.folder; return render(); }
+  if (t.dataset.remove) { SAVED.remove(t.dataset.remove); return render(); }
+  if (t.id === "new-folder") { const n = prompt("Folder name"); if (n && n.trim()) { current = SAVED.addFolder(n).id; render(); } return; }
+  if (t.id === "rename") { const f = SAVED.read().folders.find(x => x.id === current); const n = prompt("New name", f.name); if (n && n.trim()) { SAVED.renameFolder(current, n); render(); } return; }
+  if (t.id === "delete") {
+    const d = SAVED.read(), f = d.folders.find(x => x.id === current), n = d.items.filter(i => i.folder === current).length;
+    if (confirm(`Delete "${f.name}"${n ? ` and the ${n} item${n > 1 ? "s" : ""} in it` : ""}? This can't be undone unless you exported a copy.`)) { SAVED.deleteFolder(current); current = null; render(); }
+    return;
+  }
+  if (t.id === "export") return SAVED.exportFile();
+});
+document.addEventListener("change", async e => {
+  if (e.target.dataset.move) { if (e.target.value) { SAVED.move(e.target.dataset.move, e.target.value); render(); } return; }
+  if (e.target.id === "import" && e.target.files[0]) {
+    try { const r = await SAVED.importFile(e.target.files[0]); $("#msg").textContent = `Imported ${r.items} item${r.items === 1 ? "" : "s"}, ${r.folders} new folder${r.folders === 1 ? "" : "s"}.`; render(); }
+    catch (err) { $("#msg").textContent = "Import failed: " + err.message + "."; }
+    e.target.value = "";
+  }
+});
+window.addEventListener("storage", e => { if (e.key === "ci-saved") render(); });  // saved from the reader in another tab
+render();
+</script>
+</body>
+</html>
