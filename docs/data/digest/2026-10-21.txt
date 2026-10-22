@@ -1,0 +1,508 @@
+COVERAGE INDEX: Wednesday, October 21, 2026
+The 20 stories covered by the most outlets. Reprints of another outlet's story count as the original.
+
+1. Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy
+   Covered by 28 outlets.
+   - New York Daily News: Meta ordered to pay New Mexico $25 billion for deceiving users about privacy on Facebook (reprint of AP)
+   - CNA: Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy (reprint of Reuters)
+   - Baltimore Sun: Meta ordered to pay New Mexico $25 billion after Cambridge Analytica trial
+   - Axios: Meta hit with $25 billion penalty for misleading Facebook users
+   - Hindustan Times: Meta ordered to pay New Mexico $25 billion for deceiving users about privacy on Facebook (reprint of AP)
+   - ABC News: Meta ordered to pay $25 billion for deceiving users about privacy on Facebook
+   - Reuters: Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy
+   - The Hill: Judge orders Meta to pay New Mexico $25B in Cambridge Analytica case
+   - AP: Meta ordered to pay New Mexico $25 billion for deceiving users about privacy on Facebook
+   - Philadelphia Inquirer: Meta ordered to pay New Mexico $25 billion for deceiving users about privacy on Facebook (reprint of AP)
+   - Wall Street Journal: Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case
+   - The Guardian: Meta ordered to pay $25bn to New Mexico in Cambridge Analytica data-privacy case
+   - Le Monde (English): Meta ordered to pay New Mexico $25 billion over Facebook data scandal
+   - New York Times: Meta Ordered to Pay $25 Billion for Deceiving Users on Privacy
+   - NDTV: Meta Ordered To Pay $25 Billion Over Data 'Leak' With A Trump Link
+   - The Independent: Meta ordered to pay $25 billion penalty in Cambridge Analytica case
+   - BBC: Meta fined $25bn for 'lies' over user data privacy
+   - CBS News: Meta ordered to pay $25 billion to New Mexico in data privacy ruling
+   - CNBC: Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case
+   - South China Morning Post: Meta to pay New Mexico a historic US$25 billion in Cambridge Analytica Facebook case
+   - The Verge: Meta ordered to pay $25 billion in penalties over the Cambridge Analytica scandal
+   - DW: Meta ordered to pay $25 billion in Cambridge Analytica case
+   - PBS NewsHour: Meta must pay New Mexico $25 billion, its biggest fine ever, for deceiving users about Facebook privacy
+   - UPI: Meta ordered to pay $25 billion for sale of data
+   - Al Jazeera: Judge orders Meta to pay $25bn in fines for Facebook privacy violations
+   - France 24: Meta fined $25 billion in New Mexico over Cambridge Analytica scandal
+   - Washington Post: Meta ordered to pay $25B in New Mexico for misleading users on privacy
+   - CNN: Meta ordered to pay $25 billion in New Mexico case over Cambridge Analytica scandal
+   - Japan Times: Meta ordered to pay $25 billion penalty to New Mexico in data privacy case
+   - Punch: Cambridge Analytica case: Judge orders Meta to pay $25bn to New Mexico
+   - ABC Australia: Meta fined $25b in US for deceiving users about Facebook privacy
+   - RT: Meta fined $25 billion in Cambridge Analytica privacy scandal
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=0c91d68e49f4
+
+2. Explainer: What is PHP and why did it take government websites offline?
+   Covered by 27 outlets.
+   - The Verge: A critical PHP vulnerability may take websites down today
+   - NBC News: Critical vulnerabilities in commonly used web code spark rush to update systems
+   - BBC: Websites taken down across Europe ahead of critical cyber-security update
+   - The Jerusalem Post: Government websites go dark as vulnerabilities in programming language send shudder across internet
+   - The National (UAE): PHP security issues: Websites go offline amid critical update
+   - Bangkok Post: PHP glitch sends shudders across internet
+   - CNA: Explainer-What is PHP and why did it take government websites offline? (reprint of Reuters)
+   - Reuters: Explainer: What is PHP and why did it take government websites offline?
+   - Gulf News: PHP fixes two critical vulnerabilities as websites face attack risks
+   - NDTV: Government Websites Go Dark Worldwide After Major Flaws Found In PHP Code
+   - CNN: Global websites shut down after AI found a critical flaw affecting 70% of the internet
+   - News24: Govt and other websites go dark worldwide as ‘critical’ PHP weaknesses exposed
+   - DW: PHP developers say key patches available after global scare
+   - Dawn: Government websites go dark after AI-discovered flaw sparks security scramble
+   - Le Monde (English): Websites worldwide go dark as AI exposes security flaws
+   - Washington Post: Websites scramble to fix software flaw that could put much of internet at risk
+   - Stuff (NZ): Websites taken offline around world after ‘critical vulnerabilities’ discovered
+   - Financial Times: NSA warns on ‘critical’ cyber vulnerabilities detected using AI
+   - New York Times: A.I. Discovered a Critical Vulnerability in PHP, a Coding Language Behind Many Websites
+   - CBC: Government websites go dark after code flaw exposes vulnerabilities
+   - The Independent: Websites across the world taken down to protect systems as critical cyber-security update issued
+   - UPI: 'Severe' vulnerability in common website code triggers global alarm
+   - Philadelphia Inquirer: Websites scramble to fix software flaw that could put much of internet at risk (reprint of Washington Post)
+   - Daily Sabah: Türkiye launches nationwide cyber alert over critical PHP flaws
+   - RNZ: Warning for NZ as websites go dark around world in security scare
+   - South China Morning Post: Websites go dark worldwide as AI exposes critical security flaws
+   - RT: Government websites down amid global security flaw scare
+   - Japan Times: Government websites go dark after AI-discovered flaw sparks security scramble (reprint of Dawn)
+   - MercoPress: Global alert over two critical PHP flaws forces government websites offline
+   - Daily Monitor (Uganda): Govt websites go dark after AI-discovered flaw sparks security scramble
+   - Rappler: Government websites go dark after AI-discovered flaw sparks security scramble (reprint of Dawn)
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=076598448f2a
+
+3. Xinhua News | U.S. envoy to meet Putin after Ukraine talks in Oslo
+   Covered by 25 outlets.
+   - Xinhua: Xinhua News | U.S. envoy to meet Putin after Ukraine talks in Oslo
+   - CGTN: US envoy arrives in St. Petersburg to meet with Putin on Ukraine
+   - Reuters: US envoy Witkoff arrives in St Petersburg for talks with Putin
+   - RT: Trump envoy Witkoff arrives in St. Petersburg for Putin talks (VIDEO)
+   - Euronews: US envoy in Russia for Putin talks after 'positive' Zelenskyy meeting
+   - DW: US envoy meets Putin after 'positive' talks with Zelenskyy
+   - Kyiv Independent: US envoy Steve Witkoff lands in St. Petersburg for Russia peace talks
+   - TASS: Putin to receive US special envoy Witkoff today — Kremlin aide
+   - Ahram Online: US envoy to meet Putin after 'positive' talks with Zelenskyy - War in Ukraine - World
+   - Al Jazeera: Witkoff in Russia for Putin meeting after ‘positive’ talks with Zelenskyy
+   - The Hindu: U.S. envoy to meet Putin after 'positive' talks with Zelenskyy
+   - AP: Trump envoy Witkoff to meet Putin in St. Petersburg for Ukraine war talks
+   - Philadelphia Inquirer: Trump envoy Witkoff to meet Putin in St. Petersburg for Ukraine war talks (reprint of AP)
+   - Kyiv Post: Witkoff Arrives in St. Petersburg for Putin Talks as US and Ukraine Agree on Peace Proposals
+   - The Independent: Ukraine-Russia war latest: Trump envoy to meet Putin today after clear-the-air talks with Zelensky
+   - CNN: US envoy Witkoff meets with Putin in effort to advance proposals to end war in Ukraine
+   - ABC News: Witkoff arrives in St. Petersburg for Putin talks, Kremlin aide says
+   - Dawn: US envoy to meet Putin after 'positive' talks with Zelensky
+   - Houston Chronicle: Trump envoy Witkoff to meet Putin in St. Petersburg for Ukraine war talks (reprint of AP)
+   - CNBC: Witkoff heads to Russia for Putin talks as Zelenskyy insists 'nothing about Ukraine without Ukraine'
+   - France 24: Ukraine talks: US envoy meets Vladimir Putin in Russia
+   - The New Arab: Putin, Witkoff meet in Russia for Ukraine war talks
+   - Meduza: Putin and U.S. envoy Witkoff hold talks in St. Petersburg as Washington pushes a new plan to end the war in Ukraine
+   - WHYY: Trump, Putin, Ukraine and fuel prices
+   - CNA: Kremlin sees little 'substance' in Ukraine peace ideas
+   - Le Monde (English): War in Ukraine: Bolstered by Donald Trump's support, Vladimir Putin refuses to back down
+   - The Guardian: Ukraine war briefing: New peace proposals lack ‘substance’, says Kremlin after Witkoff-Putin meeting in Russia
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=013cd767b7fb
+
+4. US Orders Some Diplomats Out of Saudi Arabia Amid Houthi Attacks
+   Covered by 23 outlets.
+   - The Jerusalem Post: Trump's push for Israel-Saudi relations faces obstacles amid elections, Houthi attacks - analysis
+   - France 24: Egypt mulls joining Saudi Arabia in war against Houthis
+   - L'Orient Today: Sisi moves closer to Saudi Arabia despite risks of confronting Houthis
+   - CBS News: Why can't Saudi Arabia stop the Houthis' deadly attacks?
+   - Arab News: Saudi scholars' council condemns Houthi attacks against civilians and holy sites
+   - Middle East Eye: Two killed in attack on Saudi Arabia's Shaybah oil field
+   - Al-Monitor: US orders diplomats to depart Saudi Arabia amid Houthi strikes
+   - Bloomberg: US Orders Some Diplomats Out of Saudi Arabia Amid Houthi Attacks
+   - AP: US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise
+   - The Independent: US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise (reprint of AP)
+   - Philadelphia Inquirer: US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise (reprint of AP)
+   - Houston Chronicle: US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise (reprint of AP)
+   - Financial Times: US orders some personnel to leave Saudi Arabia after Houthi attacks
+   - Fox News: US pulls personnel from Saudi Arabia as kingdom comes under Houthi fire
+   - The New Arab: US orders some diplomats to leave Saudi amid Houthi attacks
+   - Xinhua: U.S. orders non-emergency government staff to leave Saudi Arabia as Houthi attacks intensify
+   - NDTV: US Orders Embassy Staff To Leave Saudi Arabia As Houthi Attacks Intensify
+   - Al Jazeera: US orders departure of personnel from Saudi Arabia, citing Houthi threat
+   - South China Morning Post: US orders diplomats to leave Saudi Arabia amid Houthi strikes
+   - The Guardian: Some US diplomats told to leave Saudi Arabia amid Houthi attacks
+   - Reuters: Oil rises as US orders diplomats to leave Saudi Arabia amid escalating tensions
+   - ABC Australia: US orders diplomats to leave Saudi Arabia amid Houthi strikes (reprint of South China Morning Post)
+   - BBC: US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate
+   - DW: US orders some diplomats to leave Saudi Arabia amid Houthi threat
+   - The Hindu: Oil rises as U.S. orders diplomats to leave Saudi Arabia amid escalating tensions
+   - Times of Israel: US orders embassy staff, families to leave Saudi Arabia amid escalating Houthi attacks
+   - The National (UAE): US pulls diplomats from Saudi Arabia but denies wider Gulf withdrawal
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=02198db690cf
+
+5. France's Macron vows no repeat of riots as Yellow Vests mobilise
+   Covered by 22 outlets.
+   - Washington Post: Riots leave France divided as Macron enters his final stretch
+   - Le Monde (English): Macron slams 'stupid' comments about France riots by world leaders
+   - Ahram Online: Macron slams world leaders who 'campaign at France's expense' with comments on rioting - International - World
+   - Reuters: France's Macron vows no repeat of riots as Yellow Vests mobilise
+   - South China Morning Post: Macron takes veiled shot at Trump, Netanyahu over ‘stupid’ France riot remarks
+   - Euronews: In apparent swipe at Trump, Macron slams 'stupid comments' by foreign leaders on France protests
+   - France 24: Macron says world leaders have made 'stupid' comments on France riots based on fake AI videos
+   - Politico Europe: Macron slams ‘stupid’ comments after Trump pins French riots on immigration
+   - Dawn: Macron takes aim at Trump for using France riots for election gain
+   - Al Jazeera: France’s Macron says protesters won’t be allowed to ‘cause chaos’
+   - Financial Times: Macron hits out at ‘stupid’ Trump remarks about riots in France
+   - CNN: Macron slams ‘stupid comments’ from world leaders after Trump blames France unrest on migrants
+   - L'Orient Today: As Yellow Vests mobilize for mass rally in Paris on Saturday, Macron vows to prevent repeat of riots
+   - BBC: Macron accuses foreign leaders of exploiting French riots
+   - The Guardian: Macron accuses Trump and other foreign leaders of ‘stupid comments’ about France unrest
+   - ABC Australia: Macron calls Trump's comments on French riots 'stupid'
+   - New York Times: Macron Says Trump Does Not Like France and Distorts Its Troubles
+   - The Hill: Macron assails ‘unacceptable and even stupid’ remarks from Trump, others on France riots
+   - News24: Macron takes aim at Trump for using France riots for election gain (reprint of Dawn)
+   - NDTV: 'Unacceptable, Stupid Comments': Macron Hits Back At Trump Over France Unrest
+   - The Jerusalem Post: France's Macron calls for order, says foreign criticism of unrest 'stupid'
+   - New York Post: French leftists plan major Paris protest Saturday as absent Macron vows no repeat to riots
+   - DW: France bans protests in parts of Paris as Macron slams Trump
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=003cd0f0a35b
+
+6. Elon Musk says he wants to merge Tesla, SpaceX
+   Covered by 21 outlets.
+   - Euronews: Elon Musk backs SpaceX-Tesla merger as rocket firm turns profit
+   - DW: Musk says SpaceX-Tesla merger 'good idea' as companies explore union
+   - Washington Post: Elon Musk’s SpaceX posts first profit since going public
+   - Rappler: Musk says SpaceX-Tesla merger is ‘a good idea’ as companies form deal committees
+   - BBC: Why Elon Musk is considering a mega-merger of SpaceX and Tesla
+   - The National (UAE): What a merger of SpaceX and Tesla would mean
+   - The Independent: Elon Musk wants to merge Tesla and SpaceX — what we know
+   - The Korea Herald: Musk calls Tesla-SpaceX merger 'good idea'
+   - France 24: Musk talks up potential merger of SpaceX and Tesla
+   - Hindustan Times: SpaceX stock jumps 10% as revenue surges 161% to $14.6 billion and Elon Musk weighs Tesla merger
+   - New York Times: Elon Musk Says SpaceX and Tesla Are Exploring a Merger
+   - UPI: Elon Musk says he wants to merge Tesla, SpaceX
+   - The Hill: Musk: SpaceX, Tesla merger a ‘good idea’
+   - CNBC: Tesla earnings loom after Musk calls SpaceX merger a 'good idea'
+   - Reuters: Wall St sees Tesla-SpaceX merger as inevitable, but split on price
+   - Financial Times: Tesla-SpaceX: a huge corporate constellation with Musk at its centre
+   - Philadelphia Inquirer: Wall Street gains ground after SpaceX helps lift AI stocks
+   - The Guardian: Tesla beats earnings projections after Musk floats SpaceX merger plan
+   - CNA: Musk's SpaceX results lift global stock markets
+   - Axios: Tesla revenue flattens out as Elon Musk eyes possible SpaceX deal
+   - CBS News: More details on report that Musk intentionally restricted Ukraine's access to SpaceX network
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=030e0762a24f
+
+7. Released US national Hubbard already at Pulkovo Airport — Putin
+   Covered by 21 outlets.
+   - RT: Trump envoy thanks Putin for humanitarian gesture
+   - Kyiv Independent: Witkoff lauds Putin as 'humanitarian' as Russia releases US prisoner Stephen Hubbard
+   - TASS: Released US national Hubbard already at Pulkovo Airport — Putin
+   - Politico Europe: Witkoff to Putin: ‘You are a humanitarian … I salute that’
+   - Kyiv Post: Trump Envoy Witkoff Calls Putin a ‘Humanist’ Amid Deadly Russian Attacks on Ukraine
+   - The Hill: Witkoff faces backlash after calling Putin a ‘humanitarian’
+   - Al Jazeera: US envoy Witkoff calls Russia’s Putin a ‘humanitarian’
+   - Washington Post: Trump’s special envoy calls Vladimir Putin a ‘humanitarian’
+   - CBS News: Witkoff blasted for calling Putin a "humanitarian"
+   - South China Morning Post: Trump faces fresh questions over ties to ‘humanitarian’ Putin
+   - PBS NewsHour: WATCH: Vance defends U.S. envoy Witkoff calling Putin a 'humanitarian' after prisoner release
+   - France 24: Trump faces fresh questions over ties to 'humanitarian' Putin (reprint of South China Morning Post)
+   - Wall Street Journal: Witkoff’s Praise of Putin as ‘Humanitarian’ Tracks With U.S. Approach to Russia
+   - Meduza: Vance defends Trump envoy’s ‘humanitarian’ praise for Putin
+   - Hindustan Times: Trump envoy criticized for calling Putin 'humanitarian'
+   - Arab News: Trump envoy criticized for calling Putin ‘humanitarian’ (reprint of Hindustan Times)
+   - The Independent: Trump reacts to envoy Steve Witkoff calling Putin a ‘humanitarian’
+   - New York Times: Trump Envoy Calls Putin a ‘Humanitarian’
+   - Washington Examiner: Witkoff praises Putin as a humanitarian — to his shame and ours
+   - The Atlantic: Vladimir Putin, the Humanitarian
+   - The National (UAE): War and peace: Trump team now says Putin is a 'humanitarian'
+   - Japan Times: Putin releases hostage to U.S., drawing praise from Trump administration
+   - CNN: Witkoff calls Putin a ‘humanitarian’
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=072ae30658f4
+
+8. Stephen Hubbard freed from Russian prison, on way home to United States
+   Covered by 21 outlets.
+   - France 24: Russia releases US citizen accused of fighting for Ukraine, Putin says during Witkoff meeting
+   - CGTN: Putin says Russia has freed US citizen Stephen Hubbard
+   - CNN: Russia frees 74-year-old American Stephen Hubbard it captured in occupied Ukraine
+   - BBC: Russia frees US citizen Stephen Hubbard, state media reports
+   - ABC Australia: Putin announces release of imprisoned US citizen during meeting with Witkoff
+   - Philadelphia Inquirer: Russia frees American Stephen Hubbard after over four years in prison
+   - Fox News: Imprisoned American teacher Stephen Hubbard released by Russia and more top headlines
+   - The National (UAE): Putin says Russia has freed US citizen Stephen Hubbard (reprint of CGTN)
+   - UPI: Stephen Hubbard freed from Russian prison, on way home to United States
+   - Financial Times: Russia releases US citizen as Trump’s envoy visits
+   - The Hill: Who is Stephen Hubbard, imprisoned American released by Russia?
+   - NBC News: Who is Stephen Hubbard, the retired American teacher freed by Russia?
+   - CBS News: Stephen Hubbard released by Russia after years in prison
+   - Wall Street Journal: Russia Releases Captured American in Sign of Warming Ties
+   - TASS: US citizen Hubbard freed in Russia is heading home — envoy
+   - New York Times: Russia Releases American Stephen Hubbard From Prison, State Media Reports
+   - Al Jazeera: Russia releases American Stephen Hubbard after four years in prison
+   - Meduza: Who is Stephen Hubbard, the American Putin just freed?
+   - Reuters: Who is Stephen Hubbard, the US citizen released by Russia?
+   - Washington Post: What to know about Stephen Hubbard, the American teacher released by Russia
+   - Hindustan Times: Stephen Hubbard, US schoolteacher captured by Russia in 2022, freed by Putin in goodwill gesture
+   - The Hindu: Missiles strike Ukraine's capital after U.S. envoy visits Russia
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=072bf0903ca7
+
+9. Brad Lander detained by Israeli military while harvesting olives
+   Covered by 20 outlets.
+   - Haaretz: Israel briefly detains U.S. congressional candidate Brad Lander in West Bank
+   - Times of Israel: NY congressional candidate Brad Lander detained in West Bank olive harvest, rights group says
+   - Al-Monitor: US Democratic congressional candidate Lander detained by Israeli authorities in West Bank
+   - NBC News: New York congressional candidate Brad Lander says he was detained by IDF in the occupied West Bank
+   - Arab News: US Democratic congressional candidate Lander detained by Israeli authorities in West Bank (reprint of Al-Monitor)
+   - The Jerusalem Post: WATCH: IDF detains 90 West Bank olive harvest volunteers, including US congressional nominee Lander
+   - NPR: 80 Israelis and Americans, including NY Democrat Brad Lander, detained in West Bank
+   - Fox News: Mamdani-backed congressional candidate says he was detained by Israeli military
+   - New York Times: Israeli Military Detains Brad Lander in West Bank During Volunteer Trip
+   - The Independent: US congressional candidate Brad Lander detained in West Bank
+   - Gothamist: Brad Lander says he's released after Israeli forces detained him during olive harvest
+   - The Guardian: Israeli military detain US and UK volunteers in West Bank including Democratic NY politician Brad Lander
+   - Al Jazeera: US congressional candidate Brad Lander detained in West Bank (reprint of The Independent)
+   - New York Daily News: Brad Lander detained by IDF in Israel during West Bank olive harvest mission
+   - Washington Examiner: New York House candidate Brad Lander briefly detained by Israeli military with group visiting West Bank
+   - The Hill: Congressional candidate Brad Lander says he was detained by IDF in West Bank
+   - Wall Street Journal: Congressional Candidate Brad Lander Says Israeli Military Detained Him in West Bank
+   - Hindustan Times: Israeli forces detain New York Congressional candidate Brad Lander in West Bank
+   - UPI: Brad Lander detained by Israeli military while harvesting olives
+   - Middle East Eye: US congressional candidate Brad Lander arrested by Israeli army in occupied West Bank
+   - Reuters: US Democratic congressional candidate Brad Lander detained by Israeli military in West Bank
+   - CNN: US congressional candidate released after detention in West Bank
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=1a1165120359
+
+10. Pope Leo will not need further cancer treatment, doctors say
+   Covered by 19 outlets.
+   - CNN: Pope Leo needs no further lung cancer treatment, Vatican says
+   - The Independent: Pope Leo's doctors issue health update after lung cancer surgery
+   - New York Daily News: Pope Leo’s doctors say tests show he needs no further treatment for lung cancer (reprint of AP)
+   - Baltimore Sun: Pope Leo’s doctors say tests show he needs no further treatment for lung cancer (reprint of AP)
+   - Fox News: Pope Leo XIV needs no further cancer treatment after lung tumor removed, doctors say
+   - NBC News: Pope Leo will not require further treatment after lung surgery, doctors say
+   - Reuters: Pope Leo will not need further cancer treatment, doctors say
+   - AP: Pope Leo’s doctors say tests show he needs no further treatment for lung cancer
+   - Hindustan Times: Pope Leo’s doctors say tests show he needs no further treatment for lung cancer (reprint of AP)
+   - South China Morning Post: Pope Leo doesn’t need further treatment for lung cancer, doctors say
+   - ABC News: Pope Leo's doctors say no further treatment is necessary after lung cancer surgery
+   - PBS NewsHour: Pope Leo's tests show he needs no further treatment for lung cancer, his doctors say
+   - Euronews: Pope Leo XIV post-op results show no further treatment required as tumour was localised
+   - CNA: Pope will not need therapy after cancer surgery: doctors
+   - UPI: No further treatment necessary for Pope Leo, Vatican doctors say
+   - The Guardian: Pope will not need further cancer treatment, doctors say
+   - France 24: Pope Leo XIV needs no further lung cancer treatment, Vatican says
+   - CBS News: Pope Leo won't need more treatment after cancer surgery, doctors say
+   - New York Times: Pope Needs No Further Treatment for Lung Cancer, Doctors Say
+   - ABC Australia: Pope Leo will not need further cancer treatment, doctors say (reprint of Reuters)
+   - Al Jazeera: Pope Leo needs no further treatment after cancer surgery, doctors say
+   - DW: Pope Leo will not need further cancer treatment — Vatican
+   - Philadelphia Inquirer: Vatican says tests show Pope Leo XIV won't need further treatment for lung cancer
+   - Daily Monitor (Uganda): Pope Leo will not need further cancer treatment, doctors say (reprint of Reuters)
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=2bd78d196859
+
+11. Ebola has spread from Congo to 4 other countries. A look at where things stand
+   Covered by 18 outlets.
+   - The Guardian Nigeria: Latest news today on Ebola case
+   - AllAfrica: Nigeria: 12 Years After First Outbreak, Nigeria Records Fresh Ebola Case
+   - Africanews: Nigeria confirms first Ebola case as outbreak spreads across Africa
+   - The Hindu: Nigeria confirms its first Ebola case is Bundibugyo strain
+   - RT: Fifth country reports Ebola case
+   - Dawn: Nigeria confirms its first Ebola case is Bundibugyo strain (reprint of The Hindu)
+   - Politico Europe: Nigeria confirms Ebola case, as Congo outbreak spreads
+   - AP: Ebola has spread from Congo to 4 other countries. A look at where things stand
+   - Philadelphia Inquirer: Ebola has spread from Congo to 4 other countries. A look at where things stand (reprint of AP)
+   - Premium Times: WHO pledges support as Nigeria records first imported Ebola case
+   - Reuters: Nigeria reports Ebola case as outbreak reaches West Africa
+   - Gulf News: Nigeria says first Ebola case is same strain as DR Congo outbreak
+   - France 24: Nigeria records its first Ebola case amid rapid regional spread
+   - New York Daily News: Ebola has spread from Congo to 4 other countries. A look at where things stand (reprint of AP)
+   - Baltimore Sun: Ebola has spread from Congo to 4 other countries. A look at where things stand (reprint of AP)
+   - Euronews: African health ministers to hold Ebola crisis talks as Nigeria confirms first case
+   - CBC: Fears of a pan-African Ebola crisis growing as fourth country reports first case
+   - Xinhua: Ebola outbreak rebounds in DR Congo as cross-border spread heightens concerns: WHO
+   - Punch: Ebola: Nigeria working with Uganda to contain spread, says FG
+   - CNN: Ebola has spread from Congo to 4 other countries. A look at where things stand (reprint of AP)
+   - Al Jazeera: Nigeria’s first Ebola case matches DR Congo strain, health officials say
+   - CGTN: Cross-border spread heightens concerns of expanding Ebola outbreak
+   - Daily Monitor (Uganda): Ebola spreads to West Africa after Nigeria confirms first case
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=082674d2ec8f
+
+12. Supreme Court rebuffs Trump administration restrictions on medical care for transgender inmates
+   Covered by 17 outlets.
+   - NDTV: US Supreme Court Rejects Trump Mail Ballot Restrictions Ahead Of Midterms
+   - NBC News: Supreme Court rejects Trump policy restricting treatment for transgender prison inmates
+   - The Hill: Supreme Court won’t revive Trump administration’s transgender inmate policy; Thomas, Alito dissent
+   - CNN: Supreme Court hands Trump a rare loss on transgender prison care policy
+   - New York Daily News: Supreme Court rebuffs Trump administration restrictions on medical care for transgender inmates (reprint of AP)
+   - AP: Supreme Court rebuffs Trump administration restrictions on medical care for transgender inmates
+   - ABC News: Supreme Court rebuffs Trump admin restrictions on medical care for trans inmates
+   - NPR: Supreme Court upholds pause on Trump's anti-trans prison policy
+   - Vox: The Supreme Court may be about to make America’s prisons much crueler
+   - Baltimore Fishbowl: How Maryland distilleries could benefit from Supreme Court review on home distilled spirits
+   - PBS NewsHour: Supreme Court rebuffs Trump administration restrictions on medical care for transgender inmates (reprint of AP)
+   - The Independent: The Latest: Supreme Court rebuffs Trump restrictions on medical care for trans inmates
+   - CBS News: Supreme Court rejects bid to restrict treatments for trans inmates
+   - New York Times: Supreme Court Blocks Trump From Denying Gender-Affirming Care to Trans Prisoners
+   - Reuters: Supreme Court won't allow Trump administration restrictions on transgender inmates
+   - Washington Post: Supreme Court allows gender transition care for federal prisoners for now
+   - teleSUR: US Supreme Rejects Trump’s Bid to End Gender-Affirming Care for Trans Inmates
+   - Philadelphia Inquirer: The Latest: Supreme Court rebuffs Trump restrictions on medical care for trans inmates (reprint of The Independent)
+   - UPI: Supreme Court declines Trump's case on prison transgender care
+   - WAMU: Supreme Court upholds pause on Trump’s anti-trans prison policy (reprint of NPR)
+   - LAist: Supreme Court upholds pause on Trump's anti-trans prison policy (reprint of NPR)
+   - Fox News: Making whiskey at home could land you in prison, but Supreme Court may change that
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=0ef5122e88b6
+
+13. Kremlin hopes to arrange Putin meeting with U.S. envoys soon
+   Covered by 16 outlets.
+   - Arab News: Putin hosts Trump envoy for new Ukraine peace talks, frees US citizen held in Russia
+   - Xinhua: Kremlin hopes to arrange Putin meeting with U.S. envoys soon
+   - Meduza: Witkoff arrives in St. Petersburg for talks with Putin, where he’s expected to present an ‘updated plan’ to end the war
+   - RT: Drone alert greets US envoy’s arrival for Putin talks
+   - CGTN: Putin meets with US envoy Witkoff for talks on Ukraine settlement
+   - TASS: Putin begins meeting with US special envoy Steve Witkoff — TASS correspondent
+   - The Jerusalem Post: US special envoy Witkoff arrives in St. Petersburg for talks with Putin after Zelensky meeting
+   - South China Morning Post: Putin holds Ukraine peace talks with Trump’s envoy Witkoff, frees American Hubbard
+   - France 24: US envoy Steve Witkoff thanks Vladimir Putin for diesel deal at Ukraine talks in Russia
+   - CBC: U.S. envoy Witkoff meets with Putin in Russia amid report Musk throttled Starlink
+   - Stuff (NZ): Watch Trump’s envoy calls Putin a 'humanitarian' as Kremlin agrees to talks with US and Ukraine
+   - AP: Putin and US envoy Witkoff meet in St. Petersburg
+   - CBS News: Khrushchev's great-granddaughter on Stephen Hubbard's release, Witkoff calling Putin a humanitarian
+   - The Independent: Trump weighs in after his envoy calls Putin a ‘humanitarian’
+   - Kyiv Post: Trump Envoy Grilled for Calling Putin a ‘Humanitarian’ Amid War in Ukraine
+   - Reuters: Russia, Ukraine exchange strikes as US envoy leaves after talks
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=009117e87d62
+
+14. Saudi civil aviation says one killed, eight injured in attack on King Fahd airport
+   Covered by 16 outlets.
+   - Arab News: ‘I could not leave them’: Saudi airport worker recalls helping injured passengers during Riyadh attack
+   - Al-Monitor: China-Saudi stadium deal puts Saudi World Cup ambitions in focus amid attacks
+   - Punch: US issues fresh warning as Houthi attacks disrupt Saudi airports
+   - Reuters: Saudi civil aviation says one killed, eight injured in attack on King Fahd airport
+   - Middle East Eye: One killed, eight injured in Saudi Arabia’s King Fahd airport attack
+   - Times of Israel: Saudi Arabia reports 1 killed in attack on Dammam international airport
+   - Xinhua: 1 killed, 8 injured in attack targeting airport in Saudi's Dammam
+   - NDTV: 1 Killed, 8 Injured In Attack On Dammam Airport: Saudi Civil Aviation
+   - Philadelphia Inquirer: 1 person killed in attack on eastern Saudi airport, authorities say
+   - New York Post: 1 killed in Saudi Arabia airport attack as Houthis target drone strikes across nation’s airports
+   - The Hindu: Saudi civil aviation says one killed, eight injured in attack on King Fahd airport (reprint of Reuters)
+   - The Hill: 1 killed, 8 wounded in Saudi Arabia airport attack
+   - TASS: One killed, eight wounded in attack on Dammam airport in Saudi Arabia — TV
+   - Al Jazeera: One killed, eight injured in attack on Saudi Arabia’s King Fahd airport
+   - Wall Street Journal: One Person Killed and 8 Injured in Airport Attack in Saudi Arabia
+   - Japan Times: Oil rises as deadly attacks in Saudi Arabia fan Middle East supply fears
+   - The Jerusalem Post: One killed, eight injured in attack on Saudi Arabia's King Fahd Airport, Saudi Civil Aviation says
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=04efaaa6c1e0
+
+15. FACTBOX: Release of American citizen Stephen Hubbard convicted in Russia
+   Covered by 16 outlets.
+   - CNN: Stephen Hubbard: Russia frees 74-year-old American captured in Ukraine, US envoy Steve Witkoff says
+   - France 24: 🔴 Russia releases US citizen accused of fighting for Ukraine
+   - Philadelphia Inquirer: Russia releases imprisoned American man, US envoy Witkoff says on visit to St. Petersburg
+   - NBC News: Russia says it freed American Stephen Hubbard, 74, as Trump envoy meets with Putin
+   - Times of Israel: Putin announces release of US citizen taken captive in Ukraine
+   - Meduza: Putin releases U.S. citizen Stephen Hubbard, who fought on Ukraine’s side
+   - Stuff (NZ): Russia releases imprisoned American man, US envoy Witkoff says on visit to St. Petersburg (reprint of Philadelphia Inquirer)
+   - NPR: Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request
+   - The Hill: Russia releases imprisoned American Stephen Hubbard
+   - TASS: FACTBOX: Release of American citizen Stephen Hubbard convicted in Russia
+   - New York Times: Who Is Stephen James Hubbard, the American Released From Russian Jail?
+   - Reuters: Russia frees retired US schoolteacher Stephen Hubbard in goodwill gesture as Putin meets Witkoff
+   - Africanews: Russia frees imprisoned American teacher as Putin meets Trump’s envoy for Ukraine peace talks
+   - Hindustan Times: Russia frees retired US schoolteacher in goodwill gesture as Putin meets Witkoff
+   - PBS NewsHour: American imprisoned by Russia released as Witkoff meets and praises Putin
+   - NDTV: US Citizen Arrested During 2022 Ukraine Invasion Released From Russian Jail
+   - CBS News: Son of Stephen Hubbard, American freed from Russian jail, speaks out
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=239127530b9d
+
+16. Australian MP Helen Haines loses both legs after ramming attack
+   Covered by 15 outlets.
+   - The Guardian: Helen Haines has lost both legs after alleged attack but ‘her heart and mind are in good shape’, husband says
+   - CNN: Australian lawmaker has both legs amputated after allegedly deliberate attack by car rammer
+   - Stuff (NZ): Australian MP had both legs amputated after attack, husband says
+   - The Independent: Australian MP Helen Haines has both legs amputated after car ramming ‘attack’, husband says
+   - New York Post: Australian politician Helen Haines loses both legs after car attack
+   - DW: Australian MP Helen Haines loses both legs after car attack as suspect appears in court
+   - The National (UAE): Australian MP has both legs amputated after ramming 'attack'
+   - Le Monde (English): Australian MP loses both legs after 'targeted' attack
+   - UPI: Australian MP Helen Haines loses both legs after ramming attack
+   - The Jerusalem Post: Australian lawmaker Helen Haines had both legs amputated after car ramming attack, husband says
+   - Times of Israel: Australian politician has both legs amputated after being hit in car ramming attack
+   - Washington Examiner: Australian politician struck by car in violent attack loses both legs
+   - ABC Australia: Live: Helen Haines still critical, more than two days after car attack
+   - Al Jazeera: What happened to Australian politician Helen Haines?
+   - CBC: Australian politician loses both legs after alleged targeted attack | Hanomansing Tonight
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=0209d7295c66
+
+17. Ukraine's Zelenskiy says he supports ceasefire, trilateral talks with US and Russia
+   Covered by 15 outlets.
+   - CNN: Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting
+   - CGTN: Zelenskyy says he supports ceasefire, trilateral talks with US, Russia
+   - Reuters: Ukraine's Zelenskiy says he supports ceasefire, trilateral talks with US and Russia
+   - Arab News: Ukraine’s Zelensky says he supports ceasefire, trilateral talks with US, Russia
+   - Kyiv Independent: Kremlin 'ready' to resume trilateral peace talks with US, Ukraine, Putin claims
+   - TASS: Putin and Witkoff discuss resumption of trilateral talks on Ukraine — Kremlin aide
+   - Philadelphia Inquirer: Putin agrees to resume trilateral talks on Ukraine war with Kyiv and Washington, Kremlin says
+   - Meduza: Kremlin says it’s ready to resume trilateral talks but sees little ‘useful’ in new proposals from Ukraine and the EU
+   - France 24: Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November
+   - Kyiv Post: Putin ‘Ready’ for Three-Way Ukraine Talks in November, Kremlin Says
+   - CBS News: Russia says Ukraine must make "necessary decisions" to end the war
+   - BBC: Russia says it is ready to resume talks with Ukraine and US to end war
+   - Politico Europe: Russia ready for 3-way talks on Ukraine war, Kremlin says
+   - The Independent: Ukraine-Russia war latest: Missiles hit Kyiv as Putin agrees ‘in principle’ to resume peace talks
+   - NDTV: Russia Agrees To Resume Trilateral Talks, Trump Says Ukraine War's End Is Near
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=020c23c2780c
+
+18. Russia frees American Stephen Hubbard after over 4 years in prison, during a visit by US envoy
+   Covered by 15 outlets.
+   - CGTN: US special envoy Witkoff to arrive in Russia: reports
+   - The Moscow Times: Putin Releases American Jailed in Russia After U.S. Envoy Arrives for Ukraine Talks
+   - CNN: Russia frees 74-year-old American Stephen Hubbard, Trump envoy says
+   - New York Daily News: Russia releases detained American Stephen Hubbard during a visit by Trump administration envoy
+   - Hindustan Times: Stephen Hubbard, retired Michigan teacher detained in Russia since 2022, released as Trump envoy meets Putin
+   - NBC News: Russia Frees American Stephen Hubbard After 4-Year Detention
+   - Euronews: Russia frees detained American Stephen Hubbard during US envoy's visit
+   - The Guardian: Putin orders release of jailed American as he meets Trump envoy for Ukraine talks
+   - Kyiv Post: Putin Orders US Teacher’s Release as Witkoff Arrives for Talks
+   - Philadelphia Inquirer: Russia frees American Stephen Hubbard after over 4 years in prison, during a visit by US envoy (reprint of AP)
+   - The Hill: Live updates: Trump lauds Russia’s release of American; Vance to campaign with Ramaswamy in Ohio
+   - PBS NewsHour: Russia frees American Stephen Hubbard after over 4 years in prison, during a visit from U.S. envoy Witkoff
+   - AP: Russia frees American Stephen Hubbard after over 4 years in prison, during a visit by US envoy
+   - DW: Russia frees jailed American Stephen Hubbard during Witkoff talks
+   - Africanews: Russia frees jailed American as Putin meets US envoy for Ukraine talks
+   - CBS News: American Stephen Hubbard released by Russia, Trump confirms
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=0d2cf515a979
+
+19. Israeli forces detain and then release US congressional candidate at West Bank harvest
+   Covered by 15 outlets.
+   - Arab News: Clergy warn against rising Israeli violence amid Palestinian olive harvest season
+   - Times of Israel: Israel accuses Lander of 'harvesting headlines' after his detention while accompanying West Bank olive harvest
+   - Haaretz: Mamdani condemns Israel after Brad Lander detained at West Bank olive harvest
+   - The Independent: Israeli forces detain and then release US congressional candidate at West Bank harvest (reprint of AP)
+   - Al-Monitor: Israel detains US congressional candidate at West Bank olive harvest
+   - AP: Israeli forces detain and then release US congressional candidate at West Bank harvest
+   - Philadelphia Inquirer: Israeli forces detain and then release US congressional candidate at West Bank harvest (reprint of AP)
+   - The National (UAE): US election candidate detained by Israel at West Bank olive harvest
+   - Washington Examiner: Mamdani calls for New Yorkers detained in West Bank during olive harvest to be released
+   - The Hindu: Israeli forces detain and then release U.S. Congressional candidate at West Bank harvest
+   - The New Arab: Israel detains US congress candidate at West Bank olive harvest
+   - Ahram Online: Israel detains and then releases US congressional candidate at West Bank harvest - War on Gaza - War on Gaza
+   - Al Jazeera: Farmers blocked from olive harvest in occ. West Bank, volunteers detained
+   - The Jerusalem Post: Mamdani calls for end to Israeli 'occupation, genocide' after IDF detains volunteers in West Bank
+   - Le Monde (English): Israel detains US congressional candidate at West Bank olive harvest (reprint of Al-Monitor)
+   - Mondoweiss: Resisting uprooting in the West Bank
+   - Hindustan Times: Israeli forces release Brad Lander with warning after West Bank detention
+   - Washington Post: Israel detains U.S. House candidate, activists amid West Bank olive harvest
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=24fbd418b59a
+
+20. Trump envoy asks Putin to resume three-way Ukraine peace talks, secures release of US citizen
+   Covered by 14 outlets.
+   - Axios: Witkoff asks Putin to resume direct peace talks, Russia releases U.S. detainee
+   - Reuters: Trump envoy asks Putin to resume three-way Ukraine peace talks, secures release of US citizen
+   - The Independent: Kremlin says Putin has agreed to resume trilateral talks involving Russia, Ukraine and the United States next month
+   - PBS NewsHour: Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month
+   - New York Post: Putin agrees to trilateral talks with Ukraine, US to end war
+   - teleSUR: Russia Signals Willingness to Resume Peace Talks in November
+   - Daily Monitor (Uganda): Putin agrees to resume 3-way peace talks with Ukraine and US
+   - NDTV: Putin Tells US Envoy Russia Is Willing to Resume Ukraine Peace Talks Next Month
+   - Taipei Times: Trump envoy asks Putin to resume 3-way talks
+   - France 24: Putin agrees to resume three-way talks with Kyiv and Washington
+   - Hindustan Times: Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says
+   - TASS: Russia signals readiness to resume trilateral talks as Putin meets with US envoy
+   - ABC Australia: Putin agrees to resume three-way peace talks with Ukraine and US
+   - Philadelphia Inquirer: Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says (reprint of Hindustan Times)
+   - CGTN: Russia and Ukraine agree to resume peace talks next month
+   https://chrisqtruong.github.io/coverage-index/#d=2026-10-21&c=003768757b4d
