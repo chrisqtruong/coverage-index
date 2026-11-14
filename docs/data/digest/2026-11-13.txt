@@ -1,0 +1,576 @@
+COVERAGE INDEX: Friday, November 13, 2026
+The 20 stories covered by the most outlets. Reprints of another outlet's story count as the original.
+
+1. Urgent: U.S. FAA issues nationwide ground stop following "communication issue"
+   Covered by 42 outlets.
+   - Washington Examiner: FAA imposes nationwide ground stop on all flights
+   - The Hill: FAA orders nationwide ground stop
+   - Arab News: US grounds flights nationwide after air traffic control communications outage (reprint of Reuters)
+   - WHYY: Rare nationwide ground stop ordered at airports, including Philadelphia International Airport: FAA
+   - France 24: 🔴 US flight authority orders national ground stop over air traffic control 'communication issue'
+   - Xinhua: Urgent: U.S. FAA issues nationwide ground stop following "communication issue"
+   - Baltimore Sun: FAA orders nationwide ground stop amid air traffic control issues
+   - Gothamist: NYC, NJ airports grounded as part of nationwide shutdown, FAA says
+   - Le Monde (English): All flights across US grounded due to air traffic control communications problems
+   - PBS NewsHour: FAA grounds all flights at U.S. airports due to air traffic control communications problems
+   - Gulf News: US orders nationwide flight ground stop: Are UAE flights affected?
+   - CBC: Flights grounded across U.S. due to outage affecting air traffic control, FAA says
+   - The Independent: Sean Duffy’s full statement after FAA issues nationwide ground stop
+   - DW: FAA issues US national ground stop on all flights
+   - Baltimore Banner: FAA ground stop affects flights nationwide, halts BWI departures
+   - NPR: FAA issues nationwide ground stop for all U.S. airports
+   - Reuters: US grounds flights nationwide after air traffic control communications outage
+   - Wall Street Journal: FAA Issues Groundstop for Flights Across U.S.
+   - Al Jazeera: LIVE: FAA issues nationwide ground stop after communications outage in US
+   - Washington Post: FAA grounds flights at all U.S. airports, citing communications issue
+   - CNBC: FAA issues nationwide ground stop citing communication issues affecting ‘multiple’ air traffic control facilities
+   - ABC News: Rare nationwide ground stop ordered at airports over communication issues: FAA
+   - Hindustan Times: US flights grounded nationwide: A look back at the last major FAA shutdown in 2023
+   - CNN: Richard Quest explains why FAA air traffic issues are grounding flights across the US
+   - CBS News: FAA issues nationwide ground stop
+   - AP: FAA grounds all flights across the U.S. due to air traffic control communications problems
+   - Kyiv Independent: FAA orders nationwide ground stop for all US flight departures
+   - Buenos Aires Times: All departing US flights grounded due to 'communications problem'
+   - CNA: All departing US flights grounded due to communications problem (reprint of Buenos Aires Times)
+   - Houston Chronicle: The Latest: FAA grounds all flights nationwide due to communications problems
+   - Baltimore Fishbowl: Friday Afternoon Headlines: Flights grounded due to communications problems, no foul play suspected; Van Hollen ‘not running’ for president in 2028; Baltimore County schools phase out AI reading program; and more.
+   - teleSUR: U.S. Orders Nationwide Flight Grounding Over Communication Failure
+   - Ars Technica: FAA orders third nationwide ground stop in its history
+   - Times of Israel: Unprecedented U.S. Aviation Chaos: Nationwide Air Traffic Control Failure
+   - Japan Times: U.S. cancels rare nationwide ground halt for all flights after communications outage
+   - Philadelphia Tribune: Flights halted at airports across US due to air traffic control communications problems | Local News | phillytrib.com
+   - Bloomberg: US Flights Grounded Over Air Traffic Communication Issue
+   - Middle East Eye: US flights halted nationwide after FAA communications outage
+   - Rappler: US lifts nationwide flight shutdown caused by communications failure
+   - TASS: US authorities allow flights nationwide — notice
+   - NDTV: US Flight Shutdown Live Updates: US Nationwide Flight Shutdown Lifted, Officials Say "No Threat To Public"
+   - NBC News: Duffy details timeline of ground stop, demands more FAA funding
+   - New York Post: What to do if your flight was halted during nationwide ground stop
+   - ABC Australia: What we know so far about why US flights were grounded
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=01d61e0a269c
+
+2. Trump to hold summit with Xi, Putin in Shenzhen on Thursday, NY Post reports
+   Covered by 31 outlets.
+   - CGTN: China looks to APEC leaders' declaration at Shenzhen meeting
+   - DW: Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit
+   - Global Times: Xi to attend APEC Economic Leaders' Meeting, related events in Shenzhen
+   - Reuters: Trump to hold summit with Xi, Putin in Shenzhen on Thursday, NY Post reports
+   - Al-Monitor: Trump to hold summit with Xi, Putin in Shenzhen on Thursday, NY Post reports (reprint of Reuters)
+   - AP: Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, officials say
+   - NDTV: Trump, Xi Jinping, Putin To Meet Next Week At APEC Summit In China
+   - CNN: Trump to meet with China’s Xi and Russia’s Putin at historic trilateral sit-down on nuclear non-proliferation
+   - The Independent: Trump doesn't plan to discuss Ukraine with Xi and Putin in China but will talk about Iran war, US official says
+   - RT: Putin, Trump and Xi to hold rare three-way meeting in China – AP
+   - NBC News: Trump, Xi and Putin plan an unprecedented meeting on the sidelines of APEC, officials say
+   - Hindustan Times: Trump to hold first-ever joint meeting with Xi and Putin on the sidelines of APEC in China
+   - Japan Times: Trump, Xi and Putin to hold historic meeting on APEC sidelines in China
+   - Philadelphia Inquirer: Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, White House says
+   - South China Morning Post: White House confirms US-China-Russia trilateral on Apec sidelines
+   - TASS: White House says Trump to meet with Putin, Xi Jinping in China — news agency
+   - Yonhap: Trump to meet Xi, Putin in China next week; no plans for N. Korea engagement: reports
+   - CNA: Trump, Xi, Putin to hold historic meeting in China: White House
+   - Financial Times: Trump will not raise Nvidia spy issue with Xi at summit, officials say
+   - The Hill: Trump, Putin and Xi to meet in first trilateral meeting between leaders
+   - Wall Street Journal: Trump to Hold Talks With China’s Xi and Russia’s Putin Next Week
+   - CNBC: Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
+   - Arab News: Trump doesn’t plan to discuss Ukraine with Xi and Putin in China but will talk about Iran war, US official says (reprint of The Independent)
+   - The Hindu: Trump, Xi and Putin plan unprecedented joint meeting on sidelines of APEC in China: officials
+   - Kyiv Independent: Historic first summit for Trump, Xi, Putin will not focus on Ukraine, White House says
+   - Washington Post: Trump to have first trilateral meeting with Putin, Xi
+   - BBC: Trump, Putin and Xi plan historic joint meeting in China next week, White House says
+   - ABC News: Trump to meet with Putin and Xi in China next week, US officials say
+   - New York Times: Trump to Meet With Putin and Xi in China, With Nuclear Proliferation on the Agenda
+   - The Korea Herald: Trump to hold talks with Xi, Putin next week
+   - Middle East Eye: Trump to discuss Iran war, but not Ukraine, at China summit
+   - Kyiv Post: Trump to Meet Putin and Xi in China, But Won’t Discuss Russia’s War in Ukraine, White House Says
+   - Hong Kong Free Press: Trump, Xi, Putin to hold historic meeting in China: White House (reprint of CNA)
+   - Al Jazeera: Trump, Xi and Putin to hold first three-way summit in China
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=043adc89919b
+
+3. Microsoft outage affects 74 countries, territories — Downdetector
+   Covered by 30 outlets.
+   - Gulf News: Microsoft outage explained: What went wrong with Outlook and Teams, and how it is hitting UAE users
+   - The Hindu: Microsoft Outage: Why did Microsoft Outlook and other products go offline globally?
+   - Hindustan Times: Microsoft outage LIVE updates: 15 hours on, fixes not working 'as expected', tech giant scrambles to restore services
+   - The Independent: Major Microsoft outage disrupts Teams and Outlook as thousands of users affected
+   - TASS: Microsoft outage affects 74 countries, territories — Downdetector
+   - DW: Microsoft works to restore Outlook and Teams after global outage
+   - Financial Times: Microsoft races to restore services after global outage
+   - New York Post: Microsoft platforms including Outlook, Teams down as tech giant struggles to fix outage
+   - The Jerusalem Post: Global Microsoft outage stretches into Asia-Pacific, disrupting governments, airlines, AI companies
+   - Punch: Microsoft battling to restore Outlook after global outage
+   - The New Arab: Microsoft battling global Outlook, Microsoft 365 outage
+   - Africanews: Outlook outage hits users in 74 countries as Microsoft seeks fix
+   - BBC: Watch: How a server outage took down Microsoft Teams and Outlook
+   - Euronews: Microsoft 365 global outage disrupts Portuguese government, health services and schools
+   - The National (UAE): Outlook outage: Microsoft 'deeply sorry' as service returns for many
+   - El País (English): Microsoft services are beginning to return to normal after global outage of over 18 hours
+   - Philadelphia Inquirer: Microsoft reports progress as it works to recover email and other services in a global outage
+   - Tico Times: Microsoft Global Outage Disrupts Outlook, Teams and Health Services Worldwide
+   - Washington Post: Microsoft reports progress as it works to recover email and other services in a global outage (reprint of Philadelphia Inquirer)
+   - CNN: Global Microsoft outage disrupts businesses, schools, governments and more
+   - CBC: Global Microsoft outage stretches into 2nd day
+   - MercoPress: Microsoft restores services after a global outage hit Outlook and Teams in more than 70 countries
+   - Arab News: Microsoft outage disrupts families, businesses as firms lean on backup systems
+   - NDTV: What Caused Global Microsoft Outage That Disrupted Outlook, Teams, Copilot
+   - Dawn: Microsoft 'deeply sorry' as outage triggers global chaos
+   - South China Morning Post: Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents
+   - News24: Microsoft 'deeply sorry' as outage triggers global chaos, says services are recovering
+   - CNA: Microsoft 'deeply sorry' as outage triggers global chaos (reprint of Dawn)
+   - The Guardian: Microsoft outage shakes up companies, schools and local governments across US
+   - Bangkok Post: Outlook outage sounds cloud alarm
+   - Al Jazeera: Microsoft services begin recovering after global outage
+   - Japan Times: Microsoft Outlook and Teams outage eases after over a day but recovery timeline uncertain
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=023cc410c666
+
+4. FAA grounds all U.S. flights amid reported communication outages
+   Covered by 26 outlets.
+   - Philadelphia Tribune: All airports ground stopped due to ‘extraordinary circumstances,' FAA says
+   - New York Daily News: Flights halted at airports across US due to unspecified ‘extraordinary circumstances,’ FAA says
+   - ABC Australia: Breaking: US aviation administration orders grounding of all flights
+   - Baltimore Sun: Flights halted at airports across US due to unspecified ‘extraordinary circumstances,’ FAA says (reprint of New York Daily News)
+   - Haaretz: U.S. aviation agency grounds all departing flights due to 'safety reasons'
+   - Arab News: Flights grounded across the US due to ‘extraordinary circumstance’
+   - Tico Times: Costa Rica Flights Caught in Only the Third Nationwide US Ground Stop Ever
+   - South China Morning Post: Flights grounded across US due to ‘extraordinary circumstances’, FAA says
+   - Houston Chronicle: FAA: Flights halted at airports across US due to ‘extraordinary circumstances'
+   - Houston Public Media: Flights halted across US due to unspecified ‘extraordinary circumstances,’ FAA says
+   - Financial Times: US aviation regulator grounds all departing flights
+   - UPI: FAA grounds all U.S. flights amid reported communication outages
+   - Philadelphia Inquirer: FAA grounds all flights nationwide over communication issue, including PHL
+   - The Independent: All US flights paused nationwide ‘due to extraordinary circumstances’
+   - CBC: FAA issues ground stop for aircraft across the U.S.
+   - Bloomberg: FAA Grounds All Flights Nationwide
+   - CBS News: Early details on FAA's nationwide ground stop
+   - The Verge: FAA ground stop shuts down flights nationwide
+   - The Jerusalem Post: US FAA grounds all departing flights due to extraordinary circumstance, safety reasons
+   - CNN: Nationwide ground stop for all flights due to ‘extraordinary circumstances’
+   - NPR: What we know about the FAA nationwide ground stop
+   - LAist: Flights halted at airports across US due to unspecified ‘extraordinary circumstances,’ FAA says (reprint of New York Daily News)
+   - Hindustan Times: FAA employee explains possible cause of nationwide ground stop on flights: ‘Wouldn’t rule out cyberattack’
+   - Al Jazeera: FAA grounds all fights across the US over ‘telecommunication outage’
+   - New York Post: JetBlue cancels most remaining flights due to FAA ground stop — and predicts chaos won’t end soon
+   - El País (English): All flights grounded across the US over ‘extraordinary circumstances and security concerns’
+   - NDTV: US Briefly Grounds All Departing Flights, 2nd Such Move Since 9/11
+   - Scroll.in: US grounds all flights after communications outage
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=00523b66a25d
+
+5. Microsoft says it is making 'encouraging recovery progress' on outage
+   Covered by 26 outlets.
+   - News24: SA wakes up to a world without email as Microsoft outage drags on for hours
+   - Daily Monitor (Uganda): Microsoft outage spills into Asia-Pacific business hours despite 'partial recovery'
+   - Gulf News: Microsoft apologises for global outage as UAE Outlook users see recovery
+   - Rappler: Microsoft outage spills into Asia-Pacific business hours despite ‘partial recovery’ (reprint of Daily Monitor (Uganda))
+   - Nation (Kenya): Microsoft outage spills into Asia-Pacific business hours despite 'partial recovery' (reprint of Daily Monitor (Uganda))
+   - BBC: What we know about the global Microsoft outage
+   - Stuff (NZ): 14 hours and counting: Microsoft outage drags on as failed fixes leave services in limbo
+   - The Guardian: Microsoft outage live: ‘positive results for server stability’ reported, amid global disruption
+   - Rio Times: Microsoft Outlook Outage Fixes Fall Short
+   - Euronews: 'Take your time': Funniest reactions to Microsoft global outage
+   - Al Jazeera: You haven’t got mail: Global Microsoft outage disrupts services
+   - The Hill: Microsoft ‘seeing encouraging recovery progress’ in global Outlook, Teams outage
+   - Politico Europe: EU institutions survive Microsoft outage unscathed
+   - The National (UAE): Microsoft outage: services back online for some users
+   - Dawn: Microsoft says ‘improvements’ for Outlook in North America, Europe
+   - Houston Chronicle: The Latest: Microsoft says recovery efforts are making progress on worldwide outage
+   - RT: Global carnage sparked by Microsoft outages: What you need to know about the fallout
+   - NDTV: 'Recovery Underway, Some May Face Issues': Microsoft Update On Global Outage
+   - Ars Technica: Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says
+   - UPI: Microsoft says it is making 'encouraging recovery progress' on outage
+   - Xinhua: Microsoft global outage disrupts services at institutions across the Netherlands
+   - Philadelphia Inquirer: The Latest: Microsoft says recovery efforts are making progress on worldwide outage (reprint of Houston Chronicle)
+   - Philadelphia Tribune: The Latest: Microsoft says recovery efforts are making progress on worldwide outage (reprint of Houston Chronicle)
+   - The Independent: Microsoft gradually restores services after major global outage
+   - NBC News: Microsoft says major outage was due to 'a network capacity upgrade'
+   - New York Times: Microsoft’s Global Outage and Fixes: What We Know
+   - Punch: Microsoft apologises as global outage disrupts services in 74 countries
+   - PBS NewsHour: What to know about Microsoft's outage and why it takes so long to restore email services
+   - The Hindu: Microsoft Outage LIVE: Microsoft apologises as global service outage eases
+   - Hindustan Times: Microsoft outage LIVE: Microsoft denies link to grounding of US flights; says ‘recovery underway’
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=03e130f1930e
+
+6. Urgent: FAA lifts nationwide ground stop after thousands of flights disrupted
+   Covered by 25 outlets.
+   - The Independent: Thousands of flights delayed after FAA ground stop: What to know
+   - CBC: U.S. ground stop for flights now lifted, but N.L. officials were prepared to help
+   - The New Arab: US grounds all flights, sparking travel chaos
+   - Billy Penn: FAA lifts nationwide ground stop after hours of confusion at Philly’s airport
+   - Los Angeles Times: Thousands of flights affected by FAA ground stop. Here are your rights as a passenger
+   - New York Daily News: Airport delays in New York after FAA grounds flights
+   - CNA: US lifts nationwide ground stop, allowing flights to resume after hours of travel chaos
+   - DW: US lifts nationwide ground stop for airports hours after halting all departures
+   - Xinhua: Urgent: FAA lifts nationwide ground stop after thousands of flights disrupted
+   - Hindustan Times: US lifts ground stop after thousands of US flights halted, but disruptions may last
+   - New York Times: Flight Canceled During the FAA Ground Stop? Here’s What to Do.
+   - Washington Examiner: FAA lifts nationwide ground stop following historic halt on all air travel
+   - The Hill: Airspace reopened after nationwide ground stop
+   - Axios: FAA ends hours-long nationwide ground stop
+   - Philadelphia Tribune: The Latest: FAA lifts nationwide ground stop on flights that halted travel across the US
+   - The Guardian: Flights slowly resume after US aviation agency lifts nationwide ground stop
+   - CBS News: Nationwide ground stop lifted, Duffy calls for congressional funding to upgrade ATC system
+   - Philadelphia Inquirer: The Latest: FAA lifts nationwide ground stop on flights that halted travel across the US (reprint of Philadelphia Tribune)
+   - New York Post: FAA lifts nationwide ground stop, 4 hours after air traffic chaos began
+   - The Korea Herald: US ground stop delays flights from Incheon Airport
+   - The Atlantic: Scenes From the Nationwide Ground Stop
+   - teleSUR: U.S. Flights Resume After Four-Hour Halt, Attack Ruled Out
+   - France 24: FAA lifts nationwide ground stop on all US flights
+   - Al Jazeera: FAA ground stop lifted: Why were US flights grounded, and what’s next?
+   - CNN: Nationwide ground stop lifted. So, now what?
+   - News24: US grounds all flights for hours, sparking travel chaos as ageing infrastructure blamed
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=0d722e7339d9
+
+7. Widespread Microsoft services outage not caused by cyberattack — vice president
+   Covered by 24 outlets.
+   - NDTV: Service Not Improving "As Expected": Microsoft Outage Continues For 12 Hours
+   - ABC Australia: How the Microsoft outage is affecting Australia
+   - Gulf News: Microsoft outage updates: Outlook, Teams down for millions as UAE users report disruption
+   - Hindustan Times: Microsoft working to fix widespread outage
+   - News24: Microsoft battles mystery traffic surge on servers as outage continues
+   - Dawn: Microsoft says 'not aware of any malicious activity' causing Outlook outage
+   - DW: Microsoft rules out 'malicious activity' as cause for global outage
+   - The Wire (India): Is Outlook Down? Widespread Outage Hits Microsoft Email and Other Apps
+   - The Hindu: Microsoft Outage LIVE: Microsoft outage enters second day; company says not aware of malicious activity
+   - Euronews: Outlook outage: how to keep working and which email alternatives you can use
+   - Arab News: Global outage hits Microsoft Outlook, no malicious activity seen
+   - The National (UAE): Microsoft outage to have 'cascading impact' on businesses
+   - TASS: Widespread Microsoft services outage not caused by cyberattack — vice president
+   - France 24: Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’
+   - CNN: Millions affected as Microsoft outage continues
+   - Al Jazeera: Microsoft outage live: Outlook, Teams recover as disruptions continue
+   - New York Daily News: Microsoft outage shows the risks of relying on a single technology provider for essential services
+   - CBS News: Widespread Microsoft 365 outage continues, impacting email and other services
+   - BBC: Courts, spies and MPs: How the Microsoft outage has been felt around the world
+   - The Independent: What to do if Microsoft has another outage – and how to prepare for it
+   - The Verge: Microsoft’s massive Outlook outage continues
+   - Axios: How the Microsoft outage impacted courts and governments
+   - Baltimore Sun: Microsoft outage shows the risks of relying on a single technology provider for essential services (reprint of New York Daily News)
+   - Philadelphia Inquirer: Microsoft outage shows the risks of relying on a single technology provider for essential services (reprint of New York Daily News)
+   - New York Times: Inside Microsoft’s Rush to Get Back Online After a Global Outage
+   - NBC News: Microsoft scrambles to recover after massive outage
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=02d4156e7999
+
+8. EXCLUSIVE: Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say
+   Covered by 24 outlets.
+   - The Guardian: Nvidia scandal sparks US national security furore and calls to take tough line on China
+   - The Hindu: U.S. lawmakers summon Nvidia former CEO after affair with suspected spy
+   - CNA: US lawmakers summon Nvidia ex-CEO after affair with suspected spy
+   - Kathmandu Post: Nvidia board meets to decide CEO Huang’s future, source says
+   - RT: Ex-Nvidia boss faces Congress grilling over ‘Chinese honeypot’ scandal
+   - Politico: Jensen Huang’s Washington fallout
+   - Hindustan Times: Democrats demand answers on Trump's Nvidia ties after Jensen Huang's exit: ‘Americans deserve to know’
+   - El País (English): Congress demands answers over Nvidia espionage allegations and Jensen Huang scandal
+   - Financial Times: Jensen Huang’s years-long effort to get close to China
+   - L'Orient Today: US lawmakers summon Nvidia ex-CEO after affair with suspected spy (reprint of CNA)
+   - The Verge: Let’s talk about Jensen Huang’s many affairs!
+   - The Independent: Trump claims ex-Nvidia boss Jensen Huang most upset about hurting his family in spy affair scandal
+   - NDTV: Nvidia Ex-CEO Jensen Huang To Face US Congress Amid 'Spy' Affair Scandal
+   - CBS News: Former Nvidia CEO Jensen Huang willing to appear before Congress amid probe into alleged spy affair
+   - France 24: Nvidia scandal: How close was ex-CEO to Trump?
+   - Washington Post: How disgraced Nvidia CEO Jensen Huang became a close Trump ally
+   - Al Jazeera: How will the US deal with Nvidia scandal?
+   - National Review: Trump’s People May Have to Answer for Jensen Huang
+   - New York Times: Why Jensen Huang Was Essential to Nvidia’s Rise
+   - CNBC: Nvidia is done with Jensen Huang. The fallout in Washington is just beginning
+   - New York Post: Chinese billionaire refuses to invest in Nvidia ‘without Jensen’ after CEO quits over affairs scandal
+   - South China Morning Post: US Congress widens Nvidia probe, seeking testimony from Jensen Huang and Trump officials
+   - Reuters: EXCLUSIVE: Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say
+   - ABC Australia: Questions left to answer in wake of Huang's departure from Nvidia
+   - Wall Street Journal: Behind the Nvidia Affair Sits a Vast Chinese Spying Machine
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=17606cf825df
+
+9. Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River
+   Covered by 22 outlets.
+   - CNN: Tanker collides with river cruiser near Port of New Orleans
+   - The Hill: Tanker collides with riverboat on Mississippi River at Port of New Orleans
+   - Hindustan Times: Mississippi River crash: American Cruise Line boat and oil tanker collision near New Orleans port leave several in the water
+   - New York Daily News: Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River (reprint of AP)
+   - The Independent: Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River (reprint of AP)
+   - Houston Chronicle: Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River (reprint of AP)
+   - Baltimore Sun: Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River (reprint of AP)
+   - NDTV: Tanker Collides With Cruise Ship On Mississippi River In US, Rescue Ops On
+   - Stuff (NZ): Rescues underway in New Orleans after a tanker hits a river cruise boat
+   - PBS NewsHour: Rescues operations underway in New Orleans after tanker hits river cruise boat
+   - Houston Public Media: Rescues underway in New Orleans after tanker hits river cruise boat on Mississippi River
+   - Washington Examiner: Tanker crashes into river cruise ship carrying over 100 passengers in Port of New Orleans
+   - Euronews: Tanker collides with New Orleans river cruise carrying 129 passengers, rescue operation underway
+   - CNA: Tanker hits river cruise ship near New Orleans port
+   - ABC Australia: Tanker and cruise ship collide in the US
+   - NBC News: Tanker collides with a New Orleans riverboat
+   - CBS News: Tanker hits river cruise boat in New Orleans, rescues underway
+   - DW: Tanker collides with cruise ship on Mississippi near New Orleans
+   - The Hindu: Tanker hits a river cruise boat on Mississippi River in New Orleans; rescue operations under way
+   - AP: Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River
+   - Philadelphia Inquirer: Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River (reprint of AP)
+   - Philadelphia Tribune: Rescues are underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River (reprint of AP)
+   - The Guardian: New Orleans boat crash: tanker collides with river cruise ship carrying more than 130 people – latest updates
+   - ABC News: Tanker collides with riverboat with 129 passengers on board in New Orleans: Officials
+   - Reuters: Freighter collides with cruise ship in New Orleans, passengers in the water
+   - Al Jazeera: 32 passengers taken to hospital after tanker hits river cruise boat in US
+   - Xinhua: Tanker collides with cruise ship near U.S. Port of New Orleans
+   - Washington Post: Tanker collides with cruise ship in New Orleans, sending passengers into river
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=088af6d63819
+
+10. Bessent blames Commerce Dept over lack of export controls for Nvidia partner Megaspeed
+   Covered by 21 outlets.
+   - Financial Times: Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed
+   - Axios: Bessent puts Megaspeed heat on Lutnick: "Commerce has the pen"
+   - CNN: Fallout from Nvidia scandal continues as Treasury Secretary weighs in
+   - Hindustan Times: Scott Bessent blames Howard Lutnick's Commerce Department for delay in blacklisting Nvidia customer Megaspeed
+   - Dawn: US Treasury chief blames Commerce Dept for failure in Nvidia scandal
+   - The Hill: Bessent: Treasury pushed to blacklist Megaspeed, but ‘Commerce has the pen’
+   - Reuters: Bessent blames Commerce Dept over lack of export controls for Nvidia partner Megaspeed
+   - Le Monde (English): US Treasury secretary blames the Department of Commerce for leak of Nvidia chips to China
+   - BBC: Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague
+   - The Independent: Nvidia fallout deepens as Trump official blames commerce secretary for lack of controls
+   - Washington Examiner: Bessent says Treasury wanted to put Megaspeed on entity blacklist for months, but Commerce Department ‘has the pen’
+   - CNBC: Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China
+   - Houston Chronicle: Bessent blames Commerce's Lutnick for not restricting Nvidia chip exports to China
+   - Philadelphia Inquirer: Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China
+   - New York Daily News: Bessent blames Lutnick’s Commerce Department for not restricting Nvidia chips to China (reprint of Philadelphia Inquirer)
+   - New York Times: Bessent Faults Commerce Dept. for Failing to Blacklist Megaspeed
+   - Baltimore Sun: Bessent blames Lutnick’s Commerce Department for not restricting Nvidia chips to China (reprint of Philadelphia Inquirer)
+   - The Guardian: Scott Bessent blames commerce department over delay blacklisting China-linked data company – US politics live
+   - PBS NewsHour: Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China (reprint of Philadelphia Inquirer)
+   - NDTV: Who Is To Blame? Team Trump Turns On Each Other Over Nvidia 'Spy' Scandal
+   - South China Morning Post: Bessent blames US Commerce Department for not restricting Nvidia chip exports to China
+   - AP: Bessent blames Lutnick’s Commerce Department for not restricting Nvidia chip exports
+   - Nikkei Asia: Nvidia scandal sparks Washington blame game over China chip exports
+   - CBS News: Bessent upset Lutnick didn't ban Nvidia chip exports to China-linked firm
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=096fed803a3e
+
+11. Europe pushes for seat at Ukraine peace talks‌ but lacks unified voice
+   Covered by 18 outlets.
+   - The Independent: Europe pushes for seat at Ukraine peace talks but lacks unified voice (reprint of AP)
+   - AP: Europe pushes for seat at Ukraine peace talks‌ but lacks unified voice
+   - Xinhua: U.S. envoy says Putin willing to try bringing Europe into Ukraine peace talks
+   - NDTV: Putin Agrees To Let European Representatives Join Ukraine Peace Talks
+   - Euronews: Europe Today: US envoys meet Putin as Europe pushes to join Ukraine talks
+   - Kyiv Post: Ukraine Talks: Is Peace Any Closer?
+   - Philadelphia Inquirer: Europe pushes for seat at Ukraine peace talks but lacks unified voice (reprint of AP)
+   - The Hindu: Europe pushes for seat at Ukraine peace talks but lacks unified voice (reprint of AP)
+   - Kathmandu Post: Russia, Ukraine and US start second day of Abu Dhabi peace talks
+   - RT: Trump envoy touts new approach to Ukraine peace talks
+   - Times of Israel: Europe will ‘safeguard interests,’ support Ukraine in Russia talks, EU chief says
+   - France 24: US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance
+   - The Moscow Times: Russia Says Europeans Can Join Ukraine Peace Talks if They Show 'Readiness to Contribute' (reprint of Reuters)
+   - Reuters: Russia says Europeans can join Ukraine peace talks if they show 'readiness to contribute'
+   - CNA: Russia says Europeans can join Ukraine peace talks if they show 'readiness to contribute' (reprint of Reuters)
+   - Meduza: ‘You could even have a TV show about it’: Europe struggles to choose its representative for Ukraine peace talks
+   - TASS: Europe to join Ukraine peace talks 'in coming weeks' — German chancellor
+   - UPI: U.S., Ukraine herald European involvement in peace talks with Russia
+   - CBS News: Zelenskyy pushes for Europe to become part of Russia-Ukraine negotiations
+   - Al Jazeera: Europe seeks seat at Ukraine peace talks but lacks unified voice
+   - Taipei Times: Europe to join next round of Russia talks: US, Ukraine
+   - Politico Europe: Why Europe failed to find a superhero to take on Putin
+   - CNN: Europe and Ukraine get a boost in peace talks, but Putin is playing for time
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=04f596d6754d
+
+12. Flash: SpaceX launches Starship on 15th flight test
+   Covered by 17 outlets.
+   - Taipei Times: SpaceX Starship to attempt first-ever spaceship ‘catch’
+   - Xinhua: Flash: SpaceX launches Starship on 15th flight test
+   - NDTV: SpaceX Aborts Starship Booster Recovery Due To Technical Issue
+   - Financial Times: SpaceX aborts attempt to catch Starship booster rocket
+   - BBC: Setback for SpaceX Starship rocket's double-catch test
+   - UPI: SpaceX launches Starship into orbit, aborts booster catch attempt
+   - NBC News: SpaceX historic test flight takes off
+   - AP: SpaceX’s Starship soars into orbit after double catch thwarted by booster’s water landing
+   - PBS NewsHour: SpaceX's Starship soars into orbit after booster malfunction thwarts double catch attempt
+   - Ars Technica: Starship flight 15 powers to orbit—setting up a possible catch on Saturday
+   - CNBC: SpaceX launches Starship in key test flight of massive rocket
+   - Stuff (NZ): Watch: SpaceX aircraft’s booster falls into Gulf of Mexico in flames
+   - RT: SpaceX launches world’s largest rocket, loses booster in fiery crash (VIDEOS)
+   - CBS News: SpaceX launches huge Starship rocket on 15th test flight
+   - Philadelphia Inquirer: SpaceX’s Starship soars into orbit after booster explosion prevents an unprecedented double catch
+   - DW: SpaceX launches Starship rocket, fails to recover booster
+   - Hindustan Times: SpaceX's Starship booster explodes, prevents spacecraft's double catch
+   - Houston Chronicle: SpaceX’s Starship soars into orbit after booster explosion prevents an unprecedented double catch (reprint of Philadelphia Inquirer)
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=00a1f632da43
+
+13. Van Hollen challenges Schumer for U.S. Senate Democratic leadership
+   Covered by 17 outlets.
+   - Xinhua: Van Hollen challenges Schumer for U.S. Senate Democratic leadership
+   - Times of Israel: Israel critic, Chris Van Hollen to challenge Chuck Schumer for Senate Democratic leader
+   - Washington Post: Van Hollen will challenge Schumer to lead Senate Democrats
+   - Haaretz: Israel critic Van Hollen to challenge Schumer for U.S. Senate majority leader
+   - Philadelphia Inquirer: Chris Van Hollen to challenge Chuck Schumer for Senate Democratic leader
+   - AP: Van Hollen to challenge Schumer for Senate Democratic leader
+   - New York Daily News: Van Hollen to challenge Schumer for Senate Democratic leader (reprint of AP)
+   - PBS NewsHour: Van Hollen to challenge Schumer for Senate Democratic leader (reprint of AP)
+   - The Hill: Watch live: Van Hollen speaks from Denver as he eyes Senate leadership role
+   - Middle East Eye: Leading progressive voice on Mideast to challenge Chuck Schumer for Senate leadership
+   - CNN: Schumer Faces Challenge for Senate Leadership
+   - ABC News: Schumer and Van Hollen face off for Senate majority leader. What do Democrats think?
+   - Axios: Senate Dems break 32-year drought on leadership challenges
+   - Fox News: Schumer's leadership rival reveals major Senate rule change he'd pursue if elected
+   - Washington Examiner: Schumer leads ‘underdog’ Van Hollen in early majority leader endorsements
+   - NPR: With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate
+   - The Guardian: What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders
+   - CBC: Chuck Schumer facing challenge for U.S. Senate leadership
+   - Japan Times: Progressive challenge to Democratic Senate chief Schumer opens fight for bolder agenda
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=06003b4db4f0
+
+14. Drone activity over US base in Britain prompts security response, US military says
+   Covered by 17 outlets.
+   - AP: Drone activity over US base in Britain prompts security response, US military says
+   - Houston Chronicle: Drone activity over US base in Britain prompts security response, US military says (reprint of AP)
+   - Reuters: US air force responds to suspected drone activity over UK airbase
+   - The Guardian: US air force responds to suspected drone activity at RAF Lakenheath
+   - The Independent: US military responds to ‘suspected unauthorised drone activity’ at UK airbase
+   - Arab News: US air force responds to suspected drone activity over UK base
+   - Haaretz: Suspicious drone activity reported at U.S. base in Britain days after Iran threat
+   - Philadelphia Inquirer: Drone activity over US base in Britain prompts security response, US military says (reprint of AP)
+   - New York Post: Unauthorized drones at UK air force base prompt security response just weeks after Iran-linked plot against US planes
+   - CNA: US air force responds to suspected drone activity over UK airbase (reprint of Reuters)
+   - Washington Examiner: US troops respond to ‘unauthorised drone activity’ at UK air base
+   - CNN: US Air Force responds to suspected drone activity over UK airbase (reprint of Reuters)
+   - The New Arab: US says forces responded to apparent drone activity over UK base
+   - New York Daily News: Drone activity over US base in Britain prompts security response, US military says (reprint of AP)
+   - BBC: US Air Force says it responded to 'suspected drones' over RAF Lakenheath
+   - Xinhua: U.S. forces respond to suspected drone activity at England air base: British media
+   - Middle East Eye: US responds to suspected drone activity over UK air base used in Iran strikes
+   - The Jerusalem Post: US Air Force responds to suspected drone activity over UK airbase (reprint of Reuters)
+   - Baltimore Sun: Drone activity over US base in Britain prompts security response, US military says (reprint of AP)
+   - South China Morning Post: US Air Force responds to suspected drone activity over UK airbase (reprint of Reuters)
+   - Hindustan Times: US forces in UK on alert after suspected drone sightings over RAF Lakenheath in England
+   - Kyiv Independent: US Air Force responds to suspected drone activity at military base in UK
+   - UPI: U.S. Air Force responds to drone activity at U.K. military base
+   - Le Monde (English): US forces responded to suspected drone activity over a military base in Britain
+   - Times of Israel: US Air Force says it dealt with ‘unauthorized drone activity’ over UK airbase
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=09d39edea0ca
+
+15. Van Hollen announces run for Democratic Senate leader
+   Covered by 17 outlets.
+   - UPI: Van Hollen announces run for Democratic Senate leader
+   - Dawn: Democratic US Senator Chris Van Hollen announces run for US Senate majority leader, challenging Schumer
+   - Daily Maverick: Chris Van Hollen announces run for US Senate majority leader, challenging Schumer
+   - NPR: Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader
+   - NBC News: Van Hollen Challenges Schumer for Senate Majority Leader
+   - WAMU: Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader
+   - Democracy Now: Headlines for November 13, 2026
+   - ABC News: Maryland Sen. Van Hollen says he will challenge Sen. Schumer for Democratic leader
+   - The Hill: Live updates: Van Hollen to challenge Schumer; Outlook starts bouncing back
+   - Fox News: SOUND OFF: What's Chuck Schumer's future with Senate Dems?
+   - AP: Who is Chris Van Hollen, the senator challenging Chuck Schumer to be majority leader?
+   - Philadelphia Tribune: Who is Chris Van Hollen, the senator challenging Chuck Schumer to be majority leader? (reprint of AP)
+   - CBS News: Van Hollen challenges Schumer for Senate majority leader (reprint of NBC News)
+   - Houston Chronicle: Who is Chris Van Hollen, the senator challenging Chuck Schumer to be majority leader? (reprint of AP)
+   - Axios: The senators who could join Van Hollen's insurgency against Schumer
+   - Baltimore Sun: Van Hollen drops 2028 presidential run: ‘I’m no longer pursuing that’
+   - Washington Post: Who is Chris Van Hollen, the Democratic senator challenging Chuck Schumer?
+   - Mother Jones: Chris Van Hollen Is Challenging Schumer For Senate Majority Leader
+   - Baltimore Banner: Maryland’s Van Hollen drops White House plans to focus on Senate’s top job
+   - PBS NewsHour: Does Van Hollen have enough support to beat Schumer in Senate leadership race?
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=169e9bca4894
+
+16. Flights halted at airports across US due to air traffic control communications problems, FAA says
+   Covered by 17 outlets.
+   - CBC: Proposal for air traffic control services at Peterborough Regional Airport
+   - RT: US grounds departing flights nationwide
+   - Arab News: Flights halted at airports across US due to air traffic control communications problems
+   - Al Jazeera: US grounds all flights after ‘communication issue’
+   - The Independent: Flights halted at airports across US due to air traffic control communications problems (reprint of Arab News)
+   - Philadelphia Inquirer: Flights halted at airports across U.S. due to air traffic control communications problems, FAA says
+   - AP: Flights halted at airports across US due to air traffic control communications problems, FAA says
+   - Ahram Online: Flights halted at airports across US due to air traffic control communications problems - International - World
+   - ABC Australia: Live: All US departing flights grounded due to communication issues
+   - Bloomberg: Flights Grounded Across US Over Air Traffic Control Problems
+   - TASS: US authorities investige potential role of AI in air traffic control systems' malfunction
+   - Egypt Independent: All US flights grounded amid cyberattack speculation: What we know so far
+   - CBS News: Some international flights allowed to depart U.S. amid FAA ground stop
+   - Philadelphia Tribune: Flights halted at airports across US due to air traffic control communications problems (reprint of Arab News)
+   - Times of Israel: US grounds all departing flights amid comms failure at air traffic control centers
+   - MercoPress: US grounds all departing flights over an air traffic control communications failure
+   - The Hindu: All departing U.S. flights grounded due to communication outage
+   - The Korea Herald: Flights halted at airports across US due to air traffic control communications problems (reprint of Arab News)
+   - Hindustan Times: US air traffic control ‘incredibly old’, gave inconsistent data: Why FAA grounded thousands of flights
+   - Reuters: Old air traffic control equipment regularly disrupts US flights
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=1dc7197bef0a
+
+17. Iran says it destroyed U.S. radar in Bahrain
+   Covered by 17 outlets.
+   - Gulf News: US/Israel-Iran war: What UAE residents need to know today (Nov. 13, 2026)
+   - Euronews: US denies IRGC destroyed American radar in Bahrain after attack on southern Iran
+   - Xinhua: Iran says it destroyed U.S. radar in Bahrain
+   - Al-Monitor: Iran’s IRGC claims attack on US target in Bahrain: What to know
+   - AP: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain
+   - New York Daily News: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain (reprint of AP)
+   - Middle East Eye: US says it shot down two Iranian drones heading towards Bahrain
+   - NDTV: US Denies Iran Targeted Bahrain's Radar System, Says Shot Down Their Drones
+   - Times of Israel: US military confirms Iranian attack on Bahrain, says it shot down two IRGC drones
+   - DW: Iran targeted US radar system in Bahrain
+   - Philadelphia Inquirer: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain (reprint of AP)
+   - Washington Examiner: US denies Iran claims it destroyed military radar in Bahrain
+   - The Hindu: Iran says it struck U.S. military radar in Bahrain
+   - Hindustan Times: US military denies Iran’s claim of attack on radar in Bahrain, says it shot down two drones
+   - The New Arab: US says thwarted Iranian drone attack on Bahrain
+   - CNA: Iran targeted US radar system in Bahrain (reprint of DW)
+   - Wall Street Journal: Iran Escalates Low-Level Conflict With a Shot at Bahrain
+   - The National (UAE): Middle East latest: US says it shot down Iranian drones launched toward Bahrain
+   - Tehran Times: Bahrain in focus as Iran targets US radar, downs MQ-1 drone
+   - Stuff (NZ): US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain (reprint of AP)
+   - Haaretz: U.S. military downs two Iranian attack drones as Iran says it struck U.S. radar in Bahrain
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=22d4c6600ed8
+
+18. Microsoft outage hits companies and governments worldwide as it struggles to restore services
+   Covered by 16 outlets.
+   - BBC: What happened overnight with the Microsoft global outage
+   - AP: Microsoft outage hits companies and governments worldwide as it struggles to restore services
+   - Philadelphia Inquirer: Microsoft outage hits companies and governments worldwide as it struggles to restore services (reprint of AP)
+   - NDTV: Microsoft Outage: What Went Wrong And Why Is It Taking So Long To Fix It?
+   - The Independent: Microsoft outage latest: Outlook and Teams down as company struggles to fix huge global outage
+   - Times of Israel: Microsoft outage hits companies, governments worldwide as it struggles to fix issue
+   - The Hindu: Microsoft 365 outage drags on as company observes ‘limited recovery’
+   - Euronews: Microsoft outage explained: what went wrong and is your data at risk?
+   - The Irish Times: HSE services affected as global Microsoft outage hits Ireland
+   - NBC News: Microsoft Scrambles to Find Fix Massive Global Outage
+   - The Jerusalem Post: Microsoft outage hits users worldwide: What went wrong, why is cyberattack ruled out? - explainer
+   - Washington Post: Microsoft email outages persist into second day as company scrambles for a fix
+   - CBS News: Microsoft seeing "continued recovery" amid major worldwide outage
+   - Taipei Times: Microsoft struggles to fix services in global outage
+   - The Guardian: Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams
+   - Al Jazeera: Microsoft says services still returning amid widespread outage
+   - Hindustan Times: Trump administration targets Microsoft with H-1B remark amid Outlook outage
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=0088236ccfda
+
+19. What we know about car blast in southern Moscow
+   Covered by 16 outlets.
+   - Meduza: A car exploded in Moscow. Telegram channels say it belongs to Sergei Zavorotny, former spokesman for Ukrainian ex-prime minister Mykola Azarov.
+   - DW: Ukraine updates: Russia hit with second car bomb attack in two days
+   - Kyiv Post: Moscow Car Blast Reportedly Injures Former Azarov Spokesman
+   - The Hindu: Second car bomb to hit Russia in two days targets exiled Ukrainian political aide, media report
+   - RT: Former Ukrainian PM’s aide targeted in Moscow car bombing
+   - Times of Israel: Moscow car bomb wounds former aide to pro-Russian Ukrainian politician (reprint of Reuters)
+   - TASS: What we know about car blast in southern Moscow
+   - AP: Bombings in Russia kill a military officer and injure an adviser to Ukraine's former prime minister
+   - The Guardian: Moscow car bomb severely injures former aide to Ukraine’s pro-Russia ex-PM
+   - BBC: Russia hit by second car bomb in as many days as peace talks continue
+   - Reuters: Moscow car bomb wounds former aide to pro-Russian Ukrainian politician
+   - CNN: Moscow car explosion injures former aide to pro-Russian Ukrainian politician
+   - Philadelphia Inquirer: Bombings in Russia kill a military officer and injure an adviser to Ukraine's former prime minister (reprint of AP)
+   - Arab News: Bombings in Russia kill a military officer and injure an adviser to Ukraine’s former PM
+   - UPI: Second car bomb in two days injures pro-Russian Ukrainian in Moscow
+   - Al Jazeera: Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser
+   - Kyiv Independent: Ukraine war latest: Ex-PM press secretary reportedly injured in Moscow car explosion
+   - Washington Post: Ukraine critic injured in Moscow car bombing, Russia says
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=0215aac087bf
+
+20. 3 Indian-Origin Faces Among 11 Names In Jensen Huang Succession Search At Nvidia
+   Covered by 16 outlets.
+   - NDTV: 3 Indian-Origin Faces Among 11 Names In Jensen Huang Succession Search At Nvidia
+   - The Hindu: Nvidia CEO Jensen Huang resigns amid spy scandal
+   - Hindustan Times: 3 Indian-origin CEOs likely in race as Jensen Huang quits top Nvidia post
+   - The Independent: Five things we know after Jensen Huang resigns as Nvidia CEO
+   - Africanews: Jensen Huang quits Nvidia as scandal rocks AI giant
+   - Nikkei Asia: Jensen Huang scandal sends ripples through tech
+   - Rappler: TIMELINE: Jensen Huang’s fall from Nvidia grace
+   - France 24: Fallout from Nvidia scandal spreads as Huang resigns
+   - CNN: What's next for the global economy after Jensen Huang's stunning fall from Nvidia?
+   - Gulf News: What Jensen Huang's fall can teach healthcare marketing
+   - CNBC: Jensen Huang scandal casts doubt on Nvidia’s AI dominance — how we got here
+   - The Verge: What’s really at stake in the Jensen Huang saga
+   - New York Times: Jensen Huang’s Fall Is Bad for Nvidia but Good for America
+   - The Guardian: Why the Nvidia scandal is far from over - The Latest
+   - Wall Street Journal: Opinion | Of Course Jensen Huang Had to Go
+   - South China Morning Post: Don’t take Nvidia CEO Jensen Huang’s ‘sex’ scandal at face value
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-13&c=079e6504179c
