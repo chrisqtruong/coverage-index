@@ -1,0 +1,459 @@
+COVERAGE INDEX: Friday, November 20, 2026
+The 20 stories covered by the most outlets. Reprints of another outlet's story count as the original.
+
+1. Myanmar calls UN court's Rohingya genocide ruling a 'great disappointment'
+   Covered by 35 outlets.
+   - The Diplomat: The ICJ’s Myanmar Genocide Ruling: What Comes Next?
+   - Addis Standard: Daily_Brief: #ICJ finds #Myanmar committed genocide against #Rohingya in landmark 9-6 ruling
+   - Scroll.in: ICJ ruling that Myanmar committed genocide is likely to impact case against Israel for Gaza carnage
+   - Premium Times: ICJ rules Myanmar committed genocide against Rohingya
+   - Arab News: International court’s genocide ruling ‘not fair’: Myanmar spokeswoman
+   - Hindustan Times: Myanmar calls International court's Rohingya genocide ruling ‘unfair’
+   - The Hindu: Myanmar calls ICJ ruling on genocide 'unfair'
+   - NDTV: Not Unanimous, Not Fair: Myanmar On International Court's Genocide Ruling
+   - Haaretz: Myanmar dismisses UN court's ruling of genocide against Rohingya as 'unfair'
+   - CNA: Myanmar says international court's genocide ruling 'not fair'
+   - Punch: China faults ICJ ruling on Myanmar’s Rohingya genocide
+   - ABC Australia: Myanmar calls international court ruling on Rohingya genocide 'unfair'
+   - The Irrawaddy: Myanmar Regime Rejects ‘Unfair’ Rohingya Genocide Ruling at ICJ
+   - The Jerusalem Post: Myanmar calls UN court's landmark Rohingya genocide ruling 'unfair,' claims it was unjustly accused
+   - Bangkok Post: Myanmar says genocide ruling ‘not fair’
+   - The Wire (India): Six Years on, ICJs Myanmar Ruling Revives Questions of Supreme Court’s Complicity in Rohingya Genocide
+   - Africanews: Myanmar rejects ICJ Rohingya genocide ruling as 'unfair'
+   - Democracy Now: "Historic Judgment": World Court Rules Burma Guilty of Genocide Against Rohingya
+   - DW: Myanmar genocide ruling: Rohingya say struggle for justice not over
+   - Times of Israel: Myanmar calls landmark Rohingya genocide ruling ‘unfair,’ while refugees expect action
+   - Al Jazeera: Myanmar, China object to landmark ICJ ruling on Rohingya genocide
+   - Middle East Eye: Israeli experts warn Myanmar genocide ruling could strengthen Gaza case at ICJ
+   - Ahram Online: Al-Azhar welcomes ICJ ruling finding Myanmar committed genocide against Rohingya - Politics - Egypt
+   - New York Daily News: Myanmar dismisses the UN court’s ruling on its responsibility for Rohingya genocide as ‘unfair’
+   - Baltimore Sun: Myanmar dismisses the UN court’s ruling on its responsibility for Rohingya genocide as ‘unfair’ (reprint of New York Daily News)
+   - CNN: Where is Aung San Suu Kyi as Myanmar gets genocide ruling?
+   - PBS NewsHour: Myanmar is the first state found responsible for genocide. Here's how the ICJ ruled in other cases
+   - Reuters: Myanmar calls UN court's Rohingya genocide ruling a 'great disappointment'
+   - Philadelphia Inquirer: Myanmar dismisses the UN court's ruling on its responsibility for Rohingya genocide as 'unfair' (reprint of New York Daily News)
+   - Tehran Times: ICJ ruling against Myanmar brings Gaza genocide case into sharper focus
+   - The Free Press: How the Campaign Against Israel Rewrote the Law of Genocide
+   - Houston Chronicle: Myanmar dismisses the UN court's ruling on its responsibility for Rohingya genocide as 'unfair' (reprint of New York Daily News)
+   - News24: Myanmar calls historic ICJ genocide ruling unfair as court orders Rohingya safe passage home
+   - Kathmandu Post: Myanmar calls ICJ ruling on genocide ‘unfair’ (reprint of The Hindu)
+   - Mondoweiss: What does the ICJ ruling on Myanmar mean for Gaza?
+   - France 24: 'Friends' But Who Benefits? Notes from an Historic Summit, Myanmar's Genocide Ruling, Time to 'Bre-join' the EU?
+   - Wall Street Journal: How the Myanmar Genocide Ruling Raises the Stakes for Israel
+   - Dawn: Rohingya genocide
+   - The Guardian: Rohingya who escaped Myanmar’s genocide tell their stories
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=0574f9e50fd4
+
+2. GTA VI books record $3.79 billion in sales on first day of launch
+   Covered by 21 outlets.
+   - ABC News: WATCH: Grand Theft Auto VI is back and shattering records
+   - France 24: 'GTA VI': When the biggest-ever entertainment release becomes the biggest headline
+   - The Hill: Burchett says you’re a ‘bad parent’ if you let your child play ‘Grand Theft Auto VI’
+   - National Review: Grand Theft Auto VI and How We Spend Our Time
+   - New York Daily News: ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sales, Rockstar Games reports (reprint of AP)
+   - PBS NewsHour: Sales of 'Grand Theft Auto VI' hit more than $2.3 billion after long-anticipated release
+   - Washington Post: Video games like ‘Grand Theft Auto VI’ may have surprising brain benefits
+   - Reuters: GTA VI books record $3.79 billion in sales on first day of launch
+   - Houston Chronicle: ‘Grand Theft Auto VI’s’ realism pulls gamers into being actors
+   - NDTV: GTA 6 Sets Record With $3.79 Billion In First-Day Retail Sales: Report
+   - Bangkok Post: Grand Theft Auto VI takes record $3.8 bn on first day
+   - Philadelphia Inquirer: ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sales, Rockstar Games reports (reprint of AP)
+   - Financial Times: Grand Theft Auto VI smashes records with $3.8bn in sales
+   - The Independent: Grand Theft Auto 6 review: You have no idea what you’re in for
+   - CNN: ‘GTA VI’ sales blew past $3 billion in its first day, making it one of the biggest entertainment launches ever
+   - The Verge: Rockstar says GTA VI made $3.79 billion in its first day
+   - TASS: GTA VI sales reach $3.79 bln on first day of release, company says
+   - CNA: Grand Theft Auto VI sets record with US$3.79 billion in first-day retail sales, Rockstar Games reports
+   - Hindustan Times: GTA VI makes $3.79 billion in 24 hours, becomes biggest entertainment launch ever
+   - The Jerusalem Post: GTA VI shatters entertainment records with $3.79 billion in first-day sales
+   - AP: ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sales, Rockstar Games reports
+   - Philadelphia Tribune: ‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sales, Rockstar Games reports (reprint of AP)
+   - Gulf News: ‘Grand Theft Auto VI’ sets record with $3.79 billion in first-day retail sales, Rockstar Games reports
+   - The Guardian: ‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first day of release, developer says
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=049c056d8a1b
+
+3. Trump says US to penalize firms building data centers abroad
+   Covered by 20 outlets.
+   - Hindustan Times: Trump threatens ‘tremendous tax’ on US tech firms building AI data centres abroad
+   - CNA: Trump says US to penalize firms building data centers abroad (reprint of Reuters)
+   - Philadelphia Inquirer: The Latest: Trump says he’ll block US companies from building data centers abroad
+   - Philadelphia Tribune: The Latest: Trump says he’ll block US companies from building data centers abroad (reprint of Philadelphia Inquirer)
+   - The Hill: Trump seeks curbs on US companies building data centers overseas
+   - Times of Israel: Trump vows ‘tremendous penalties’ for US firms building data centers abroad
+   - The Independent: Trump threatens tax on tech giants for overseas AI data centers
+   - CNBC: Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'
+   - NBC News: Trump threatens ‘tremendous penalties’ on companies that build AI data centers overseas
+   - Axios: Trump floats major tax on U.S. companies constructing data centers overseas
+   - The Verge: Trump threatens ‘tremendous tax’ for moving AI data centers outside the US
+   - New York Times: Trump Threatens to Bar U.S. Tech Firms From Building Data Centers Abroad
+   - Financial Times: Donald Trump threatens ‘tremendous’ tax on data centres built outside US
+   - ABC Australia: Trump vows 'tremendous tax' on companies building data centres abroad
+   - BBC: Trump threatens ban on US firms building AI data centres overseas
+   - Al Jazeera: Trump threatens tax on US tech firms building AI data centres abroad
+   - PBS NewsHour: WATCH: Trump on data centers: 'Take advantage, don't shut them off'
+   - Reuters: Trump says US to penalize firms building data centers abroad
+   - The Guardian: Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad
+   - CBS News: Markets plummet amid tech sell-off, Trump threatens tax on data centers built abroad
+   - Houston Chronicle: Trump seeks to penalize US companies that build AI data centers abroad, even as they face backlash
+   - South China Morning Post: Trump threatens ‘tremendous tax’ on US firms building AI data centres overseas
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=0417cbfe434f
+
+4. White House names new national cyber director following outages
+   Covered by 20 outlets.
+   - Daily Maverick: Trump ousts cyber director after tech outages spark criticism
+   - Washington Post: White House replaces top cybersecurity official after string of outages
+   - Al Jazeera: Trump bows to pressure, replaces US cyber security director
+   - UPI: White House names new national cyber director following outages
+   - Dawn: Trump ousts cyber director after tech outages spark criticism: sources
+   - Euronews: White House cyber director fired after wave of tech outages
+   - Xinhua: Trump fires cyber chief amid mounting criticism over tech outages
+   - Africanews: US national cyber director ousted following wave of tech outages
+   - The Hindu: White House fires cybersecurity chief after widespread outages
+   - Financial Times: White House replaces top cyber security official
+   - The Independent: White House names Kirsten Davies as new cyber chief after outage chaos
+   - BBC: White House removes cyber-security chief after series of tech outages
+   - CNN: Trump Replaces Top Cyber Official Amid Tech Outages
+   - New York Daily News: White House taps Kirsten Davies as cyber chief after outages rattle Americans
+   - Baltimore Sun: White House taps Kirsten Davies as cyber chief after outages rattle Americans (reprint of New York Daily News)
+   - PBS NewsHour: White House taps Kirsten Davies as cyber chief after outages rattle Americans (reprint of New York Daily News)
+   - ABC News: White House replaces national cyber director amid widespread tech outages
+   - CNBC: White House replaces cyber director Sean Cairncross amid widespread tech outages
+   - The National (UAE): Trump didn't think fired US cyber director Sean Cairncross was 'good enough'
+   - The Hill: Who is Kirsten Davies, Trump’s new cyber chief?
+   - Times of Israel: White House cyber director fired after national tech outages
+   - South China Morning Post: Trump replaces US cyber chief after outages hit flights, banks and NSA
+   - Japan Times: Trump ousts cyber director after tech outages spark criticism (reprint of Daily Maverick)
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=0c9c7a2e4596
+
+5. European Union, Britain ink reset deal on food, farming and mobility
+   Covered by 19 outlets.
+   - Financial Times: Burnham to agree Brexit ‘reset’ deal in push for closer EU ties
+   - The Hindu: U.K., E.U to announce youth mobility deal, as they discuss closer ties
+   - The New Arab: UK and EU launch reset with food and youth mobility deals
+   - Le Monde (English): UK and EU agree on 'landmark' deal to ease trade and youth mobility, talks to continue on tuition fees
+   - UPI: European Union, Britain ink reset deal on food, farming and mobility
+   - Arab News: EU and UK agree ‘landmark’ deal at Burnham’s Brussels summit
+   - Al Jazeera: UK says new deal will ‘rebuild bridges’ with EU: What’s in it?
+   - DW: EU and UK strike 'landmark deal' to strengthen ties after Brexit
+   - New York Daily News: UK and EU strike deals on trade and travel, pledging to rebuild ties after Brexit (reprint of AP)
+   - Euronews: Burnham drew a line under Brexit at the EU-UK summit. But where does Britain go next?
+   - South China Morning Post: UK, EU seal food and youth deals, but are stuck on tuition fees
+   - News24: Britain and EU seal ‘landmark’ deals on trade and youth travel, but fees row delays rollout
+   - AP: UK and EU strike deals on trade and travel, pledging to rebuild ties after Brexit
+   - Philadelphia Inquirer: UK and EU strike deals on trade and travel, pledging to rebuild ties after Brexit (reprint of AP)
+   - France 24: UK and EU strike ‘landmark’ deal to rebuild ties after Brexit
+   - Bloomberg: What’s in the UK-EU Deal To Deepen Ties
+   - The Independent: Andy Burnham tells Britain’s young people: ‘This EU reset deal is for you’
+   - BBC: UK to explore even closer ties with EU after agreeing deal, says Burnham
+   - The Guardian: Burnham seals trade and youth mobility deals in biggest step towards EU since Brexit
+   - Kyiv Post: Burnham, EU Leaders Agree Deals on Trade, Carbon Markets and Youth Mobility
+   - Taipei Times: EU, UK agree on ‘landmark’ deal at Brussels summit
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=11cb9768a6c9
+
+6. Russian diplomat demands Hague explain Dutch drone use in Crimean Bridge attack
+   Covered by 19 outlets.
+   - France 24: 🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says
+   - The Hindu: Russian strikes damage two bridges in Kyiv: Mayor
+   - Kyiv Post: Russian Missiles Kill 6, Wound 17 in Kyiv, Disrupt Power, Water Supply
+   - Meduza: Russian missile and drone attack on Kyiv kills three and damages three Dnipro bridges, mayor says
+   - Bangkok Post: Russia pummels Ukraine after Putin vowed 'painful' attack
+   - The National (UAE): Russia strikes three Kyiv bridges after Putin vows revenge for Crimea attack
+   - The Independent: Russian attacks on Kyiv kill 3, cripple bridges and cut power
+   - Philadelphia Inquirer: Russian attacks on Kyiv kill 3, cripple bridges and cut power (reprint of The Independent)
+   - Euronews: Russian strikes on Kyiv kill six and damage two bridges
+   - Politico Europe: Russia hits 3 Kyiv bridges in major attack, while Poland reports airspace violation
+   - Al Jazeera: Russia’s day-long attack on Kyiv damages embassies
+   - The Moscow Times: 3 Killed in Bridge Strikes on Kyiv, Mayor Says
+   - CNA: Russia pummels Ukraine after Putin vowed 'painful' attack (reprint of Bangkok Post)
+   - New York Post: Russian attacks on Kyiv kill 3, cripple bridges and cut power (reprint of The Independent)
+   - DW: Ukraine updates: Kyiv targeted by missile strikes, bridges hit
+   - BBC: Three Kyiv bridges hit during major Russian missile attack
+   - NBC News: Deadly Russian strikes hit 3 Kyiv bridges after Putin vows revenge for Crimea attacks
+   - ABC Australia: Russia pummels Ukraine after Putin vowed revenge, killing eight
+   - TASS: Russian diplomat demands Hague explain Dutch drone use in Crimean Bridge attack
+   - RT: Dutch courage: Crimean Bridge strike exposes arms maker’s EU money trail – RT investigation
+   - Taipei Times: Moscow hits Kyiv after Putin’s threat of ‘painful’ response
+   - Kyiv Independent: Ukraine war latest: Russia strikes 3 Kyiv bridges in massive aerial assault on Ukraine, at least 9 dead
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=3108ce6aeed3
+
+7. Mamdani releases plan to close Rikers Island, build new jails
+   Covered by 18 outlets.
+   - NPR: New York City unveils a bold plan to move its jails off Rikers Island
+   - New York Post: Mamdani’s ‘close Rikers’ plan barely begins to face reality
+   - The Guardian: Zohran Mamdani unveils plan to close Rikers Island jail complex
+   - New York Daily News: Mamdani to announce new deadline for closing Rikers Island
+   - Gothamist: Mamdani lays out plan to close Rikers by 2032, after years of delays
+   - The Independent: Mamdani sets plan to close NYC's notorious Rikers Island jail (reprint of AP)
+   - Philadelphia Inquirer: Mamdani sets plan to close NYC's notorious Rikers Island jail (reprint of AP)
+   - The New Arab: Mamdani sets plan to close NYC's notorious Rikers Island jail (reprint of AP)
+   - UPI: Mamdani releases plan to close Rikers Island, build new jails
+   - Euronews: NYC mayor unveils plan to close notorious Rikers Island jail by 2032
+   - Hindustan Times: Zohran Mamdani reveals plan to close NYC's notorious Rikers Island jail by 2032
+   - CNN: Mamdani: NYC ‘will close Rikers Island once and for all’ amid delays
+   - Hell Gate: Mayor Mamdani Gets Serious About Closing Rikers
+   - AP: Mamdani sets plan to close NYC’s notorious Rikers Island jail
+   - South China Morning Post: Mamdani unveils plan to close New York’s notorious Rikers Island jail
+   - Philadelphia Tribune: Mamdani sets plan to close NYC's notorious Rikers Island jail (reprint of AP)
+   - PBS NewsHour: Mamdani sets plan to close NYC's notorious Rikers Island jail by 2032
+   - CBS News: Mayor Mamdani announces plan to shut down Rikers Island
+   - Al Jazeera: Zohran Mamdani unveils plan to close New York’s Rikers Island jail by 2032
+   - Reuters: Mayor Mamdani announces plan to close New York's Rikers Island jail by 2032
+   - Times of Israel: Mamdani’s Rikers Gamble: Compassion as a Slogan, Chaos as a Plan
+   - Washington Post: Mamdani proposes five-year extension to shutter notorious Rikers Island prison
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=1cf13bae490a
+
+8. Trump says he still backs Lutnick, urges Nvidia's Huang to apologize
+   Covered by 16 outlets.
+   - The Diplomat: Jensen Huang, Alice Huang, and Gender Bias
+   - New York Times: How Jensen Huang Made Humiliation Routine at Nvidia
+   - The Hill: Bessent says Jensen Huang did not come up during China discussions
+   - CNBC: Jensen Huang wasn't mentioned in latest talks with China, Bessent says
+   - Dawn: 'I would love to see him be back': Trump urges Nvidia to give Jensen Huang 'second chance'
+   - Jacobin: The Jensen Huang Scandal: A Gift to China Hawks and AI Giants
+   - Reuters: Trump says he still backs Lutnick, urges Nvidia's Huang to apologize
+   - The National (UAE): Trump says Jensen Huang deserves 'second chance' and doubles down on data centres
+   - Hindustan Times: ‘He is a good man’: Trump backs Jensen Huang’s return as Nvidia CEO, asks him to make a ‘big apology’
+   - PBS NewsHour: WATCH: Trump says he would love former Nvidia CEO Jensen Huang to 'be given a second chance'
+   - Washington Post: Trump defends Jensen Huang after alleged Chinese spy affair
+   - Bloomberg: Trump Says Huang Should Return to Nvidia After ‘Big Apology’
+   - NDTV: Trump Urges Nvidia To Give Jensen Huang "Second Chance"
+   - South China Morning Post: Who are you calling a ‘Chinese honeypot’?
+   - CNA: Trump calls for Nvidia's Huang to be given 'second chance'
+   - Al Jazeera: Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=098e214f78e3
+
+9. Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles
+   Covered by 16 outlets.
+   - NBC News: Man found guilty of starting deadly Palisades Fire in Los Angeles
+   - Los Angeles Times: Palisades arson retrial ends with conviction of man accused of sparking deadly wildfire
+   - Fox News: Verdict reached in Los Angeles retrial over 2025 Pacific Palisades wildfire that killed 12 people
+   - AP: Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles
+   - The Independent: Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles (reprint of AP)
+   - CNN: Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles (reprint of AP)
+   - The Guardian: Man accused of sparking deadly Los Angeles wildfire found guilty
+   - Reuters: Ex ride-share driver convicted of arson in Los Angeles' deadly Palisades fire
+   - LAist: After mistrial, jury convicts man of starting the deadly 2025 Palisades Fire
+   - ABC Australia: Man convicted of starting deadly 2025 LA Palisades Fire
+   - Philadelphia Inquirer: Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles (reprint of AP)
+   - Philadelphia Tribune: Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles (reprint of AP)
+   - PBS NewsHour: Federal jury convicts man of starting deadly 2025 Palisades Fire in Los Angeles
+   - Hindustan Times: Jonathan Rinderknecht found guilty of starting deadly Palisades Fire that killed 12
+   - Stuff (NZ): Arsonist found guilty of starting the deadly Palisades Fire in Los Angeles
+   - CBS News: Jonathan Rinderknecht found guilty in Palisades Fire case
+   - Arab News: Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles (reprint of AP)
+   - Wall Street Journal: California Jury Convicts Man of Starting Deadly Palisades Fire
+   - Washington Examiner: Palisades Fire arsonist found guilty on all counts in deadly blaze that killed 12
+   - Le Monde (English): Man convicted of sparking deadly Los Angeles fire
+   - BBC: Man convicted of starting Palisades fire in Los Angeles
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=17c25968fdb4
+
+10. COP31 climate talks spill into overtime as nations quarrel over fossil fuels
+   Covered by 16 outlets.
+   - CGTN: COP31 talks face overrun as divisions over fossil fuels persist
+   - Ahram Online: Group of nations calls for fossil fuel exit in COP31 deal - International - World
+   - Africanews: Activists protest failure of COP31 to advance on moving away from fossil fuels
+   - Democracy Now: "A COP of Betrayal": U.N. Talks Make No Progress on Fossil Fuel Phaseout, Climate Finance
+   - France 24: COP31 wrapping up in Turkey: Climate deal elusive as fossil fuels go unmentioned
+   - Rappler: COP31 climate talks spill into overtime as nations quarrel over fossil fuels (reprint of Reuters)
+   - South China Morning Post: COP31 climate talks go into overtime as nations quarrel over fossil fuels
+   - New York Daily News: UN climate talks slammed by activists, leaders as fossil fuels go unmentioned in draft agreement
+   - Politico Europe: EU warns against COP31 becoming a ‘fossil fuel summit’
+   - The Independent: Bulletin world briefing: Climate summit headed for overtime as nations disagree on fossil fuels
+   - Hindustan Times: Talks go into overtime as COP31 deal remains elusive
+   - Arab News: COP31 deal elusive as fossil fuel fight deepens
+   - Houston Chronicle: UN climate talks slammed by activists, leaders as fossil fuels go unmentioned in draft agreement (reprint of New York Daily News)
+   - Philadelphia Inquirer: UN climate talks slammed by activists, leaders as fossil fuels go unmentioned in draft agreement (reprint of New York Daily News)
+   - The Guardian: Cop31 talks go into overtime as debate rages over lack of fossil fuels in draft deal
+   - Le Monde (English): COP31: Fossil fuels and climate funding take center stage in final stretch of negotiations
+   - Al Jazeera: Fossil fuel talks deadlock pushes COP31 climate summit into overtime
+   - PBS NewsHour: Activists, leaders criticize COP31 climate talks as fossil fuels go unmentioned in draft deal
+   - Reuters: COP31 climate talks spill into overtime as nations quarrel over fossil fuels
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=234635f653a5
+
+11. Russia to respond to Denmark’s expulsion of military attache — diplomat
+   Covered by 15 outlets.
+   - Euronews: Denmark expels Russian defence attaché over alleged assassination plot
+   - TASS: Russia to respond to Denmark’s expulsion of military attache — diplomat
+   - Xinhua: Denmark expels Russian defense attache over assassination attempt allegation
+   - South China Morning Post: Denmark expels Russian diplomat over plot to kill Ukraine rapper
+   - Kyiv Independent: Denmark expels Russian diplomat over alleged assassination plot on Ukrainian rapper Kyivstoner
+   - Reuters: Denmark says it thwarted Russian plot to assassinate US-Ukrainian rapper
+   - Meduza: Denmark to expel Russia’s military attaché after arrests in alleged plot to kill Ukrainian rapper
+   - Arab News: Denmark expels Russian diplomat over attempt to kill Ukrainian rapper
+   - Wall Street Journal: Denmark Accuses Russia of Trying to Kill Ukrainian Rapper
+   - The Independent: Denmark ‘thwarts Russia intelligence plot to assassinate US-Ukrainian rapper’
+   - BBC: Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper
+   - UPI: Denmark arrests 2, expels Russian attaché in rapper assassination plot
+   - Stuff (NZ): Russia plotted to assassinate Ukrainian rapper in Denmark minutes before concert
+   - Kyiv Post: Denmark Expels Russian Defense Attaché Over Foiled Plot to Assassinate Ukrainian Rapper
+   - Al Jazeera: Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper
+   - Gulf News: Denmark expels Russian diplomat over attempt to kill Ukrainian rapper (reprint of Arab News)
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=0ffce361c510
+
+12. Volatility Surges Over AI Fears After Anthropic IPO
+   Covered by 15 outlets.
+   - Philadelphia Tribune: IPO filing gives Anthropic wiggle room on promise to pursue humanity's benefit
+   - Financial Times: So, Anthropic is finally a public company. What now?
+   - Euronews: Stocks, gold and silver fall after blockbuster Anthropic IPO
+   - Washington Post: Opinion | Anthropic’s IPO is worth celebrating. So is the Fed’s caution.
+   - CNA: GIC, one of Anthropic’s largest investors, to stay invested beyond IPO
+   - El País (English): Anthropic registers 17% gain and a market value of nearly $1.8 trillion on stock market debut
+   - NDTV: Anthropic vs SpaceX: Which Mega IPO Won The 2026 Stock Market Battle?
+   - Philadelphia Inquirer: Anthropic’s massive IPO is a stress test for public benefit corporations
+   - The National (UAE): How Anthropic co-founders and investors are expected to make billions through blockbuster IPO
+   - NBC News: Markets react to Anthropic’s IPO
+   - teleSUR: Anthropic Closes First Wall Street Day with 17.07% Gain
+   - Bloomberg: Volatility Surges Over AI Fears After Anthropic IPO
+   - ABC Australia: Anthropic value drops after record-breaking IPO
+   - The Independent: Anthropic sees swift drop second day on the market
+   - CBS News: Markets plunge deeper one day after Anthropic's record-breaking IPO
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=10ba4d31c2da
+
+13. Trump says only older chips should be sold to China
+   Covered by 14 outlets.
+   - Arab News: US approved sale of Nvidia, AMD chips to Chinese companies, FT reports
+   - Global Times: California Nvidia probe exposes contradictions in US chip policy, while China should not be scapegoated for US chip policy disputes: analysts
+   - Dawn: US Approved 879,000 AI Chips for China. What Does It Mean? | Dawn News English
+   - South China Morning Post: After Nvidia, will AMD be a target as China’s ‘2nd-choice’ supplier for AI chips?
+   - Baltimore Sun: California attorney general subpoenas Nvidia over chips, former CEO’s affair
+   - The Atlantic: What’s So Important About Nvidia’s Chips?
+   - Reuters: Trump says only older chips should be sold to China
+   - Taipei Times: House describes Nvidia sales approved to China
+   - Washington Post: Officials approved the sale of 580,000 Nvidia chips to Chinese companies
+   - Al Jazeera: US lawmakers push for tougher AI chip rules amid China export crackdown
+   - AP: Treasury secretary says no further restrictions are needed for Nvidia chip exports to China
+   - The Independent: Treasury secretary says no further restrictions are needed for Nvidia chip exports to China (reprint of AP)
+   - Philadelphia Inquirer: Treasury secretary says no further restrictions are needed for Nvidia chip exports to China (reprint of AP)
+   - New York Times: The Evening: Are Nvidia Chips Helping Power the Chinese Military?
+   - CNN: Trump admin signed off on sales of nearly 900,000 A.I. chips to China
+   - Hindustan Times: No further restrictions on Nvidia's chip exports to China after block on remote access: Scott Bessent
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=0814838c3d2e
+
+14. AI tech rout prompts US investors to rush into value stocks
+   Covered by 14 outlets.
+   - Financial Times: US tech rout deepens as Anthropic shares tumble
+   - Houston Chronicle: US stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates
+   - ABC News: US stocks waver as tech sell-off continues and Anthropic falls
+   - The National (UAE): Stock market sell-off deepens as Anthropic slides
+   - The Independent: FTSE 100 tumbles as global tech rout takes hold
+   - Philadelphia Inquirer: US stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates (reprint of Houston Chronicle)
+   - Philadelphia Tribune: US stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates (reprint of Houston Chronicle)
+   - BBC: Anthropic shares fall after blockbuster opening as wider tech sell-off continues
+   - New York Times: Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues
+   - Al Jazeera: US tech sell-off continues as Anthropic tumbles after mega IPO
+   - CBS News: Stocks enter correction territory, driven by a deepening tech rout
+   - Reuters: AI tech rout prompts US investors to rush into value stocks
+   - Xinhua: U.S. stocks plunge as AI rout deepens
+   - PBS NewsHour: News Wrap: Stocks tumble as worries about AI rattle market
+   - Washington Post: U.S. stocks slump into correction territory amid tech and AI worries
+   - Hindustan Times: Nvidia stock crash: Record wipeout in market cap deepens global tech sell-off
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=1380648aadbb
+
+15. Harambe was killed a decade ago at the same zoo as Fiona
+   Covered by 13 outlets.
+   - Philadelphia Inquirer: Harambe was killed a decade ago at the same zoo as Fiona
+   - The Independent: Watch Fiona the hippo through the years: Mammal tragically dies after eating visitor’s hat
+   - Euronews: Video. Fiona the hippo dies after swallowing a visitor's hat
+   - France 24: Cincinnati Zoo's famed Fiona the hippo dies days after eating a visitor’s hat
+   - CBC: Fiona the hippo dies after eating visitor's hat
+   - Gulf News: Beloved hippo Fiona dies after swallowing hat at Cincinnati Zoo
+   - The Hill: Senate adopts resolution honoring Fiona the hippo
+   - CNN: Ohio senator honors Fiona the hippo on Senate floor
+   - CBS News: Details on death of Fiona the hippo
+   - The Jerusalem Post: US Senate unanimously passes resolution honoring Fiona the hippo after her death
+   - Fox News: Fiona the hippo honored by US Senate in unanimous resolution praising Cincinnati Zoo staff
+   - Washington Examiner: Senate unanimously passes Moreno resolution in honor of Fiona the hippo
+   - New York Times: Fiona the Hippo Died After Eating a Hat. Some Want Justice.
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=07daa01634cd
+
+16. Trump dubs talks with Putin, Xi ‘summit of three’
+   Covered by 13 outlets.
+   - CNA: What historic Xi-Trump-Putin trilateral summit signals for global diplomacy
+   - CNN: For Xi and Putin, the Trump trilateral was a win for a new world order
+   - The New Arab: Xi-Putin-Trump summit: what comes next?
+   - Bangkok Post: Xi-Putin-Trump summit: what comes next? (reprint of The New Arab)
+   - National Review: An Overhyped Trilateral Summit
+   - Egypt Independent: For Xi and Putin, the Trump trilateral was a win for a new world order (reprint of CNN)
+   - Baltimore Sun: Symbolism over substance? Experts weigh in on Trump’s summit with Xi, Putin
+   - Financial Times: Putin was the real winner at the trilateral summit
+   - The Hindu: Three to tango: On Trump, Xi, Putin trilateral summit
+   - ABC News: Trump touts relationships with Putin and Xi after historic Asia trip
+   - Taipei Times: Historic Trump-Xi-Putin summit fails to deliver on substance
+   - TASS: Trump dubs talks with Putin, Xi ‘summit of three’
+   - NBC News: Trump touts historic summit with Xi, Putin
+   - RT: End of unipolar order: Russian experts assess Putin-Xi-Trump meeting
+   - Xinhua: Trump calls trilateral summit with Xi, Putin one of most momentous in years
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=0b1504a8dbad
+
+17. Bayer’s $7.25 Billion Roundup Settlement Approved by Judge
+   Covered by 13 outlets.
+   - Bloomberg: Bayer’s $7.25 Billion Roundup Settlement Approved by Judge
+   - Reuters: Missouri judge approves Bayer's $7.25 billion Roundup settlement
+   - The Independent: Court approves $7.25 billion settlement with Bayer over claims Roundup weedkiller caused cancer (reprint of AP)
+   - AP: Court approves $7.25 billion settlement with Bayer over claims Roundup weedkiller caused cancer
+   - Le Monde (English): US judge approves $7.25 billion Roundup cancer settlement
+   - PBS NewsHour: Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer
+   - Philadelphia Inquirer: Court approves $7.25 billion settlement with Bayer over claims Roundup weed killer caused cancer
+   - Philadelphia Tribune: Court approves $7.25 billion settlement with Bayer over claims Roundup weed killer caused cancer (reprint of Philadelphia Inquirer)
+   - Stuff (NZ): US$7.25 billion settlement over Roundup weed killer cancer claims
+   - The Guardian: Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer
+   - DW: US judge approves Bayer's $7.25 billion cancer settlement
+   - The Hill: Court formally approves $7.25B class settlement for cancer claims from Roundup weed killer
+   - Washington Examiner: Nationwide settlement for $7 billion approved over Roundup cancer claims
+   - ABC Australia: Bayer to pay $11b over claims weed killer caused cancer
+   - New York Times: Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=12bee242c6c5
+
+18. Houthi militants strike Riyadh's tallest skyscraper
+   Covered by 13 outlets.
+   - Dawn: Pakistan 'unequivocally' condemns Houthi attack on Riyadh’s tallest skyscraper
+   - Times of Israel: Houthis claim cruise missile attacks on Riyadh international airport and finance center
+   - UPI: Houthi militants strike Riyadh's tallest skyscraper
+   - Xinhua: Saudi-led coalition intercepts Houthi ballistic missile, drones
+   - NBC News: Riyadh’s tallest skyscraper struck by Houthi missile attack
+   - Egypt Independent: Video: Riyadh’s tallest skyscraper targeted in Houthi strike
+   - TASS: Saudi-led coalition hits seven Houthi military targets in Yemen
+   - CBC: Houthi missile hits Saudi capital's tallest skyscraper as UN calls for civilian protection
+   - France 24: Yemen's Houthis target Riyadh after Saudi coalition's 'special operation'
+   - Al-Monitor: Yemen's Houthis launch strikes after Saudi coalition's 'special operation'
+   - Middle East Eye: Three Houthi ballistic missiles intercepted over Riyadh, Saudi-led coalition says
+   - The Hindu: Saudi-led coalition says downed 3 Houthi missiles headed for Riyadh
+   - Al Jazeera: Saudi-led coalition intercepts three Houthi missiles headed for Riyadh
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=34077692cb3e
+
+19. Russian missile’s crash in Poland was likely an intentional provocation, Polish prime minister says
+   Covered by 13 outlets.
+   - Euronews: Tusk denounces Russian 'provocation' after missiles crash in Poland
+   - AP: Russian missile’s crash in Poland was likely an intentional provocation, Polish prime minister says
+   - Politico Europe: Tusk: Russian cruise missile incursion into Poland seems ‘intentional’
+   - Al Jazeera: Poland hit by at least one Russian missile, says Polish govt
+   - NDTV: "Intentional Provocation": Russian Missile Meant For Ukraine Hits Poland
+   - New York Daily News: Poland says a Russian missile that crashed in its territory was a provocation
+   - UPI: Russian missiles hit Poland amid military exercise
+   - Kyiv Post: Trump Downplays Russian Incursions Hours Before Missiles Crash in Poland
+   - The Guardian: Russian missiles and drone hit Poland during attacks on Ukraine
+   - The Independent: European leaders condemn Russia’s ‘intentional provocation’ as missile hits Poland
+   - BBC: Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
+   - Stuff (NZ): The moment Russian missile hits Poland during military drills
+   - Washington Post: Russian missile’s crash in Poland was likely an intentional provocation, Polish prime minister says (reprint of AP)
+   - CBS News: Poland accuses Russia of "intentional provocation" after missiles land in its territory
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=3605390322eb
+
+20. Polish army investigates suspected airspace violations
+   Covered by 12 outlets.
+   - Kyiv Post: Explosion in Poland Sparks Airspace Breach Probe as Russian Attacks Kill Civilians in Ukraine
+   - Kyiv Independent: Poland reports airspace violation during Russian attack on Ukraine, investigates debris crash
+   - Notes from Poland: Unidentified object hits Poland amid Russian attacks on Ukraine
+   - The Independent: Ukraine-Russia war latest: Poland says ‘flying objects’ violated its airspace during Russian attack on Ukraine
+   - Xinhua: Polish army investigates suspected airspace violations
+   - AP: Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation
+   - The Moscow Times: Poland Condemns Russian 'Provocation' After 3 Airspace Violations
+   - Al Jazeera: Poland condemns Russian ‘provocation’ after airspace violations
+   - The Hill: Poland says likely Russian missiles violated airspace
+   - Philadelphia Inquirer: Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation (reprint of AP)
+   - Meduza: Trump says Putin launched a couple of small missiles into Poland by accident — ‘a couple of little missiles’
+   - Houston Chronicle: Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation (reprint of AP)
+   - Hindustan Times: Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation (reprint of AP)
+   - PBS NewsHour: NATO calls Russian missiles landing in Poland a 'grave violation' of airspace
+   - South China Morning Post: Russian missiles land in Poland, as Europe holds military drills nearby
+   https://chrisqtruong.github.io/coverage-index/#d=2026-11-20&c=041a64125a03
